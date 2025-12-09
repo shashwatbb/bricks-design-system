@@ -12,17 +12,17 @@ const Documentation = ({ activeTab }) => {
                         <div className="intro-header">
                             <div className="intro-text">
                                 <motion.h1
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.5 }}
+                                    initial={{ opacity: 0, filter: 'blur(10px)', y: 20 }}
+                                    animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }}
+                                    transition={{ duration: 0.8, ease: "easeOut" }}
                                 >
                                     Introduction
                                 </motion.h1>
                                 <motion.p
                                     className="lead-text"
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.5, delay: 0.1 }}
+                                    initial={{ opacity: 0, filter: 'blur(10px)', y: 20 }}
+                                    animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }}
+                                    transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                                 >
                                     Welcome to <strong>Bricks</strong>—the foundation that keeps Housing.com from crumbling into spaghetti code.
                                     It's our blueprint for building pixel-perfect, scalable interfaces without needing a building permit.
@@ -31,22 +31,29 @@ const Documentation = ({ activeTab }) => {
 
                                 <motion.div
                                     className="intro-links"
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.5, delay: 0.2 }}
+                                    initial={{ opacity: 0, filter: 'blur(10px)', y: 20 }}
+                                    animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }}
+                                    transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
                                 >
-                                    <a href="#principles" className="intro-link">Principles</a>
-                                    <span className="divider">/</span>
-                                    <a href="#getting-started" className="intro-link">Getting Started</a>
-                                    <span className="divider">/</span>
-                                    <a href="#resources" className="intro-link">Resources</a>
+                                    <a href="#principles" className="intro-link-item">
+                                        <span>Principles</span>
+                                        <span className="arrow">→</span>
+                                    </a>
+                                    <a href="#getting-started" className="intro-link-item">
+                                        <span>Getting Started</span>
+                                        <span className="arrow">→</span>
+                                    </a>
+                                    <a href="#resources" className="intro-link-item">
+                                        <span>Resources</span>
+                                        <span className="arrow">→</span>
+                                    </a>
                                 </motion.div>
                             </div>
                             <motion.div
                                 className="intro-image-container"
-                                initial={{ opacity: 0, x: 20 }}
-                                animate={{ opacity: 1, x: 0 }}
-                                transition={{ duration: 0.5, delay: 0.2 }}
+                                initial={{ opacity: 0, filter: 'blur(10px)', x: 20 }}
+                                animate={{ opacity: 1, filter: 'blur(0px)', x: 0 }}
+                                transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
                             >
                                 <img src={introIllustration} alt="Bricks Design Illustration" className="intro-image" />
                             </motion.div>
