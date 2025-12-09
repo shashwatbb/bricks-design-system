@@ -24,10 +24,23 @@ const Documentation = ({ activeTab }) => {
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 0.1 }}
                                 >
-                                    Welcome to <strong>Bricks</strong>, the comprehensive design system for Housing.com.
-                                    Bricks provides a unified language for our digital products, ensuring consistency,
-                                    accessibility, and a premium user experience across all platforms.
+                                    Welcome to <strong>Bricks</strong>—the foundation that keeps Housing.com from crumbling into spaghetti code.
+                                    It's our blueprint for building pixel-perfect, scalable interfaces without needing a building permit.
+                                    Think of it as the cement that holds our pixels together, ensuring every button click feels like home.
                                 </motion.p>
+
+                                <motion.div
+                                    className="intro-links"
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.5, delay: 0.2 }}
+                                >
+                                    <a href="#principles" className="intro-link">Principles</a>
+                                    <span className="divider">/</span>
+                                    <a href="#getting-started" className="intro-link">Getting Started</a>
+                                    <span className="divider">/</span>
+                                    <a href="#resources" className="intro-link">Resources</a>
+                                </motion.div>
                             </div>
                             <motion.div
                                 className="intro-image-container"
