@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
 import './Documentation.css';
 import introIllustration from '../assets/intro-illustration.png';
 
@@ -37,15 +38,15 @@ const Documentation = ({ activeTab }) => {
                                 >
                                     <a href="#principles" className="intro-link-item">
                                         <span>Principles</span>
-                                        <span className="arrow">→</span>
+                                        <ArrowRight className="arrow-icon" size={20} strokeWidth={1.5} />
                                     </a>
                                     <a href="#getting-started" className="intro-link-item">
                                         <span>Getting Started</span>
-                                        <span className="arrow">→</span>
+                                        <ArrowRight className="arrow-icon" size={20} strokeWidth={1.5} />
                                     </a>
                                     <a href="#resources" className="intro-link-item">
                                         <span>Resources</span>
-                                        <span className="arrow">→</span>
+                                        <ArrowRight className="arrow-icon" size={20} strokeWidth={1.5} />
                                     </a>
                                 </motion.div>
                             </div>
@@ -58,26 +59,6 @@ const Documentation = ({ activeTab }) => {
                                 <img src={introIllustration} alt="Bricks Design Illustration" className="intro-image" />
                             </motion.div>
                         </div>
-
-                        <motion.div
-                            className="card-grid"
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: 0.2 }}
-                        >
-                            <div className="feature-card">
-                                <h3>Principles</h3>
-                                <p>Core values guiding our design decisions.</p>
-                            </div>
-                            <div className="feature-card">
-                                <h3>Getting Started</h3>
-                                <p>How to use Bricks in your projects.</p>
-                            </div>
-                            <div className="feature-card">
-                                <h3>Resources</h3>
-                                <p>Downloads, kits, and tools.</p>
-                            </div>
-                        </motion.div>
                     </div>
                 );
             case 'colors':

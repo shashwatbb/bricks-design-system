@@ -104,7 +104,8 @@
      display: flex;
      flex-direction: column;
      font-family: var(--font-sans);
-     font-size: 16px;
+     font-size: 18px;
+     /* Slightly bigger text */
      font-weight: 500;
      max-width: 300px;
  }
@@ -121,8 +122,9 @@
      transition: font-weight 0.2s ease;
  }
 
- .intro-link-item:first-child {
-     border-top: 2px solid #000000;
+ /* Remove separator from the last item */
+ .intro-link-item:last-child {
+     border-bottom: none;
  }
 
  .intro-link-item:hover {
@@ -130,12 +132,13 @@
      /* Turn bolder on hover */
  }
 
- .arrow {
+ .arrow-icon {
      font-size: 20px;
      transition: transform 0.2s ease;
+     color: var(--text-primary);
  }
 
- .intro-link-item:hover .arrow {
+ .intro-link-item:hover .arrow-icon {
      transform: translateX(4px);
  }
 
