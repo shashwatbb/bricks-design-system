@@ -86,7 +86,8 @@
      display: flex;
      align-items: stretch;
      /* Ensure equal height */
-     gap: 120px;
+     gap: 160px;
+     /* Increased gap even more */
      margin-bottom: 40px;
  }
 
@@ -106,16 +107,15 @@
      border: 2px solid #EBE9E4;
      border-radius: 24px;
      padding: 24px;
-     background-color: #FBF5F3;
-     /* Matching image background */
+     background-color: transparent;
+     /* Clean transparent background */
  }
 
  .intro-image {
      max-width: 240px;
      width: 100%;
      height: auto;
-     mix-blend-mode: multiply;
-     /* Blends image background with container */
+     /* Removed mix-blend-mode for natural image appearance */
  }
 
  .intro-links {
@@ -126,7 +126,9 @@
      font-size: 18px;
      /* Slightly bigger text */
      font-weight: 500;
-     max-width: 300px;
+     width: 100%;
+     /* Match width of paragraph */
+     max-width: none;
  }
 
  .intro-link-item {
@@ -162,7 +164,8 @@
  }
 
  .doc-section h1 {
-     font-size: 48px;
+     font-size: 40px;
+     /* Reduced font size */
      font-weight: 700;
      margin-bottom: 16px;
      letter-spacing: -1px;
