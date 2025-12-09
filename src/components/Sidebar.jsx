@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Layout, Type, Palette, Box, Layers, Zap, Settings, ChevronDown, ChevronRight, Download } from 'lucide-react';
+import { Layout, Type, Palette, Box, Layers, Zap, Settings, ChevronDown, ChevronRight, Download, PanelLeft, PanelRight } from 'lucide-react';
 import './Sidebar.css';
 
 const navItems = [
@@ -48,8 +48,14 @@ import logo from '../assets/logo.png';
 
 const Sidebar = ({ activeTab, setActiveTab }) => {
   const [expandedSections, setExpandedSections] = useState(['foundations', 'components']);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   const toggleSection = (sectionId) => {
+    if (isCollapsed) {
+      setIsCollapsed(false);
+      setExpandedSections([sectionId]);
+      return;
+    }
     setExpandedSections(prev =>
       prev.includes(sectionId)
         ? prev.filter(id => id !== sectionId)
@@ -58,10 +64,16 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
   };
 
   return (
-    <aside className="sidebar">
+    <aside className={`sidebar ${isCollapsed ? 'collapsed' : ''}`}>
       <div className="logo-container">
         <img src={logo} alt="Bricks Logo" className="logo-image" />
-        <h1 className="logo-text">Bricks</h1>
+        {!isCollapsed && <h1 className="logo-text">Bricks</h1>}
+        <button
+          className="collapse-btn"
+          onClick={() => setIsCollapsed(!isCollapsed)}
+        >
+          {isCollapsed ? <PanelLeft size={20} /> : <PanelLeft size={20} />}
+        </button>
       </div>
 
       <nav className="nav-menu">
@@ -76,11 +88,12 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                   setActiveTab(item.id);
                 }
               }}
-              whileHover={{ x: 2 }}
+              whileHover={{ x: isCollapsed ? 0 : 2 }}
+              title={isCollapsed ? item.label : ''}
             >
-              <item.icon size={18} className="nav-icon" />
-              <span className="nav-label">{item.label}</span>
-              {item.children && item.children.length > 0 && (
+              <item.icon size={20} className="nav-icon" />
+              {!isCollapsed && <span className="nav-label">{item.label}</span>}
+              {!isCollapsed && item.children && item.children.length > 0 && (
                 <span className="chevron-icon">
                   {expandedSections.includes(item.id) ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
                 </span>
@@ -88,7 +101,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
             </motion.button>
 
             <AnimatePresence>
-              {item.children && item.children.length > 0 && expandedSections.includes(item.id) && (
+              {!isCollapsed && item.children && item.children.length > 0 && expandedSections.includes(item.id) && (
                 <motion.div
                   className="sub-menu"
                   initial={{ height: 0, opacity: 0 }}
@@ -114,19 +127,21 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
       </nav>
 
       <div className="cta-container">
-        <button className="cta-button">
-          <Download size={16} />
-          <span>Download Kit</span>
+        <button className="cta-button" title={isCollapsed ? "Download Kit" : ""}>
+          <Download size={18} />
+          {!isCollapsed && <span>Download Kit</span>}
         </button>
       </div>
 
       <div className="sidebar-footer">
         <div className="user-profile">
           <div className="avatar">SB</div>
-          <div className="user-info">
-            <span className="user-name">Shashwat B.</span>
-            <span className="user-role">Admin</span>
-          </div>
+          {!isCollapsed && (
+            <div className="user-info">
+              <span className="user-name">Shashwat B.</span>
+              <span className="user-role">Admin</span>
+            </div>
+          )}
         </div>
       </div>
     </aside>
