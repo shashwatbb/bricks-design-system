@@ -64,6 +64,27 @@
     margin: 0 auto;
 }
 
+.intro-banner-container {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.intro-banner {
+    width: 100%;
+    height: 200px;
+    /* Reduced height */
+    object-fit: cover;
+    /* Prevents stretching/blurring */
+    object-position: bottom;
+    /* Anchors the city illustration to the bottom */
+    border-radius: 16px;
+    display: block;
+    mix-blend-mode: multiply;
+    filter: contrast(1.05) brightness(1.05);
+    /* Pushes near-whites to pure white for better blending */
+    /* Blends white background with the page background */
+}
+
 .doc-section h1 {
     font-size: 48px;
     font-weight: 700;

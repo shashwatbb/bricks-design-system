@@ -8,8 +8,9 @@
   --text-primary: #241c15;
   /* Dark brown/black for high contrast */
   --text-secondary: #5e5e5e;
-  --accent-color: #3b82f6;
-  --accent-glow: rgba(59, 130, 246, 0.2);
+  --accent-color: #241c15;
+  /* Changed from blue to match text-primary for a monochrome/premium feel */
+  --accent-glow: rgba(36, 28, 21, 0.1);
   --border-color: rgba(0, 0, 0, 0.08);
 
   --font-sans: 'Inter', sans-serif;

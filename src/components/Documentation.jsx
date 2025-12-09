@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Documentation.css';
+import introBanner from '../assets/intro-banner.png';
 
 const Documentation = ({ activeTab }) => {
     const renderContent = () => {
@@ -8,10 +9,18 @@ const Documentation = ({ activeTab }) => {
             case 'intro':
                 return (
                     <div className="doc-section">
-                        <motion.h1
+                        <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5 }}
+                            className="intro-banner-container"
+                        >
+                            <img src={introBanner} alt="Bricks Design System" className="intro-banner" />
+                        </motion.div>
+                        <motion.h1
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.1 }}
                         >
                             Introduction
                         </motion.h1>
@@ -19,7 +28,7 @@ const Documentation = ({ activeTab }) => {
                             className="lead-text"
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: 0.1 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}
                         >
                             Welcome to <strong>Bricks</strong>, the comprehensive design system for Housing.com.
                             Bricks provides a unified language for our digital products, ensuring consistency,
