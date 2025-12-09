@@ -79,7 +79,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
       <nav className="nav-menu">
         {navItems.map((item) => (
           <div key={item.id} className="nav-group">
-            <motion.button
+            <button
               className={`nav-item ${activeTab === item.id ? 'active' : ''}`}
               onClick={() => {
                 if (item.children && item.children.length > 0) {
@@ -88,7 +88,6 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                   setActiveTab(item.id);
                 }
               }}
-              whileHover={{ x: isCollapsed ? 0 : 2 }}
               title={isCollapsed ? item.label : ''}
             >
               <item.icon size={20} className="nav-icon" />
@@ -98,30 +97,22 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                   {expandedSections.includes(item.id) ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
                 </span>
               )}
-            </motion.button>
+            </button>
 
-            <AnimatePresence>
-              {!isCollapsed && item.children && item.children.length > 0 && expandedSections.includes(item.id) && (
-                <motion.div
-                  className="sub-menu"
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: 'auto', opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  {item.children.map((child) => (
-                    <motion.button
-                      key={child.id}
-                      className={`sub-nav-item ${activeTab === child.id ? 'active' : ''}`}
-                      onClick={() => setActiveTab(child.id)}
-                      whileHover={{ x: 2 }}
-                    >
-                      {child.label}
-                    </motion.button>
-                  ))}
-                </motion.div>
-              )}
-            </AnimatePresence>
+            {/* Removed AnimatePresence and motion.div for instant rendering */}
+            {!isCollapsed && item.children && item.children.length > 0 && expandedSections.includes(item.id) && (
+              <div className="sub-menu">
+                {item.children.map((child) => (
+                  <button
+                    key={child.id}
+                    className={`sub-nav-item ${activeTab === child.id ? 'active' : ''}`}
+                    onClick={() => setActiveTab(child.id)}
+                  >
+                    {child.label}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </nav>
