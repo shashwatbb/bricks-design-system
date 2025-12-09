@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Documentation.css';
-import introBanner from '../assets/intro-banner.png';
+import introIllustration from '../assets/intro-illustration.png';
 
 const Documentation = ({ activeTab }) => {
     const renderContent = () => {
@@ -9,31 +9,35 @@ const Documentation = ({ activeTab }) => {
             case 'intro':
                 return (
                     <div className="doc-section">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5 }}
-                            className="intro-banner-container"
-                        >
-                            <img src={introBanner} alt="Bricks Design System" className="intro-banner" />
-                        </motion.div>
-                        <motion.h1
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: 0.1 }}
-                        >
-                            Introduction
-                        </motion.h1>
-                        <motion.p
-                            className="lead-text"
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: 0.2 }}
-                        >
-                            Welcome to <strong>Bricks</strong>, the comprehensive design system for Housing.com.
-                            Bricks provides a unified language for our digital products, ensuring consistency,
-                            accessibility, and a premium user experience.
-                        </motion.p>
+                        <div className="intro-header">
+                            <div className="intro-text">
+                                <motion.h1
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.5 }}
+                                >
+                                    Introduction
+                                </motion.h1>
+                                <motion.p
+                                    className="lead-text"
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.5, delay: 0.1 }}
+                                >
+                                    Welcome to <strong>Bricks</strong>, the comprehensive design system for Housing.com.
+                                    Bricks provides a unified language for our digital products, ensuring consistency,
+                                    accessibility, and a premium user experience across all platforms.
+                                </motion.p>
+                            </div>
+                            <motion.div
+                                className="intro-image-container"
+                                initial={{ opacity: 0, x: 20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.5, delay: 0.2 }}
+                            >
+                                <img src={introIllustration} alt="Bricks Design Illustration" className="intro-image" />
+                            </motion.div>
+                        </div>
 
                         <motion.div
                             className="card-grid"
