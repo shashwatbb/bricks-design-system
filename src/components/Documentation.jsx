@@ -92,10 +92,6 @@ const Documentation = ({ activeTab }) => {
         <main className="documentation">
             <header className="doc-header">
                 <div className="breadcrumbs">Bricks / {activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}</div>
-                <div className="header-actions">
-                    <button className="btn-secondary">View Source</button>
-                    <button className="btn-primary">Edit Page</button>
-                </div>
             </header>
             <div className="doc-content">
                 {renderContent()}
