@@ -38,6 +38,8 @@
     padding-left: 0;
     gap: 16px;
     justify-content: center;
+    align-items: center;
+    /* Center items horizontally */
 }
 
 .collapse-btn {
@@ -100,6 +102,11 @@
     width: 100%;
 }
 
+.sidebar.collapsed .nav-group {
+    align-items: center;
+    /* Center nav items in collapsed state */
+}
+
 .nav-item {
     display: flex;
     align-items: center;
@@ -122,9 +129,12 @@
 
 .sidebar.collapsed .nav-item {
     justify-content: center;
+    align-items: center;
     padding: 12px;
     width: 48px;
     height: 48px;
+    flex-shrink: 0;
+    /* Prevent shrinking */
 }
 
 .nav-item:hover {
