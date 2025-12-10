@@ -107,12 +107,13 @@
      border: 2px solid #EBE9E4;
      border-radius: 24px;
      padding: 24px;
-     background-color: #F5EFE7;
-     /* Clean transparent background */
+     background-color: #FFFFFF;
+     /* White background */
  }
 
  .intro-image {
-     max-width: 240px;
+     max-width: 280px;
+     /* Slightly bigger */
      width: 100%;
      height: auto;
      /* Removed mix-blend-mode for natural image appearance */
