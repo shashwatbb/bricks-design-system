@@ -33,7 +33,8 @@ Rules accumulate here over time. Read before every task in this project.
 - Outstanding: the test "Checkbox" component set built earlier (node `1455:2048`) used raw `<Icon name="lucide:check">` vectors, not instance-swapped icons — non-compliant with §9. User deleted it — resolved, no rebuild needed unless Checkbox is requested for real.
 
 ## 7. Pages only for real components — no random/test pages
-- A new Figma page Must Not be created except for an actual component build, matching RULEBOOK.md §14: page name **must exactly match** the component name (e.g. `RadioButton`, `InputField`).
+- A new Figma page Must Not be created except for an actual component build.
+- STRICT page naming (dictated by Shashwat 2026-07-16, overrides RULEBOOK §14's exact-match line): page names are human readable, sentence case, with spaces — `Input fields`, `Radio button`, `Bottom sheet`. NEVER PascalCase (`InputField`), never camelCase, never smashed words. The COMPONENT inside the page keeps its PascalCase name (`InputField`) per RULEBOOK §11; only the page name is written for humans. REGISTRY.md maps page name to component name.
 - Never create scratch/test/throwaway pages. If verification or experimentation is needed, do it without a dedicated page (or ask first).
 - One page per component, created only when real work on that component begins — not speculatively, not in advance of a brief.
 - Every new page gets a beige canvas background: `#f6f4ed` (`surface/default` → `warm_neutral/100` from the token set). Set it immediately on page creation via `page.backgrounds`. Never a different or invented beige.
