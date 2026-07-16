@@ -13,6 +13,14 @@ Status: confirmed | unconfirmed
 
 ---
 
+## InputField
+
+- Anatomy: Container > Label (12 Medium, `text/secondary`) > Field (280w, padding `m`/`s`, radius `m`, `surface/white`, 1.5px `border/default`) > Helper Text (12 Regular, `text/muted`).
+- States on one `State` axis: Default, Hover (`border/brand`), Focus (`border/brand` + 4px `purple/300` outside ring), Filled (`text/primary` value), Error (`semantic_border/danger` border, `semantic_text/danger` helper), Disabled (`surface/disabled`, `border/disabled`, muted text).
+- No icons yet (needs Iconography instance swap), no Show Label / Show Helper Text booleans wired yet, single size only.
+
+Status: unconfirmed test build (node 1459:2134); every choice above pending Shashwat's review
+
 ## Checkbox
 
 - Stroke uses the primary stroke color token (`border/default`).

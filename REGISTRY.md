@@ -14,7 +14,7 @@ Status values: `production` (built, documented, safe to reuse or extend), `do-no
 | Bottom bar | do-not-use | Bottom bar | none (raw frames, no component set) | 0 | DESIGN-structure/bottom-bar.md |
 | Checkbox | planned | none | none | 0 | none |
 | RadioButton | do-not-use | RadioButton | State | 8 | none (test build 2026-07-16, node 1459:2077, awaiting Shashwat's review) |
-| InputField | planned | none | none | 0 | none |
+| InputField | do-not-use | InputField | State | 6 | none (test build 2026-07-16, node 1459:2134, awaiting Shashwat's review) |
 | Toggle | planned | none | none | 0 | none |
 | Dropdown | planned | none | none | 0 | none |
 | Toast | planned | none | none | 0 | none |
