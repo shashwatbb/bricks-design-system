@@ -1,0 +1,482 @@
+# Structure:       ↳ Buttons
+
+- **button components** · `FRAME` · 644×2985 · vertical stack, gap 20px, padding 40px · 2 children
+  - **Frame** · `FRAME` · 564×101 · vertical stack, gap 10px, padding 24px · 2 children
+    - **Frame** · `FRAME` · 205×27 · horizontal row, gap 8px · 1 children
+      - **Button Component** · `TEXT` · 205×27 · “Button Component”
+    - **Production-ready button system** · `TEXT` · 516×16 · “Production-ready button system ”
+  - **buttons** · `COMPONENT_SET` · 544×2784 · 108 children
+    - **Variant=Primary, Size=S, State=Default** · `COMPONENT` · 70×32 · horizontal row, gap 4px, padding 8/12/8/12px · 3 children
+      - **leading-icon** · `INSTANCE` · 16×16 · instance of leading-icon
+      - **Button** · `TEXT` · 46×16 · “Button”
+      - **trailing-icon** · `INSTANCE` · 16×16 · instance of trailing-icon
+- **Button — Documentation** · `FRAME` · 774×4411 · vertical stack, gap 40px, padding 40px · 16 children
+  - **Frame** · `FRAME` · 694×101 · vertical stack, gap 10px, padding 24px · 2 children
+    - **Frame** · `FRAME` · 244×27 · horizontal row, gap 8px · 1 children
+      - **Button Documentation** · `TEXT` · 244×27 · “Button Documentation”
+    - **Production-ready button system** · `TEXT` · 624×16 · “Production-ready button system ”
+  - **Frame** · `FRAME` · 672×277 · vertical stack, gap 14px · 2 children
+    - **Frame** · `FRAME` · 672×42 · vertical stack, gap 4px · 2 children
+      - **Variants** · `TEXT` · 62×18 · “Variants”
+      - **Pick the right hierarchy for the context.** · `TEXT` · 672×20 · “Pick the right hierarchy for the context.”
+    - **Frame** · `FRAME` · 672×221 · vertical stack · 7 children
+      - **Frame** · `FRAME` · 672×35 · horizontal row, padding 10/16/10/16px · 4 children
+        - **Variant** · `TEXT` · 110×15 · “Variant”
+        - **Style** · `TEXT` · 180×15 · “Style”
+        - **When to use** · `TEXT` · 242×15 · “When to use”
+        - **Emphasis** · `TEXT` · 88×15 · “Emphasis”
+      - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Primary** · `TEXT` · 110×15 · “Primary”
+        - **Brand purple fill** · `TEXT` · 180×15 · “Brand purple fill”
+        - **Main CTA. One per screen section.** · `TEXT` · 242×15 · “Main CTA. One per screen section.”
+        - **High** · `TEXT` · 88×15 · “High”
+      - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Secondary** · `TEXT` · 110×15 · “Secondary”
+        - **Outlined transparent fill** · `TEXT` · 180×15 · “Outlined transparent fill”
+        - **Supporting action alongside Primary.** · `TEXT` · 242×15 · “Supporting action alongside Primary.”
+        - **Medium** · `TEXT` · 88×15 · “Medium”
+      - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Tertiary** · `TEXT` · 110×15 · “Tertiary”
+        - **Ghost — no fill, no border** · `TEXT` · 180×15 · “Ghost — no fill, no border”
+        - **Low-emphasis or repeated utility actions.** · `TEXT` · 242×15 · “Low-emphasis or repeated utility actions.”
+        - **Low** · `TEXT` · 88×15 · “Low”
+      - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Destructive** · `TEXT` · 110×15 · “Destructive”
+        - **Red fill — danger / irreversible** · `TEXT` · 180×15 · “Red fill — danger / irreversible”
+        - **Delete, remove, cancel. Add confirmation.** · `TEXT` · 242×15 · “Delete, remove, cancel. Add confirmation.”
+        - **High** · `TEXT` · 88×15 · “High”
+      - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Link purple** · `TEXT` · 110×15 · “Link purple”
+        - **Text only, no container** · `TEXT` · 180×15 · “Text only, no container”
+        - **Inline nav, form-level links, helper text.** · `TEXT` · 242×15 · “Inline nav, form-level links, helper text.”
+        - **Low** · `TEXT` · 88×15 · “Low”
+      - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Link black** · `TEXT` · 110×15 · “Link black”
+        - **Text only, no container** · `TEXT` · 180×15 · “Text only, no container”
+        - **Inline nav with neutral emphasis.** · `TEXT` · 242×15 · “Inline nav with neutral emphasis.”
+        - **Low** · `TEXT` · 88×15 · “Low”
+  - **Rectangle** · `RECTANGLE` · 672×1
+  - **Frame** · `FRAME` · 672×530 · vertical stack, gap 20px · 3 children
+    - **Frame 1** · `FRAME` · 672×184 · vertical stack, gap 14px · 2 children
+      - **Frame** · `FRAME` · 672×42 · vertical stack, gap 4px · 2 children
+        - **Sizes** · `TEXT` · 40×18 · “Sizes”
+        - **4pt grid throughout. All values in px.** · `TEXT` · 672×20 · “4pt grid throughout. All values in px.”
+      - **Frame** · `FRAME` · 672×128 · vertical stack · 4 children
+        - **Frame** · `FRAME` · 672×35 · horizontal row, padding 10/16/10/16px · 9 children
+          - **Size** · `TEXT` · 65×15 · “Size”
+          - **Height** · `TEXT` · 65×15 · “Height”
+          - **H-Pad** · `TEXT` · 65×15 · “H-Pad”
+          - **V-Pad** · `TEXT` · 101×15 · “V-Pad”
+          - **Gap** · `TEXT` · 87×15 · “Gap”
+          - **Radius** · `TEXT` · 65×15 · “Radius”
+          - **Min-W** · `TEXT` · 65×15 · “Min-W”
+          - **Text** · `TEXT` · 65×15 · “Text”
+          - **Icon** · `TEXT` · 65×15 · “Icon”
+        - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 9 children
+          - **S** · `TEXT` · 65×15 · “S”
+          - **32** · `TEXT` · 65×15 · “32”
+          - **12** · `TEXT` · 65×15 · “12”
+          - **8 (height fixed)** · `TEXT` · 101×15 · “8 (height fixed)”
+          - **4** · `TEXT` · 87×15 · “4”
+          - **8** · `TEXT` · 65×15 · “8”
+          - **64** · `TEXT` · 65×15 · “64”
+          - **14** · `TEXT` · 65×15 · “14”
+          - **16** · `TEXT` · 65×15 · “16”
+        - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 9 children
+          - **M** · `TEXT` · 65×15 · “M”
+          - **40** · `TEXT` · 65×15 · “40”
+          - **16** · `TEXT` · 65×15 · “16”
+          - **12 (height fixed)** · `TEXT` · 101×15 · “12 (height fixed)”
+          - **8 (4 for link)** · `TEXT` · 87×15 · “8 (4 for link)”
+          - **12** · `TEXT` · 65×15 · “12”
+          - **80** · `TEXT` · 65×15 · “80”
+          - **14** · `TEXT` · 65×15 · “14”
+          - **16** · `TEXT` · 65×15 · “16”
+        - **Frame** · `FRAME` · 672×31 · horizontal row, padding 8/16/8/16px · 9 children
+          - **L** · `TEXT` · 65×15 · “L”
+          - **48** · `TEXT` · 65×15 · “48”
+          - **20** · `TEXT` · 65×15 · “20”
+          - **12 (height fixed)** · `TEXT` · 101×15 · “12 (height fixed)”
+          - **8 (4 for link)** · `TEXT` · 87×15 · “8 (4 for link)”
+          - **12** · `TEXT` · 65×15 · “12”
+          - **96** · `TEXT` · 65×15 · “96”
+          - **14** · `TEXT` · 65×15 · “14”
+          - **18** · `TEXT` · 65×15 · “18”
+    - **Rectangle** · `RECTANGLE` · 672×1
+    - **Frame** · `FRAME` · 672×305 · vertical stack, gap 14px · 4 children
+      - **Frame** · `FRAME` · 672×45 · vertical stack, gap 4px · 2 children
+        - **Icon sizes in context** · `TEXT` · 119×15 · “Icon sizes in context”
+        - **Each icon scales with the button height. Pass the Size property to the icon component instance — no manual resize needed (except legacy overrides).** · `TEXT` · 672×26 · “Each icon scales with the button height. Pass the Size property to the icon comp”
+      - **Frame** · `FRAME` · 672×165 · horizontal row, gap 16px · 3 children
+        - **Frame** · `FRAME` · 213×165 · vertical stack, gap 10px · 4 children
+          - **S** · `TEXT` · 8×13 · “S”
+          - **Frame** · `FRAME` · 213×92 · vertical stack, padding 16px · 1 children
+            - **Frame** · `FRAME` · 85×32 · horizontal row, gap 6px, padding 8/12/8/12px · 2 children
+              - **Rectangle** · `RECTANGLE` · 16×16
+              - **Button** · `TEXT` · 39×15 · “Button”
+          - **Frame** · `FRAME` · 60×18 · horizontal row, gap 4px · 2 children
+            - **Icon** · `TEXT` · 21×12 · “Icon”
+            - **Frame** · `FRAME` · 35×18 · horizontal row, gap 4px, padding 3/6/3/6px · 1 children
+              - **16px** · `TEXT` · 23×12 · “16px”
+          - **Frame** · `FRAME` · 61×12 · horizontal row, gap 4px · 2 children
+            - **Height** · `TEXT` · 32×12 · “Height”
+            - **32px** · `TEXT` · 25×12 · “32px”
+        - **Frame** · `FRAME` · 213×165 · vertical stack, gap 10px · 4 children
+          - **M** · `TEXT` · 10×13 · “M”
+          - **Frame** · `FRAME` · 213×92 · vertical stack, padding 16px · 1 children
+            - **Frame** · `FRAME` · 93×40 · horizontal row, gap 6px, padding 12/16/12/16px · 2 children
+              - **Rectangle** · `RECTANGLE` · 16×16
+              - **Button** · `TEXT` · 39×15 · “Button”
+          - **Frame** · `FRAME` · 60×18 · horizontal row, gap 4px · 2 children
+            - **Icon** · `TEXT` · 21×12 · “Icon”
+            - **Frame** · `FRAME` · 35×18 · horizontal row, gap 4px, padding 3/6/3/6px · 1 children
+              - **16px** · `TEXT` · 23×12 · “16px”
+          - **Frame** · `FRAME` · 61×12 · horizontal row, gap 4px · 2 children
+            - **Height** · `TEXT` · 32×12 · “Height”
+            - **40px** · `TEXT` · 25×12 · “40px”
+        - **Frame** · `FRAME` · 213×165 · vertical stack, gap 10px · 4 children
+          - **L** · `TEXT` · 7×13 · “L”
+          - **Frame** · `FRAME` · 213×92 · vertical stack, padding 16px · 1 children
+            - **Frame** · `FRAME` · 103×50 · horizontal row, gap 6px, padding 16/20/16/20px · 2 children
+              - **Rectangle** · `RECTANGLE` · 18×18
+              - **Button** · `TEXT` · 39×15 · “Button”
+          - **Frame** · `FRAME` · 60×18 · horizontal row, gap 4px · 2 children
+            - **Icon** · `TEXT` · 21×12 · “Icon”
+            - **Frame** · `FRAME` · 35×18 · horizontal row, gap 4px, padding 3/6/3/6px · 1 children
+              - **18px** · `TEXT` · 23×12 · “18px”
+          - **Frame** · `FRAME` · 61×12 · horizontal row, gap 4px · 2 children
+            - **Height** · `TEXT` · 32×12 · “Height”
+            - **48px** · `TEXT` · 25×12 · “48px”
+      - **Frame** · `FRAME` · 308×27 · horizontal row, gap 8px · 4 children
+        - **setProperties:** · `TEXT` · 74×13 · “setProperties:”
+        - **Frame** · `FRAME` · 70×27 · horizontal row, padding 7/10/7/10px · 1 children · ×2
+          - **Size="16"** · `TEXT` · 50×13 · “Size="16"”
+        - **Frame** · `FRAME` · 70×27 · horizontal row, padding 7/10/7/10px · 1 children
+          - **Size="18"** · `TEXT` · 50×13 · “Size="18"”
+      - **The icon slot also exposes Has Leading Icon and Has Trailing Icon (BOOLEAN) to show/hide the slot. Icon style is swapped via the icon component's Instance Swap property.** · `TEXT` · 672×26 · “The icon slot also exposes Has Leading Icon and Has Trailing Icon (BOOLEAN) to s”
+  - **Rectangle** · `RECTANGLE` · 672×1
+  - **Frame** · `FRAME` · 694×307 · vertical stack, gap 14px · 2 children
+    - **Frame** · `FRAME` · 672×42 · vertical stack, gap 4px · 2 children
+      - **States** · `TEXT` · 48×18 · “States”
+      - **Consistent interaction model across all variants.** · `TEXT` · 672×20 · “Consistent interaction model across all variants.”
+    - **Frame** · `FRAME` · 694×251 · vertical stack · 7 children
+      - **Frame** · `FRAME` · 694×35 · horizontal row, padding 10/16/10/16px · 3 children
+        - **State** · `TEXT` · 90×15 · “State”
+        - **Trigger** · `TEXT` · 130×15 · “Trigger”
+        - **Behaviour** · `TEXT` · 412×15 · “Behaviour”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Default** · `TEXT` · 90×15 · “Default”
+        - **Resting** · `TEXT` · 130×15 · “Resting”
+        - **Base appearance.** · `TEXT` · 412×15 · “Base appearance.”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Hover** · `TEXT` · 90×15 · “Hover”
+        - **Mouse over** · `TEXT` · 130×15 · “Mouse over”
+        - **Fill one step darker. Slightly elevated feel.** · `TEXT` · 412×15 · “Fill one step darker. Slightly elevated feel.”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Pressed** · `TEXT` · 90×15 · “Pressed”
+        - **Click / tap** · `TEXT` · 130×15 · “Click / tap”
+        - **Fill two steps darker. Confirms input.** · `TEXT` · 412×15 · “Fill two steps darker. Confirms input.”
+      - **Frame** · `FRAME` · 694×46 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Focus** · `TEXT` · 90×15 · “Focus”
+        - **Keyboard / tab** · `TEXT` · 130×15 · “Keyboard / tab”
+        - **4px solid shadow ring (Purple/300 or semantic). No fill change. WCAG 2.4.11.** · `TEXT` · 412×30 · “4px solid shadow ring (Purple/300 or semantic). No fill change. WCAG 2.4.11.”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Disabled** · `TEXT` · 90×15 · “Disabled”
+        - **Not available** · `TEXT` · 130×15 · “Not available”
+        - **Muted tokens. No pointer events. Legible but de-emphasised.** · `TEXT` · 412×15 · “Muted tokens. No pointer events. Legible but de-emphasised.”
+      - **Frame** · `FRAME` · 694×46 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Loading** · `TEXT` · 90×15 · “Loading”
+        - **Async action** · `TEXT` · 130×15 · “Async action”
+        - **Default fill preserved. Label area replaced by a Lottie loading animation. Width locked — prevents layout shift.** · `TEXT` · 412×30 · “Default fill preserved. Label area replaced by a Lottie loading animation. Width”
+  - **Rectangle** · `RECTANGLE` · 672×1
+  - **Frame** · `FRAME` · 694×277 · vertical stack, gap 14px · 2 children
+    - **Frame** · `FRAME` · 672×42 · vertical stack, gap 4px · 2 children
+      - **Color Tokens** · `TEXT` · 97×18 · “Color Tokens”
+      - **All fills, text, and strokes are bound to library variables.** · `TEXT` · 672×20 · “All fills, text, and strokes are bound to library variables.”
+    - **Frame** · `FRAME` · 694×221 · vertical stack · 7 children
+      - **Frame** · `FRAME` · 694×35 · horizontal row, padding 10/16/10/16px · 5 children
+        - **Variant** · `TEXT` · 108×15 · “Variant”
+        - **Fill** · `TEXT` · 140×15 · “Fill”
+        - **Text** · `TEXT` · 108×15 · “Text”
+        - **Stroke** · `TEXT` · 108×15 · “Stroke”
+        - **Focus Ring/Underline (for link)** · `TEXT` · 178×15 · “Focus Ring/Underline (for link)”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 5 children
+        - **Primary** · `TEXT` · 108×15 · “Primary”
+        - **surface/brand** · `TEXT` · 140×15 · “surface/brand”
+        - **text/inverse** · `TEXT` · 108×15 · “text/inverse”
+        - **—** · `TEXT` · 108×15 · “—”
+        - **Purple/300** · `TEXT` · 148×15 · “Purple/300”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 5 children
+        - **Secondary** · `TEXT` · 108×15 · “Secondary”
+        - **—** · `TEXT` · 140×15 · “—”
+        - **text/brand** · `TEXT` · 108×15 · “text/brand”
+        - **border/brand** · `TEXT` · 108×15 · “border/brand”
+        - **Purple/300** · `TEXT` · 148×15 · “Purple/300”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 5 children
+        - **Tertiary** · `TEXT` · 108×15 · “Tertiary”
+        - **—** · `TEXT` · 140×15 · “—”
+        - **text/brand** · `TEXT` · 108×15 · “text/brand”
+        - **—** · `TEXT` · 108×15 · “—”
+        - **Purple/300** · `TEXT` · 148×15 · “Purple/300”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 5 children
+        - **Destructive** · `TEXT` · 108×15 · “Destructive”
+        - **Red/600** · `TEXT` · 140×15 · “Red/600”
+        - **text/inverse** · `TEXT` · 108×15 · “text/inverse”
+        - **—** · `TEXT` · 108×15 · “—”
+        - **Red/200** · `TEXT` · 148×15 · “Red/200”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 5 children
+        - **Link purple** · `TEXT` · 108×15 · “Link purple”
+        - **—** · `TEXT` · 140×15 · “—”
+        - **text/brand** · `TEXT` · 108×15 · “text/brand”
+        - **—** · `TEXT` · 108×15 · “—”
+        - **border/brand** · `TEXT` · 148×15 · “border/brand”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 5 children
+        - **Link black** · `TEXT` · 108×15 · “Link black”
+        - **—** · `TEXT` · 140×15 · “—”
+        - **text/primary** · `TEXT` · 108×15 · “text/primary”
+        - **—** · `TEXT` · 108×15 · “—”
+        - **border/brand** · `TEXT` · 148×15 · “border/brand”
+  - **Rectangle** · `RECTANGLE` · 672×1
+  - **Frame** · `FRAME` · 694×336 · vertical stack, gap 14px · 3 children
+    - **Frame** · `FRAME` · 184×18 · vertical stack, gap 4px · 1 children
+      - **State Colour Progression** · `TEXT` · 184×18 · “State Colour Progression”
+    - **Frame** · `FRAME` · 694×252 · vertical stack · 7 children
+      - **Frame** · `FRAME` · 694×35 · horizontal row, padding 10/16/10/16px · 4 children
+        - **Variant** · `TEXT` · 110×15 · “Variant”
+        - **Default** · `TEXT` · 200×15 · “Default”
+        - **Hover** · `TEXT` · 176×15 · “Hover”
+        - **Pressed** · `TEXT` · 176×15 · “Pressed”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Primary** · `TEXT` · 110×15 · “Primary”
+        - **surface/brand (P-700)** · `TEXT` · 200×15 · “surface/brand (P-700)”
+        - **P-600** · `TEXT` · 176×15 · “P-600”
+        - **P-800** · `TEXT` · 176×15 · “P-800”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Secondary** · `TEXT` · 110×15 · “Secondary”
+        - **—** · `TEXT` · 200×15 · “—”
+        - **Purple/50** · `TEXT` · 176×15 · “Purple/50”
+        - **Purple/100** · `TEXT` · 176×15 · “Purple/100”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Tertiary** · `TEXT` · 110×15 · “Tertiary”
+        - **—** · `TEXT` · 200×15 · “—”
+        - **Purple/50** · `TEXT` · 176×15 · “Purple/50”
+        - **Purple/100** · `TEXT` · 176×15 · “Purple/100”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Destructive** · `TEXT` · 110×15 · “Destructive”
+        - **Red/600** · `TEXT` · 200×15 · “Red/600”
+        - **Red/700** · `TEXT` · 176×15 · “Red/700”
+        - **Red/800** · `TEXT` · 176×15 · “Red/800”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Link purple** · `TEXT` · 110×15 · “Link purple”
+        - **text/brand (P-700)** · `TEXT` · 200×15 · “text/brand (P-700)”
+        - **P-600** · `TEXT` · 176×15 · “P-600”
+        - **P-800** · `TEXT` · 176×15 · “P-800”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **Link black** · `TEXT` · 110×15 · “Link black”
+        - **text/primary** · `TEXT` · 200×15 · “text/primary”
+        - **P-600** · `TEXT` · 176×15 · “P-600”
+        - **P-800** · `TEXT` · 176×15 · “P-800”
+    - **Note: Link variants show underline only when no icons are present. The underline visibility is controlled by a boolean property based on icon usage.** · `TEXT` · 650×26 · “Note: Link variants show underline only when no icons are present. The underline”
+  - **Rectangle** · `RECTANGLE` · 672×1
+  - **Frame** · `FRAME` · 694×307 · vertical stack, gap 14px · 2 children
+    - **Frame** · `FRAME` · 672×42 · vertical stack, gap 4px · 2 children
+      - **Component API** · `TEXT` · 115×18 · “Component API”
+      - **Figma properties map 1:1 to the React/code component props.** · `TEXT` · 672×20 · “Figma properties map 1:1 to the React/code component props.”
+    - **Frame** · `FRAME` · 694×251 · vertical stack · 7 children
+      - **Frame** · `FRAME` · 694×35 · horizontal row, padding 10/16/10/16px · 4 children
+        - **Prop** · `TEXT` · 130×15 · “Prop”
+        - **Type** · `TEXT` · 70×15 · “Type”
+        - **Values** · `TEXT` · 280×15 · “Values”
+        - **Default** · `TEXT` · 130×15 · “Default”
+      - **Frame** · `FRAME` · 694×46 · horizontal row, padding 8/16/8/16px · 4 children
+        - **variant** · `TEXT` · 130×15 · “variant”
+        - **ENUM** · `TEXT` · 70×15 · “ENUM”
+        - **Primary | Secondary | Tertiary | Destructive | Link purple | Link black** · `TEXT` · 280×30 · “Primary | Secondary | Tertiary | Destructive | 
+Link purple | Link black”
+        - **Primary** · `TEXT` · 130×15 · “Primary”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **size** · `TEXT` · 130×15 · “size”
+        - **ENUM** · `TEXT` · 70×15 · “ENUM”
+        - **S | M | L** · `TEXT` · 280×15 · “S | M | L ”
+        - **M** · `TEXT` · 130×15 · “M”
+      - **Frame** · `FRAME` · 694×46 · horizontal row, padding 8/16/8/16px · 4 children
+        - **state** · `TEXT` · 130×15 · “state”
+        - **ENUM** · `TEXT` · 70×15 · “ENUM”
+        - **Default | Hover | Pressed | Focus | Disabled | Loading** · `TEXT` · 280×30 · “Default | Hover | Pressed | Focus | Disabled | Loading”
+        - **Default** · `TEXT` · 130×15 · “Default”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **label** · `TEXT` · 130×15 · “label”
+        - **STRING** · `TEXT` · 70×15 · “STRING”
+        - **Button label text** · `TEXT` · 280×15 · “Button label text”
+        - **"Button"** · `TEXT` · 130×15 · “"Button"”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **hasLeadingIcon** · `TEXT` · 130×15 · “hasLeadingIcon”
+        - **BOOLEAN** · `TEXT` · 70×15 · “BOOLEAN”
+        - **true | false** · `TEXT` · 280×15 · “true | false”
+        - **false** · `TEXT` · 130×15 · “false”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 4 children
+        - **hasTrailingIcon** · `TEXT` · 130×15 · “hasTrailingIcon”
+        - **BOOLEAN** · `TEXT` · 70×15 · “BOOLEAN”
+        - **true | false** · `TEXT` · 280×15 · “true | false”
+        - **false** · `TEXT` · 130×15 · “false”
+  - **Rectangle** · `RECTANGLE` · 672×1
+  - **Frame** · `FRAME` · 694×261 · vertical stack, gap 14px · 2 children
+    - **Frame** · `FRAME` · 672×42 · vertical stack, gap 4px · 2 children
+      - **Accessibility** · `TEXT` · 95×18 · “Accessibility”
+      - **All default state combinations have been verified for WCAG AA colour contrast.** · `TEXT` · 672×20 · “All default state combinations have been verified for WCAG AA colour contrast.”
+    - **Frame** · `FRAME` · 694×205 · vertical stack · 6 children
+      - **Frame** · `FRAME` · 694×35 · horizontal row, padding 10/16/10/16px · 3 children
+        - **Criterion** · `TEXT` · 140×15 · “Criterion”
+        - **Standard** · `TEXT` · 148×15 · “Standard”
+        - **Implementation** · `TEXT` · 364×15 · “Implementation”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Focus visible** · `TEXT` · 140×15 · “Focus visible”
+        - **WCAG 2.4.11 (AA)** · `TEXT` · 148×15 · “WCAG 2.4.11 (AA)”
+        - **4px shadow ring — 3:1+ contrast on adjacent colour** · `TEXT` · 364×15 · “4px shadow ring — 3:1+ contrast on adjacent colour”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Colour contrast** · `TEXT` · 140×15 · “Colour contrast”
+        - **WCAG 1.4.3 (AA)** · `TEXT` · 148×15 · “WCAG 1.4.3 (AA)”
+        - **All default fill/text pairs meet 4.5:1 minimum** · `TEXT` · 364×15 · “All default fill/text pairs meet 4.5:1 minimum”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Disabled state** · `TEXT` · 140×15 · “Disabled state”
+        - **Best practice** · `TEXT` · 148×15 · “Best practice”
+        - **Do not rely on colour alone — use aria-disabled + tooltip** · `TEXT` · 364×15 · “Do not rely on colour alone — use aria-disabled + tooltip”
+      - **Frame** · `FRAME` · 694×46 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Loading state** · `TEXT` · 140×15 · “Loading state”
+        - **ARIA** · `TEXT` · 148×15 · “ARIA”
+        - **aria-busy="true" + aria-label describing pending action. Lottie animation should respect prefers-reduced-motion.** · `TEXT` · 364×30 · “aria-busy="true" + aria-label describing pending action. Lottie animation should”
+      - **Frame** · `FRAME` · 694×31 · horizontal row, padding 8/16/8/16px · 3 children
+        - **Touch target** · `TEXT` · 140×15 · “Touch target”
+        - **WCAG 2.5.5 (AA)** · `TEXT` · 148×15 · “WCAG 2.5.5 (AA)”
+        - **S=32px — wrap in 44px min tap zone on mobile** · `TEXT` · 364×15 · “S=32px — wrap in 44px min tap zone on mobile”
+  - **Rectangle** · `RECTANGLE` · 672×1
+  - **Frame** · `FRAME` · 672×1328 · vertical stack, gap 32px · 10 children
+    - **Frame** · `FRAME` · 189×18 · vertical stack, gap 6px · 1 children
+      - **Usage — Visual Examples** · `TEXT` · 189×18 · “Usage — Visual Examples”
+    - **Frame** · `FRAME` · 672×202 · vertical stack, gap 16px · 2 children
+      - **Frame** · `FRAME` · 672×40 · vertical stack, gap 4px · 2 children
+        - **Primary button hierarchy** · `TEXT` · 157×16 · “Primary button hierarchy”
+        - **One primary action per section — never compete.** · `TEXT` · 672×20 · “One primary action per section — never compete.”
+      - **Frame** · `FRAME` · 672×146 · horizontal row, gap 24px · 2 children
+        - **Frame** · `FRAME` · 324×146 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✓** · `TEXT` · 11×15 · “✓”
+            - **One Primary per view** · `TEXT` · 276×13 · “One Primary per view”
+          - **Frame** · `FRAME` · 324×80 · horizontal row, gap 8px, padding 20/16/20/16px · 1 children
+            - **Frame** · `FRAME` · 119×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Save changes** · `TEXT` · 87×16 · “Save changes”
+          - **Frame** · `FRAME` · 324×31 · horizontal row, padding 8/12/10/12px · 1 children
+            - **Clear hierarchy — users know what to do.** · `TEXT` · 300×13 · “Clear hierarchy — users know what to do.”
+        - **Frame** · `FRAME` · 324×146 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✗** · `TEXT` · 11×15 · “✗”
+            - **Two Primary buttons side by side** · `TEXT` · 276×13 · “Two Primary buttons side by side”
+          - **Frame** · `FRAME` · 324×80 · horizontal row, gap 8px, padding 20/16/20/16px · 2 children
+            - **Frame** · `FRAME` · 63×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Save** · `TEXT` · 31×16 · “Save”
+            - **Frame** · `FRAME` · 78×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Publish** · `TEXT` · 46×16 · “Publish”
+          - **Frame** · `FRAME` · 324×31 · horizontal row, padding 8/12/10/12px · 1 children
+            - **Creates ambiguity — which is the main action?** · `TEXT` · 300×13 · “Creates ambiguity — which is the main action?”
+    - **Rectangle** · `RECTANGLE` · 672×1
+    - **Frame** · `FRAME` · 672×202 · vertical stack, gap 16px · 2 children
+      - **Frame** · `FRAME` · 672×40 · vertical stack, gap 4px · 2 children
+        - **Pairing variants** · `TEXT` · 98×16 · “Pairing variants”
+        - **Always pair a primary with a lower-emphasis button for secondary actions.** · `TEXT` · 672×20 · “Always pair a primary with a lower-emphasis button for secondary actions.”
+      - **Frame** · `FRAME` · 672×146 · horizontal row, gap 24px · 2 children
+        - **Frame** · `FRAME` · 324×146 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✓** · `TEXT` · 11×15 · “✓”
+            - **Primary + Secondary pair** · `TEXT` · 276×13 · “Primary + Secondary pair”
+          - **Frame** · `FRAME` · 324×80 · horizontal row, gap 8px, padding 20/16/20/16px · 2 children
+            - **Frame** · `FRAME` · 75×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Cancel** · `TEXT` · 43×16 · “Cancel”
+            - **Frame** · `FRAME` · 119×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Save changes** · `TEXT` · 87×16 · “Save changes”
+          - **Frame** · `FRAME` · 324×31 · horizontal row, padding 8/12/10/12px · 1 children
+            - **Clear hierarchy — primary action leads.** · `TEXT` · 300×13 · “Clear hierarchy — primary action leads.”
+        - **Frame** · `FRAME` · 324×146 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✗** · `TEXT` · 11×15 · “✗”
+            - **Primary + Primary pair** · `TEXT` · 276×13 · “Primary + Primary pair”
+          - **Frame** · `FRAME` · 324×80 · horizontal row, gap 8px, padding 20/16/20/16px · 2 children
+            - **Frame** · `FRAME` · 63×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Save** · `TEXT` · 31×16 · “Save”
+            - **Frame** · `FRAME` · 80×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Discard** · `TEXT` · 48×16 · “Discard”
+          - **Frame** · `FRAME` · 324×31 · horizontal row, padding 8/12/10/12px · 1 children
+            - **Use Secondary or Tertiary for supporting actions.** · `TEXT` · 300×13 · “Use Secondary or Tertiary for supporting actions.”
+    - **Rectangle** · `RECTANGLE` · 672×1
+    - **Frame** · `FRAME` · 672×202 · vertical stack, gap 16px · 2 children
+      - **Frame** · `FRAME` · 672×40 · vertical stack, gap 4px · 2 children
+        - **Destructive button usage** · `TEXT` · 160×16 · “Destructive button usage”
+        - **Reserve Destructive for irreversible operations only.** · `TEXT` · 672×20 · “Reserve Destructive for irreversible operations only.”
+      - **Frame** · `FRAME` · 672×146 · horizontal row, gap 24px · 2 children
+        - **Frame** · `FRAME` · 324×146 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✓** · `TEXT` · 11×15 · “✓”
+            - **Destructive + Secondary for confirm dialogs** · `TEXT` · 276×13 · “Destructive + Secondary for confirm dialogs”
+          - **Frame** · `FRAME` · 324×80 · horizontal row, gap 8px, padding 20/16/20/16px · 2 children
+            - **Frame** · `FRAME` · 75×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Cancel** · `TEXT` · 43×16 · “Cancel”
+            - **Frame** · `FRAME` · 114×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Delete listing** · `TEXT` · 82×16 · “Delete listing”
+          - **Frame** · `FRAME` · 324×31 · horizontal row, padding 8/12/10/12px · 1 children
+            - **Clear danger signal. Secondary gives an exit.** · `TEXT` · 300×13 · “Clear danger signal. Secondary gives an exit.”
+        - **Frame** · `FRAME` · 324×146 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✗** · `TEXT` · 11×15 · “✗”
+            - **Destructive for low-risk actions** · `TEXT` · 276×13 · “Destructive for low-risk actions”
+          - **Frame** · `FRAME` · 324×80 · horizontal row, gap 8px, padding 20/16/20/16px · 1 children
+            - **Frame** · `FRAME` · 104×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **Clear filters** · `TEXT` · 72×16 · “Clear filters”
+          - **Frame** · `FRAME` · 324×31 · horizontal row, padding 8/12/10/12px · 1 children
+            - **"Clear filters" is reversible — use Tertiary.** · `TEXT` · 300×13 · “"Clear filters" is reversible — use Tertiary.”
+    - **Rectangle** · `RECTANGLE` · 672×1
+    - **Frame** · `FRAME` · 672×210 · vertical stack, gap 16px · 2 children
+      - **Frame** · `FRAME` · 672×40 · vertical stack, gap 4px · 2 children
+        - **Size for context** · `TEXT` · 99×16 · “Size for context”
+        - **Match button size to the visual weight of the context.** · `TEXT` · 672×20 · “Match button size to the visual weight of the context.”
+      - **Frame** · `FRAME` · 672×154 · horizontal row, gap 24px · 2 children
+        - **Frame** · `FRAME` · 324×154 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✓** · `TEXT` · 11×15 · “✓”
+            - **L / XL for hero CTAs** · `TEXT` · 276×13 · “L / XL for hero CTAs”
+          - **Frame** · `FRAME` · 324×88 · horizontal row, gap 8px, padding 20/16/20/16px · 1 children
+            - **Frame** · `FRAME` · 151×48 · horizontal row, gap 6px, padding 16/20/16/20px · 1 children
+              - **List your property** · `TEXT` · 111×16 · “List your property”
+          - **Frame** · `FRAME` · 324×31 · horizontal row, padding 8/12/10/12px · 1 children
+            - **Prominent size signals the primary conversion.** · `TEXT` · 300×13 · “Prominent size signals the primary conversion.”
+        - **Frame** · `FRAME` · 324×154 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✗** · `TEXT` · 11×15 · “✗”
+            - **S size for a hero CTA** · `TEXT` · 276×13 · “S size for a hero CTA”
+          - **Frame** · `FRAME` · 324×71 · horizontal row, gap 8px, padding 20/16/20/16px · 1 children
+            - **Frame** · `FRAME` · 127×31 · horizontal row, gap 6px, padding 8/12/8/12px · 1 children
+              - **List your property** · `TEXT` · 103×15 · “List your property”
+          - **Frame** · `FRAME` · 324×48 · horizontal row, padding 8/12/10/12px · 1 children
+            - **S is for dense UI — too small to attract attention.** · `TEXT` · 300×13 · “S is for dense UI — too small to attract attention.”
+    - **Rectangle** · `RECTANGLE` · 672×1
+    - **Frame** · `FRAME` · 672×202 · vertical stack, gap 16px · 2 children
+      - **Frame** · `FRAME` · 672×40 · vertical stack, gap 4px · 2 children
+        - **Link buttons** · `TEXT` · 79×16 · “Link buttons”
+        - **Link works for inline text contexts, not as isolated primary CTAs.** · `TEXT` · 672×20 · “Link works for inline text contexts, not as isolated primary CTAs.”
+      - **Frame** · `FRAME` · 672×146 · horizontal row, gap 24px · 2 children
+        - **Frame** · `FRAME` · 324×146 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✓** · `TEXT` · 11×15 · “✓”
+            - **Tertiary as standalone low-emphasis CTA** · `TEXT` · 276×13 · “Tertiary as standalone low-emphasis CTA”
+          - **Frame** · `FRAME` · 324×80 · horizontal row, gap 8px, padding 20/16/20/16px · 1 children
+            - **Frame** · `FRAME` · 128×40 · horizontal row, gap 6px, padding 12/16/12/16px · 1 children
+              - **View all listings** · `TEXT` · 96×16 · “View all listings”
+          - **Frame** · `FRAME` · 324×31 · horizontal row, padding 8/12/10/12px · 1 children
+            - **Tertiary has enough visual weight to stand alone.** · `TEXT` · 300×13 · “Tertiary has enough visual weight to stand alone.”
+        - **Frame** · `FRAME` · 324×146 · vertical stack · 3 children
+          - **Frame** · `FRAME` · 317×35 · horizontal row, gap 6px, padding 10/12/10/12px · 2 children
+            - **✗** · `TEXT` · 11×15 · “✗”
+            - **Link button as standalone CTA** · `TEXT` · 276×13 · “Link button as standalone CTA”
+          - **Frame** · `FRAME` · 324×56 · horizontal row, gap 8px, padding 20/16/20/16px · 1 children
+            - **View all listings** · `TEXT` · 96×16 · “View all listings”
+          - **Frame** · `FRAME` · 324×55 · horizontal row, padding 8/12/10/12px · 1 children
+            - **No container — disappears in a sparse layout.** · `TEXT` · 300×13 · “No container — disappears in a sparse layout.”
+- **Page kit** · `INSTANCE` · 1518×173 · horizontal row, gap 24px, padding 40/32/40/32px · instance of Page kit

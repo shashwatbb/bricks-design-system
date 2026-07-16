@@ -1,0 +1,476 @@
+# Structure:       ↳ Spacings
+
+- **Spacing** · `SECTION` · 1222×3750 · 2 children
+  - **Spacings** · `FRAME` · 491×2642 · vertical stack · 8 children
+    - **Header** · `FRAME` · 491×258 · vertical stack, gap 12px, padding 48/32/48/32px · 2 children
+      - **Spacing System** · `TEXT` · 177×30 · “Spacing System”
+      - **Frame 2147261817** · `FRAME` · 427×120 · vertical stack, gap 16px, padding 24px · 1 children
+        - **A 4px-based scale with 15 semantic tokens — none through 8xl — designed for layout, components, and micro-spacing.** · `TEXT` · 379×72 · “A 4px-based scale with 15 semantic tokens — none through 8xl — designed for layo”
+    - **Vector 395** · `VECTOR` · 491×0
+    - **Frame 2147261809** · `FRAME` · 491×874 · vertical stack, gap 32px, padding 48/32/48/32px · 2 children
+      - **Spacing Scale** · `TEXT` · 129×25 · “Spacing Scale”
+      - **Scale Section** · `FRAME` · 424×721 · vertical stack, gap 20px, padding 24px · 2 children
+        - **Frame 2147261818** · `FRAME` · 376×16 · horizontal row, gap 8px, padding 0/16/0/16px · 2 children
+          - **TOKEN** · `TEXT` · 176×16 · “TOKEN”
+          - **VALUE** · `TEXT` · 80×16 · “VALUE”
+        - **Scale Rows** · `FRAME` · 376×637 · vertical stack, gap 8px · 15 children
+          - **Row spacing/4** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **none** · `TEXT` · 184×15 · “none”
+            - **0px** · `TEXT` · 80×15 · “0px”
+          - **Row spacing/2** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **3xs** · `TEXT` · 184×15 · “3xs”
+            - **2px** · `TEXT` · 80×15 · “2px”
+          - **Row spacing/4** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **2xs** · `TEXT` · 184×15 · “2xs”
+            - **4px** · `TEXT` · 80×15 · “4px”
+          - **Row spacing/8** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **xs** · `TEXT` · 184×15 · “xs”
+            - **8px** · `TEXT` · 80×15 · “8px”
+          - **Row spacing/12** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **s** · `TEXT` · 184×15 · “s”
+            - **12px** · `TEXT` · 80×15 · “12px”
+          - **Row spacing/16** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **m** · `TEXT` · 184×15 · “m”
+            - **16px** · `TEXT` · 80×15 · “16px”
+          - **Row spacing/20** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **l** · `TEXT` · 184×15 · “l”
+            - **20px** · `TEXT` · 80×15 · “20px”
+          - **Row spacing/24** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **xl** · `TEXT` · 184×15 · “xl”
+            - **24px** · `TEXT` · 80×15 · “24px”
+          - **Row spacing/32** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **2xl** · `TEXT` · 184×15 · “2xl”
+            - **32px** · `TEXT` · 80×15 · “32px”
+          - **Row spacing/40** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **3xl** · `TEXT` · 184×15 · “3xl”
+            - **40px** · `TEXT` · 80×15 · “40px”
+          - **Row spacing/48** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **4xl** · `TEXT` · 184×15 · “4xl”
+            - **48px** · `TEXT` · 80×15 · “48px”
+          - **Row spacing/64** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **5xl** · `TEXT` · 184×15 · “5xl”
+            - **64px** · `TEXT` · 80×15 · “64px”
+          - **Row spacing/80** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **6xl** · `TEXT` · 184×15 · “6xl”
+            - **80px** · `TEXT` · 80×15 · “80px”
+          - **Row spacing/96** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **7xl** · `TEXT` · 184×15 · “7xl”
+            - **96px** · `TEXT` · 80×15 · “96px”
+          - **Row spacing/128** · `FRAME` · 376×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **8xl** · `TEXT` · 184×15 · “8xl”
+            - **128px** · `TEXT` · 80×15 · “128px”
+    - **Vector 394** · `VECTOR` · 491×0
+    - **Header** · `FRAME` · 491×629 · vertical stack, gap 32px, padding 48/32/48/32px · 2 children
+      - **Frame 2147261812** · `FRAME` · 427×137 · vertical stack, gap 12px · 2 children
+        - **How the 4px Grid Works** · `TEXT` · 224×25 · “How the 4px Grid Works”
+        - **Every spacing value (except the 2px micro-exception) is a multiple of 4px. This keeps layouts visually rhythmic and makes pixel-perfect handoff predictable. When two values always share a common factor, they align on a grid — fewer layout bugs, less designer-developer friction.** · `TEXT` · 427×100 · “Every spacing value (except the 2px micro-exception) is a multiple of 4px. This ”
+      - **Cards Row** · `FRAME` · 427×364 · vertical stack, gap 16px · 2 children
+        - **Frame 2147261810** · `FRAME` · 427×174 · horizontal row, gap 16px · 2 children
+          - **Base Unit** · `FRAME` · 206×174 · vertical stack, gap 20px, padding 24px · 3 children
+            - **BASE UNIT** · `TEXT` · 158×16 · “BASE UNIT”
+            - **4px** · `TEXT` · 158×30 · “4px”
+            - **Every value is a multiple of 4** · `TEXT` · 158×40 · “Every value is a multiple of 4”
+          - **Exception** · `FRAME` · 206×174 · vertical stack, gap 20px, padding 24px · 3 children
+            - **EXCEPTION** · `TEXT` · 158×16 · “EXCEPTION”
+            - **2px** · `TEXT` · 158×30 · “2px”
+            - **Micro-spacing (borders, dividers)** · `TEXT` · 158×40 · “Micro-spacing (borders, dividers)”
+        - **Frame 2147261811** · `FRAME` · 427×174 · horizontal row, gap 16px · 2 children
+          - **Max Value** · `FRAME` · 206×174 · vertical stack, gap 20px, padding 24px · 3 children
+            - **MAX VALUE** · `TEXT` · 158×16 · “MAX VALUE”
+            - **128px** · `TEXT` · 158×30 · “128px”
+            - **Large layout gaps and sections** · `TEXT` · 158×40 · “Large layout gaps and sections”
+          - **Total Tokens** · `FRAME` · 206×174 · vertical stack, gap 20px, padding 24px · 3 children
+            - **TOTAL TOKENS** · `TEXT` · 158×16 · “TOTAL TOKENS”
+            - **15** · `TEXT` · 158×29 · “15”
+            - **15 semantic tokens** · `TEXT` · 158×20 · “15 semantic tokens”
+    - **Vector 393** · `VECTOR` · 491×0
+    - **Vector 392** · `VECTOR` · 491×0
+    - **Do Dont** · `FRAME` · 491×881 · vertical stack, gap 32px, padding 48/32/48/32px · 3 children
+      - **Guidelines & Examples** · `TEXT` · 209×25 · “Guidelines & Examples”
+      - **Frame 2147261815** · `FRAME` · 427×337 · vertical stack, gap 16px · 2 children
+        - **Badge** · `FRAME` · 37×21 · horizontal row, padding 4/10/4/10px · 1 children
+          - **DO** · `TEXT` · 17×13 · “DO”
+        - **Frame 2147261814** · `FRAME` · 427×300 · vertical stack, gap 12px · 3 children
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Use spacing tokens from the scale — never hardcode arbitrary pixel values like 7px, 13px, or 22px.** · `TEXT` · 379×44 · “Use spacing tokens from the scale — never hardcode arbitrary pixel values like 7”
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Prefer semantic tokens (m, xl) in component code so intent is clear at a glance.** · `TEXT` · 379×44 · “Prefer semantic tokens (m, xl) in component code so intent is clear at a glance.”
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Use 3xs only for micro adjustments like borders, dividers, or icon optical corrections.** · `TEXT` · 379×44 · “Use 3xs only for micro adjustments like borders, dividers, or icon optical corre”
+      - **Frame 2147261816** · `FRAME` · 427×359 · vertical stack, gap 16px · 2 children
+        - **Badge** · `FRAME` · 55×21 · horizontal row, padding 4/10/4/10px · 1 children
+          - **DON'T** · `TEXT` · 35×13 · “DON'T”
+        - **Frame 2147261814** · `FRAME` · 427×322 · vertical stack, gap 12px · 3 children
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Don't mix spacing values from outside the scale (e.g. 10px, 15px). They break the 4px rhythm.** · `TEXT` · 379×44 · “Don't mix spacing values from outside the scale (e.g. 10px, 15px). They break th”
+          - **Do Item** · `FRAME` · 427×114 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Don't reference old numeric names (e.g. spacing/16) — use the semantic tokens (xs, m, xl) so the meaning survives future scale changes.** · `TEXT` · 379×66 · “Don't reference old numeric names (e.g. spacing/16) — use the semantic tokens (x”
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Don't skip values in the scale — always pick the nearest defined token rather than inventing custom px values.** · `TEXT` · 379×44 · “Don't skip values in the scale — always pick the nearest defined token rather th”
+  - **Page kit** · `INSTANCE` · 1022×173 · horizontal row, gap 24px, padding 40/32/40/32px · instance of Page kit
+- **Header** · `FRAME` · 491×657 · vertical stack, gap 32px, padding 48/32/48/32px · 2 children
+  - **When to Use Which Spacing** · `TEXT` · 259×25 · “When to Use Which Spacing”
+  - **Cards Row** · `FRAME` · 427×504 · vertical stack, gap 16px · 2 children
+    - **Frame 2147261810** · `FRAME` · 427×244 · horizontal row, gap 16px · 2 children
+      - **Base Unit** · `FRAME` · 206×244 · vertical stack, gap 20px, padding 24px · 3 children
+        - **Micro** · `TEXT` · 158×16 · “Micro”
+        - **Frame 2147261813** · `FRAME` · 158×59 · vertical stack, gap 4px · 3 children
+          - **none** · `TEXT` · 158×17 · “none”
+          - **3xs** · `TEXT` · 158×17 · “3xs”
+          - **2xs** · `TEXT` · 158×17 · “2xs”
+        - **Icon padding, tag gaps, border offsets, tight input decorations** · `TEXT` · 158×60 · “Icon padding, tag gaps, border offsets, tight input decorations”
+      - **Exception** · `FRAME` · 206×244 · vertical stack, gap 20px, padding 24px · 3 children
+        - **Component** · `TEXT` · 158×16 · “Component”
+        - **Frame 2147261813** · `FRAME` · 158×80 · vertical stack, gap 4px · 4 children
+          - **xs** · `TEXT` · 158×17 · “xs”
+          - **s** · `TEXT` · 158×17 · “s”
+          - **m** · `TEXT` · 158×17 · “m”
+          - **l** · `TEXT` · 158×17 · “l”
+        - **Button padding, form field insets, card inner spacing, list item gaps** · `TEXT` · 158×60 · “Button padding, form field insets, card inner spacing, list item gaps”
+    - **Frame 2147261811** · `FRAME` · 427×244 · horizontal row, gap 16px · 2 children
+      - **Max Value** · `FRAME` · 206×244 · vertical stack, gap 20px, padding 24px · 3 children
+        - **Layout** · `TEXT` · 158×16 · “Layout”
+        - **Frame 2147261813** · `FRAME` · 158×80 · vertical stack, gap 4px · 4 children
+          - **xl** · `TEXT` · 158×17 · “xl”
+          - **2xl** · `TEXT` · 158×17 · “2xl”
+          - **3xl** · `TEXT` · 158×17 · “3xl”
+          - **4xl** · `TEXT` · 158×17 · “4xl”
+        - **Section padding, sidebar width, grid gutters, dialog padding** · `TEXT` · 158×60 · “Section padding, sidebar width, grid gutters, dialog padding”
+      - **Total Tokens** · `FRAME` · 206×244 · vertical stack, gap 20px, padding 24px · 3 children
+        - **Page** · `TEXT` · 158×16 · “Page”
+        - **Frame 2147261813** · `FRAME` · 158×80 · vertical stack, gap 4px · 4 children
+          - **5xl** · `TEXT` · 158×17 · “5xl”
+          - **6xl** · `TEXT` · 158×17 · “6xl”
+          - **7xl** · `TEXT` · 158×17 · “7xl”
+          - **8xl** · `TEXT` · 158×17 · “8xl”
+        - **Section padding, sidebar width, grid gutters, dialog padding** · `TEXT` · 158×60 · “Section padding, sidebar width, grid gutters, dialog padding”
+- **Spacing, Proximity & Layout Documentation** · `FRAME` · 1022×4237 · vertical stack · 6 children
+  - **Frame 2147261820** · `FRAME` · 1022×210 · vertical stack, gap 12px, padding 48/32/48/32px · 2 children
+    - **Spacing, Proximity & Layout** · `TEXT` · 958×32 · “Spacing, Proximity & Layout”
+    - **Frame 2147261819** · `FRAME` · 958×70 · vertical stack, gap 16px, padding 24px · 1 children
+      - **A visual template for building consistent, clean and user-friendly interfaces.** · `TEXT` · 910×22 · “A visual template for building consistent, clean and user-friendly interfaces.”
+  - **Frame 2147261821** · `FRAME` · 1022×550 · horizontal row, gap 32px, padding 48/32/48/32px · 3 children
+    - **Frame 2147261824** · `FRAME` · 298×454 · vertical stack, gap 32px · 2 children
+      - **Frame 2147261823** · `FRAME` · 298×77 · vertical stack, gap 12px · 2 children
+        - **Spacing Scale** · `TEXT` · 159×25 · “Spacing Scale”
+        - **Use a consistent spacing scale for rhythm and alignment.** · `TEXT` · 298×40 · “Use a consistent spacing scale for rhythm and alignment.”
+      - **Frame** · `FRAME` · 298×345 · vertical stack, gap 20px, padding 24px · 1 children
+        - **Frame** · `FRAME` · 250×297 · vertical stack, gap 8px · 6 children
+          - **Frame** · `FRAME` · 250×24 · horizontal row, gap 12px · 2 children
+            - **32px** · `TEXT` · 50×15 · “32px”
+            - **Rectangle** · `RECTANGLE` · 170×24
+          - **Frame** · `FRAME` · 250×24 · horizontal row, gap 12px · 2 children
+            - **24px** · `TEXT` · 50×15 · “24px”
+            - **Rectangle** · `RECTANGLE` · 139×24
+          - **Frame** · `FRAME` · 250×24 · horizontal row, gap 12px · 2 children
+            - **16px** · `TEXT` · 50×15 · “16px”
+            - **Rectangle** · `RECTANGLE` · 108×24
+          - **Frame** · `FRAME` · 250×24 · horizontal row, gap 12px · 2 children
+            - **12px** · `TEXT` · 50×15 · “12px”
+            - **Rectangle** · `RECTANGLE` · 85×24
+          - **Frame** · `FRAME` · 250×24 · horizontal row, gap 12px · 2 children
+            - **8px** · `TEXT` · 50×15 · “8px”
+            - **Rectangle** · `RECTANGLE` · 62×24
+          - **Frame** · `FRAME` · 250×24 · horizontal row, gap 12px · 2 children
+            - **4px** · `TEXT` · 50×15 · “4px”
+            - **Rectangle** · `RECTANGLE` · 39×24
+    - **Frame 2147261825** · `FRAME` · 298×454 · vertical stack, gap 32px · 2 children
+      - **Frame 2147261823** · `FRAME` · 298×77 · vertical stack, gap 12px · 2 children
+        - **2. Proximity** · `TEXT` · 108×25 · “2. Proximity”
+        - **Group related items together. Use space to separate unrelated content.** · `TEXT` · 298×40 · “Group related items together. Use space to separate unrelated content.”
+      - **Frame** · `FRAME` · 298×345 · vertical stack · 3 children
+        - **Frame** · `FRAME` · 298×159 · vertical stack, gap 8px, padding 16px · 1 children
+          - **Frame** · `FRAME` · 266×127 · vertical stack, gap 12px · 2 children
+            - **Related items grouped together** · `TEXT` · 266×15 · “Related items grouped together”
+            - **Frame 2147261830** · `FRAME` · 143×100 · vertical stack, gap 20px, padding 12px · 2 children
+              - **Frame 2147261831** · `FRAME` · 119×28 · horizontal row, gap 12px · 2 children
+                - **Rectangle 1** · `RECTANGLE` · 28×28
+                - **Frame 2147261827** · `FRAME` · 79×28 · vertical stack, gap 4px
+                  - _…and 2 more_
+              - **Frame 2147261832** · `FRAME` · 119×28 · horizontal row, gap 12px · 2 children
+                - **Rectangle 1** · `RECTANGLE` · 28×28
+                - **Frame 2147261827** · `FRAME` · 79×28 · vertical stack, gap 4px
+                  - _…and 2 more_
+        - **Vector 398** · `VECTOR` · 298×0
+        - **Frame** · `FRAME` · 298×186 · vertical stack, gap 8px, padding 16px · 1 children
+          - **Frame** · `FRAME` · 266×154 · vertical stack, gap 12px · 2 children
+            - **Unrelated items separated with appropriate spacing** · `TEXT` · 266×30 · “Unrelated items separated with appropriate spacing”
+            - **Frame 2147261830** · `FRAME` · 143×112 · vertical stack, gap 32px, padding 12px · 2 children
+              - **Frame 2147261831** · `FRAME` · 119×28 · horizontal row, gap 12px · 2 children
+                - **Rectangle 1** · `RECTANGLE` · 28×28
+                - **Frame 2147261827** · `FRAME` · 79×28 · vertical stack, gap 4px
+                  - _…and 2 more_
+              - **Frame 2147261832** · `FRAME` · 119×28 · horizontal row, gap 12px · 2 children
+                - **Rectangle 1** · `RECTANGLE` · 28×28
+                - **Frame 2147261827** · `FRAME` · 79×28 · vertical stack, gap 4px
+                  - _…and 2 more_
+    - **Frame 2147261826** · `FRAME` · 298×454 · vertical stack, gap 32px · 2 children
+      - **Frame 2147261823** · `FRAME` · 298×77 · vertical stack, gap 12px · 2 children
+        - **3. Layout Structure** · `TEXT` · 175×25 · “3. Layout Structure”
+        - **Build UI by grouping elements into components, sections and layouts.** · `TEXT` · 298×40 · “Build UI by grouping elements into components, sections and layouts.”
+      - **Frame** · `FRAME` · 298×345 · vertical stack, gap 20px, padding 24px · 1 children
+        - **Frame 2147261839** · `FRAME` · 250×232 · vertical stack · 8 children
+          - **Frame 2147261833** · `FRAME` · 85×36 · horizontal row, gap 10px, padding 8/16/8/16px · 1 children
+            - **Layout** · `TEXT` · 53×20 · “Layout”
+          - **Vector 399** · `VECTOR` · 0×24
+          - **Frame 2147261834** · `FRAME` · 85×36 · horizontal row, gap 10px, padding 8/16/8/16px · 1 children
+            - **Section** · `TEXT` · 53×20 · “Section”
+          - **Vector 400** · `VECTOR` · 0×24
+          - **Frame 2147261835** · `FRAME` · 105×36 · horizontal row, gap 10px, padding 8/16/8/16px · 1 children
+            - **Component** · `TEXT` · 73×20 · “Component”
+          - **Vector 401** · `VECTOR` · 0×24
+          - **Vector 402** · `VECTOR` · 179×24
+          - **Frame 2147261838** · `FRAME` · 250×28 · horizontal row, gap 16px · 3 children
+            - **Frame 2147261836** · `FRAME` · 73×28 · horizontal row, gap 10px, padding 8/16/8/16px · 1 children
+              - **Element** · `TEXT` · 44×12 · “Element”
+            - **Frame 2147261838** · `FRAME` · 73×28 · horizontal row, gap 10px, padding 8/16/8/16px · 1 children
+              - **Element** · `TEXT` · 44×12 · “Element”
+            - **Frame 2147261837** · `FRAME` · 73×28 · horizontal row, gap 10px, padding 8/16/8/16px · 1 children
+              - **Element** · `TEXT` · 44×12 · “Element”
+  - **Frame 2147261822** · `FRAME` · 1022×2144 · vertical stack, gap 32px, padding 48/32/48/32px · 4 children
+    - **Apply in Layers** · `TEXT` · 140×25 · “Apply in Layers”
+    - **Frame** · `FRAME` · 958×370 · vertical stack, gap 32px, padding 24px · 3 children
+      - **Group elements into a component** · `TEXT` · 910×20 · “Group elements into a component”
+      - **Vector 398** · `VECTOR` · 910×0
+      - **Frame 2147261846** · `FRAME` · 910×238 · horizontal row, gap 20px · 2 children
+        - **Frame 2147261844** · `FRAME` · 421×238 · 1 children
+          - **project-card** · `FRAME` · 360×180 · horizontal row · 2 children
+            - **Rectangle 2** · `RECTANGLE` · 180×180
+            - **project-card__content-wrapper** · `FRAME` · 180×180 · vertical stack · 2 children
+              - **Frame 2147261841** · `FRAME` · 180×108 · vertical stack, gap 12px, padding 16/16/0/16px · 2 children
+                - **Frame 2147261587** · `FRAME` · 95×62 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **project-card__price-min** · `TEXT` · 50×18 · “₹90.0 L”
+              - **Frame 2147261840** · `FRAME` · 180×72 · vertical stack, padding 16px · 1 children
+                - **project-card__primary-action** · `INSTANCE` · 148×40 · horizontal row, gap 6px, padding 8/16/8/16px · instance of project-card__primary-action
+        - **Frame 2147261845** · `FRAME` · 421×238 · 11 children
+          - **project-card** · `FRAME` · 360×180 · horizontal row · 2 children
+            - **Rectangle 2** · `RECTANGLE` · 180×180
+            - **project-card__content-wrapper** · `FRAME` · 180×180 · vertical stack · 2 children
+              - **Frame 2147261841** · `FRAME` · 180×108 · vertical stack, gap 12px, padding 16/16/0/16px · 2 children
+                - **Frame 2147261587** · `FRAME` · 95×62 · vertical stack, gap 4px
+                  - _…and 3 more_
+                - **project-card__price-min** · `TEXT` · 50×18 · “₹90.0 L”
+              - **Frame 2147261840** · `FRAME` · 180×72 · vertical stack, padding 16px · 1 children
+                - **project-card__primary-action** · `INSTANCE` · 148×40 · horizontal row, gap 6px, padding 8/16/8/16px · instance of project-card__primary-action
+          - **Group 1** · `GROUP` · 180×180 · 9 children
+            - **Rectangle 3** · `RECTANGLE` · 180×16
+            - **Rectangle 9** · `RECTANGLE` · 180×16
+            - **Rectangle 11** · `RECTANGLE` · 40×8
+            - **Rectangle 10** · `RECTANGLE` · 180×16
+            - **Rectangle 4** · `RECTANGLE` · 180×4
+            - **Rectangle 5** · `RECTANGLE` · 180×4
+            - **Rectangle 6** · `RECTANGLE` · 180×12
+            - **Rectangle 7** · `RECTANGLE` · 180×16
+            - **Rectangle 8** · `RECTANGLE` · 180×16
+          - **Frame 2147261843** · `FRAME` · 52×16 · horizontal row, gap 8px · 2 children
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 12×16 · “16”
+          - **Container** · `FRAME` · 12×56 · vertical stack, gap 8px · 2 children
+            - **Text** · `TEXT` · 12×16 · “16”
+            - **Vector 390** · `VECTOR` · 0×32
+          - **Container** · `FRAME` · 8×56 · vertical stack, gap 8px · 2 children
+            - **Text** · `TEXT` · 8×16 · “8”
+            - **Vector 390** · `VECTOR` · 0×32
+          - **Container** · `FRAME` · 12×56 · vertical stack, gap 8px · 2 children
+            - **Text** · `TEXT` · 12×16 · “16”
+            - **Vector 390** · `VECTOR` · 0×32
+          - **Container** · `FRAME` · 48×16 · horizontal row, gap 8px · 2 children · ×2
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 8×16 · “8”
+          - **Container** · `FRAME` · 52×16 · horizontal row, gap 8px · 2 children
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 12×16 · “12”
+          - **Container** · `FRAME` · 52×16 · horizontal row, gap 8px · 2 children · ×2
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 12×16 · “16”
+    - **Frame** · `FRAME` · 958×616 · vertical stack, gap 32px, padding 24px · 3 children
+      - **Group components into a section** · `TEXT` · 910×20 · “Group components into a section”
+      - **Vector 398** · `VECTOR` · 910×0
+      - **Frame 2147261846** · `FRAME` · 910×484 · horizontal row, gap 20px · 2 children
+        - **Frame 2147261848** · `FRAME` · 360×480 · vertical stack · 3 children
+          - **Rectangle 13** · `RECTANGLE` · 360×8
+          - **Frame 2147261847** · `FRAME` · 360×464 · vertical stack, gap 16px, padding 24/16/24/16px · 2 children
+            - **project-card__title** · `TEXT` · 147×24 · “Recommendations”
+            - **Frame 2147261861** · `FRAME` · 328×376 · vertical stack, gap 16px · 2 children
+              - **project-card** · `FRAME` · 328×180 · horizontal row · 2 children · ×2
+                - **Rectangle 2** · `RECTANGLE` · 135×180
+                - **project-card__content-wrapper** · `FRAME` · 193×180 · vertical stack
+                  - _…and 2 more_
+          - **Rectangle 12** · `RECTANGLE` · 360×8
+        - **Frame 2147261853** · `FRAME` · 455×484 · 9 children
+          - **Frame 2147261848** · `FRAME` · 360×480 · vertical stack · 3 children
+            - **Rectangle 13** · `RECTANGLE` · 360×8
+            - **Frame 2147261848** · `FRAME` · 360×464 · vertical stack, gap 16px, padding 24/16/24/16px · 2 children
+              - **project-card__title** · `TEXT` · 147×24 · “Recommendations”
+              - **Frame 2147261861** · `FRAME` · 328×376 · vertical stack, gap 16px · 2 children
+                - **project-card** · `FRAME` · 328×180 · horizontal row · ×2
+                  - _…and 2 more_
+            - **Rectangle 12** · `RECTANGLE` · 360×8
+          - **Frame 2147261849** · `FRAME` · 54×16 · horizontal row, gap 8px · 2 children
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 14×16 · “24”
+          - **Frame 2147261851** · `FRAME` · 52×16 · horizontal row, gap 8px · 2 children
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 12×16 · “16”
+          - **Frame 2147261852** · `FRAME` · 52×16 · horizontal row, gap 8px · 2 children
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 12×16 · “16”
+          - **Frame 2147261850** · `FRAME` · 54×16 · horizontal row, gap 8px · 2 children
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 14×16 · “24”
+          - **Rectangle 3** · `RECTANGLE` · 360×24
+          - **Rectangle 6** · `RECTANGLE` · 360×24
+          - **Rectangle 4** · `RECTANGLE` · 360×16
+          - **Rectangle 5** · `RECTANGLE` · 360×16
+    - **Frame** · `FRAME` · 958×941 · vertical stack, gap 32px, padding 24px · 3 children
+      - **Group sections into a layout** · `TEXT` · 910×20 · “Group sections into a layout”
+      - **Vector 398** · `VECTOR` · 910×0
+      - **Frame 2147261846** · `FRAME` · 910×809 · horizontal row, gap 20px · 2 children
+        - **Frame 2147261848** · `FRAME` · 360×805 · vertical stack · 4 children
+          - **Rectangle 13** · `RECTANGLE` · 360×8
+          - **Frame 2147261849** · `FRAME` · 360×464 · vertical stack, gap 16px, padding 24/16/24/16px · 2 children
+            - **project-card__title** · `TEXT` · 147×24 · “Recommendations”
+            - **Frame 2147261861** · `FRAME` · 328×376 · vertical stack, gap 16px · 2 children
+              - **project-card** · `FRAME` · 328×180 · horizontal row · 2 children · ×2
+                - **Rectangle 2** · `RECTANGLE` · 135×180
+                - **project-card__content-wrapper** · `FRAME` · 193×180 · vertical stack
+                  - _…and 2 more_
+          - **Rectangle 12** · `RECTANGLE` · 360×8
+          - **Frame 2147261848** · `FRAME` · 360×325 · vertical stack, gap 16px, padding 24/16/24/16px · 2 children
+            - **project-card__title** · `TEXT` · 127×24 · “Recently viewed”
+            - **Frame 2147261854** · `FRAME` · 482×237 · horizontal row, gap 16px · 3 children
+              - **project-card** · `FRAME` · 150×237 · vertical stack · 2 children · ×3
+                - **Rectangle 2** · `RECTANGLE` · 150×113
+                - **Frame 2147261841** · `FRAME` · 150×124 · vertical stack, gap 12px, padding 16px
+                  - _…and 2 more_
+        - **Frame 2147261855** · `FRAME` · 457×809 · 2 children
+          - **Frame 2147261848** · `FRAME` · 360×805 · vertical stack · 5 children
+            - **Rectangle 13** · `RECTANGLE` · 360×8
+            - **Frame 2147261849** · `FRAME` · 360×464 · vertical stack, gap 16px, padding 24/16/24/16px · 2 children
+              - **project-card__title** · `TEXT` · 147×24 · “Recommendations”
+              - **Frame 2147261861** · `FRAME` · 328×376 · vertical stack, gap 16px · 2 children
+                - **project-card** · `FRAME` · 328×180 · horizontal row · ×2
+                  - _…and 2 more_
+            - **Rectangle 12** · `RECTANGLE` · 360×8
+            - **Frame 2147261848** · `FRAME` · 360×325 · vertical stack, gap 16px, padding 24/16/24/16px · 2 children
+              - **project-card__title** · `TEXT` · 127×24 · “Recently viewed”
+              - **Frame 2147261854** · `FRAME` · 482×237 · horizontal row, gap 16px · 3 children
+                - **project-card** · `FRAME` · 150×237 · vertical stack · ×3
+                  - _…and 2 more_
+            - **Rectangle 4** · `RECTANGLE` · 352×8
+          - **Frame 2147261844** · `FRAME` · 48×16 · horizontal row, gap 8px · 2 children
+            - **Vector 390** · `VECTOR` · 32×0
+            - **Text** · `TEXT` · 8×16 · “8”
+  - **Frame 2147261824** · `FRAME` · 1022×617 · horizontal row, gap 64px, padding 48/32/48/32px · 2 children
+    - **Frame 2147261824** · `FRAME` · 447×521 · vertical stack, gap 32px · 5 children
+      - **Spacing principles** · `TEXT` · 170×25 · “Spacing principles”
+      - **Frame** · `FRAME` · 447×92 · horizontal row, gap 16px, padding 24px · 2 children
+        - **Icon Container** · `FRAME` · 44×44 · horizontal row, gap 10px · 1 children
+          - **TextColumns** · `FRAME` · 24×24 · 9 children
+            - **Vector** · `VECTOR` · 24×24
+            - **Vector** · `VECTOR` · 7×0 · ×8
+        - **Frame 2147261856** · `FRAME` · 339×44 · vertical stack, gap 8px · 2 children
+          - **Consistent** · `TEXT` · 339×19 · “Consistent”
+          - **Use a consistent spacing scale across the UI.** · `TEXT` · 339×17 · “Use a consistent spacing scale across the UI.”
+      - **Frame** · `FRAME` · 447×92 · horizontal row, gap 16px, padding 24px · 2 children
+        - **Icon Container** · `FRAME` · 44×44 · horizontal row, gap 10px · 1 children
+          - **ArrowsHorizontal** · `FRAME` · 24×24 · 4 children
+            - **Vector** · `VECTOR` · 24×24
+            - **Vector** · `VECTOR` · 3×6 · ×2
+            - **Vector** · `VECTOR` · 20×0
+        - **Frame 2147261857** · `FRAME` · 339×44 · vertical stack, gap 8px · 2 children
+          - **Balanced** · `TEXT` · 339×19 · “Balanced”
+          - **Maintain equal spacing for visual harmony.** · `TEXT` · 339×17 · “Maintain equal spacing for visual harmony.”
+      - **Frame** · `FRAME` · 447×92 · horizontal row, gap 16px, padding 24px · 2 children
+        - **Icon Container** · `FRAME` · 44×44 · horizontal row, gap 10px · 1 children
+          - **TreeView** · `FRAME` · 24×24 · 6 children
+            - **Vector** · `VECTOR` · 24×24
+            - **Vector** · `VECTOR` · 5×5 · ×3
+            - **Vector** · `VECTOR` · 8×0
+            - **Vector** · `VECTOR` · 8×13
+        - **Frame 2147261858** · `FRAME` · 339×44 · vertical stack, gap 8px · 2 children
+          - **Hierarchical** · `TEXT` · 339×19 · “Hierarchical”
+          - **Use more space for higher importance.** · `TEXT` · 339×17 · “Use more space for higher importance.”
+      - **Frame** · `FRAME` · 447×92 · horizontal row, gap 16px, padding 24px · 2 children
+        - **Icon Container** · `FRAME` · 44×44 · horizontal row, gap 10px · 1 children
+          - **Scan** · `FRAME` · 24×24 · 6 children
+            - **Vector** · `VECTOR` · 24×24
+            - **Vector** · `VECTOR` · 4×4 · ×4
+            - **Vector** · `VECTOR` · 9×9
+        - **Frame 2147261859** · `FRAME` · 339×44 · vertical stack, gap 8px · 2 children
+          - **Intentional** · `TEXT` · 339×19 · “Intentional”
+          - **Every space should have a purpose.** · `TEXT` · 339×17 · “Every space should have a purpose.”
+    - **Frame 2147261825** · `FRAME` · 447×521 · vertical stack, gap 32px · 2 children
+      - **Common spacing patterns** · `TEXT` · 246×25 · “Common spacing patterns”
+      - **Cards Row** · `FRAME` · 447×464 · vertical stack, gap 16px · 2 children
+        - **Frame 2147261810** · `FRAME` · 447×224 · horizontal row, gap 16px · 2 children
+          - **Base Unit** · `FRAME` · 216×224 · vertical stack, gap 20px, padding 24px · 3 children
+            - **PATTERN 1** · `TEXT` · 168×16 · “PATTERN 1”
+            - **Frame 2147261813** · `FRAME` · 168×80 · vertical stack, gap 4px · 4 children
+              - **none** · `TEXT` · 168×17 · “none”
+              - **3xs** · `TEXT` · 168×17 · “3xs”
+              - **2xs** · `TEXT` · 168×17 · “2xs”
+              - **xs** · `TEXT` · 168×17 · “xs”
+            - **Between elements** · `TEXT` · 168×20 · “Between elements”
+          - **Exception** · `FRAME` · 216×224 · vertical stack, gap 20px, padding 24px · 3 children
+            - **PATTERN 2** · `TEXT` · 168×16 · “PATTERN 2”
+            - **Frame 2147261813** · `FRAME` · 168×59 · vertical stack, gap 4px · 3 children
+              - **s** · `TEXT` · 168×17 · “s”
+              - **m** · `TEXT` · 168×17 · “m”
+              - **l** · `TEXT` · 168×17 · “l”
+            - **Between components** · `TEXT` · 168×20 · “Between components”
+        - **Frame 2147261811** · `FRAME` · 447×224 · horizontal row, gap 16px · 2 children
+          - **Max Value** · `FRAME` · 216×224 · vertical stack, gap 20px, padding 24px · 3 children
+            - **PATTERN 3** · `TEXT` · 168×16 · “PATTERN 3”
+            - **Frame 2147261813** · `FRAME` · 168×80 · vertical stack, gap 4px · 4 children
+              - **xl** · `TEXT` · 168×17 · “xl”
+              - **2xl** · `TEXT` · 168×17 · “2xl”
+              - **3xl** · `TEXT` · 168×17 · “3xl”
+              - **4xl** · `TEXT` · 168×17 · “4xl”
+            - **Between sections** · `TEXT` · 168×20 · “Between sections”
+          - **Total Tokens** · `FRAME` · 216×224 · vertical stack, gap 20px, padding 24px · 3 children
+            - **PATTERN 4** · `TEXT` · 168×16 · “PATTERN 4”
+            - **Frame 2147261813** · `FRAME` · 168×80 · vertical stack, gap 4px · 4 children
+              - **5xl** · `TEXT` · 168×17 · “5xl”
+              - **6xl** · `TEXT` · 168×17 · “6xl”
+              - **7xl** · `TEXT` · 168×17 · “7xl”
+              - **8xl** · `TEXT` · 168×17 · “8xl”
+            - **Page Padding** · `TEXT` · 168×20 · “Page Padding”
+  - **Do Dont** · `FRAME` · 1022×506 · vertical stack, gap 32px, padding 48/32/48/32px · 2 children
+    - **Guidelines** · `TEXT` · 99×25 · “Guidelines”
+    - **Frame 2147261860** · `FRAME` · 958×353 · horizontal row, gap 32px · 2 children
+      - **Frame 2147261815** · `FRAME` · 463×353 · vertical stack, gap 16px · 2 children
+        - **Badge** · `FRAME` · 37×21 · horizontal row, padding 4/10/4/10px · 1 children
+          - **DO** · `TEXT` · 17×13 · “DO”
+        - **Frame 2147261814** · `FRAME` · 463×316 · vertical stack, gap 12px · 4 children
+          - **Do Item** · `FRAME` · 463×70 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Use consistent spacing scale** · `TEXT` · 415×22 · “Use consistent spacing scale”
+          - **Do Item** · `FRAME` · 463×70 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Group related content** · `TEXT` · 415×22 · “Group related content”
+          - **Do Item** · `FRAME` · 463×70 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Maintain clear visual hierarchy** · `TEXT` · 415×22 · “Maintain clear visual hierarchy”
+          - **Do Item** · `FRAME` · 463×70 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Keep layouts clean & breathable** · `TEXT` · 415×22 · “Keep layouts clean & breathable”
+      - **Frame 2147261816** · `FRAME` · 463×353 · vertical stack, gap 16px · 2 children
+        - **Badge** · `FRAME` · 55×21 · horizontal row, padding 4/10/4/10px · 1 children
+          - **DON'T** · `TEXT` · 35×13 · “DON'T”
+        - **Frame 2147261814** · `FRAME` · 463×316 · vertical stack, gap 12px · 4 children
+          - **Do Item** · `FRAME` · 463×70 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Use random spacing** · `TEXT` · 415×22 · “Use random spacing”
+          - **Do Item** · `FRAME` · 463×70 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Crowd unrelated elements** · `TEXT` · 415×22 · “Crowd unrelated elements”
+          - **Do Item** · `FRAME` · 463×70 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Ignore hierarchy** · `TEXT` · 415×22 · “Ignore hierarchy”
+          - **Do Item** · `FRAME` · 463×70 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Overcomplicate layouts** · `TEXT` · 415×22 · “Overcomplicate layouts”
+  - **Frame 2147261825** · `FRAME` · 1022×210 · vertical stack, gap 12px, padding 48/32/48/32px · 2 children
+    - **Good spacing is invisible. You only notice it when it's wrong.** · `TEXT` · 958×32 · “Good spacing is invisible. You only notice it when it's wrong.”
+    - **Frame 2147261819** · `FRAME` · 958×70 · vertical stack, gap 16px, padding 24px · 1 children
+      - **Good spacing is invisible. You only notice it when it's wrong.** · `TEXT` · 910×22 · “Good spacing is invisible. You only notice it when it's wrong.”
+- **Documentation / Header** · `FRAME` · 1022×107 · horizontal row, gap 20px, padding 16/24/16/24px · 1 children
+  - **Frame** · `FRAME` · 748×22 · vertical stack, gap 4px · 1 children
+    - **DON’T USE: YET TO BE WORKED UPON BEFORE PUBLISHING, EXPLORING USING AI** · `TEXT` · 748×22 · “DON’T USE: YET TO BE WORKED UPON BEFORE PUBLISHING, EXPLORING USING AI”
+- **Cases for mobile** · `TEXT` · 958×32 · “Cases for mobile”
+- **Cases for Desktop** · `TEXT` · 958×32 · “Cases for Desktop”
+- **Page kit** · `INSTANCE` · 1022×173 · horizontal row, gap 24px, padding 40/32/40/32px · instance of Page kit

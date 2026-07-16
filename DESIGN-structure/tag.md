@@ -1,0 +1,39 @@
+# Structure: Tag
+
+- **Tag** · `COMPONENT_SET` · 1141×618 · 30 children
+  - **Size=s, Color=neutral** · `COMPONENT` · 43×18 · horizontal row, gap 4px, padding 0/8/0/8px · 3 children
+    - **Leading Icon** · `INSTANCE` · 16×16 · instance of Leading Icon
+    - **Label** · `TEXT` · 27×12 · “Label”
+    - **Trailing Icon** · `INSTANCE` · 16×16 · instance of Trailing Icon
+- **Tag — Documentation** · `FRAME` · 760×1855 · vertical stack, gap 20px, padding 32px · 28 children
+  - **Tag** · `TEXT` · 696×34 · “Tag”
+  - **Static, read-only label component. Categorizes, classifies, or flags the status of an item at a glance. Non-interactive.** · `TEXT` · 696×40 · “Static, read-only label component. Categorizes, classifies, or flags the status ”
+  - **Divider** · `RECTANGLE` · 696×1
+  - **When to use** · `TEXT` · 696×19 · “When to use”
+  - **• Categorizing content by topic, type, or attribute • Communicating a status/state at a glance (e.g. Verified, Sold, Pending) • Labeling grouped or filtered content in a list, card, or table** · `TEXT` · 696×60 · “• Categorizing content by topic, type, or attribute
+• Communicating a status/sta”
+  - **When not to use** · `TEXT` · 696×19 · “When not to use”
+  - **• When the element must be removable or selectable — use an interactive Chip component instead (not built here) • When the label should trigger navigation or an action — use a Button or Link • For copy longer than a couple of words** · `TEXT` · 696×80 · “• When the element must be removable or selectable — use an interactive Chip com”
+  - **Divider** · `RECTANGLE` · 696×1
+  - **Anatomy** · `TEXT` · 696×19 · “Anatomy”
+  - **Container (Auto Layout, horizontal, Hug width x Fixed height, radius.full, 1px border) > Leading Icon (instance swap, optional) > Label (text) > Trailing Icon (instance swap, optional, defaults to Info glyph). Icons are sourced via instance swap from the Iconography (Bricks) library.** · `TEXT` · 696×60 · “Container (Auto Layout, horizontal, Hug width x Fixed height, radius.full, 1px b”
+  - **Tag** · `INSTANCE` · 101×24 · horizontal row, gap 4px, padding 0/12/0/12px · instance of Tag
+  - **Properties** · `TEXT` · 696×19 · “Properties”
+  - **Color (Variant) — neutral, brand, info, success, warning, danger, accentPistachio, accentLavender, accentButter, accentGrey — default: neutral Size (Variant) — s, m, l — default: m Show Leading Icon (Boolean) — default: false Leading Icon (Instance swap) — any Iconography component Show Trailing Icon (Boolean) — default: false Trailing Icon (Instance swap) — defaults to Info glyph Label (Text) — free text, 1–2 words recommended** · `TEXT` · 696×160 · “Color (Variant) — neutral, brand, info, success, warning, danger, accentPistachi”
+  - **Divider** · `RECTANGLE` · 696×1
+  - **Variants** · `TEXT` · 696×19 · “Variants”
+  - **2-dimension matrix: Color (10) × Size (3) = 30 combinations, shown in the component set above. Neutral/Brand/Semantic-status variants use text tokens matched to their hue; Accent variants (Pistachio, Lavender, Butter, Grey) keep neutral text.primary for legibility — see Design System Gap below.** · `TEXT` · 696×60 · “2-dimension matrix: Color (10) × Size (3) = 30 combinations, shown in the compon”
+  - **States** · `TEXT` · 696×19 · “States”
+  - **Tag is static and non-interactive: only one rendered state per variant combination. No hover, focus, pressed, or disabled states are built, per §8 (no inapplicable states forced in).** · `TEXT` · 696×40 · “Tag is static and non-interactive: only one rendered state per variant combinati”
+  - **Divider** · `RECTANGLE` · 696×1
+  - **Accessibility** · `TEXT` · 696×19 · “Accessibility”
+  - **Meaning is never conveyed by color alone — semantic-status tags always pair color with the label text. Semantic variants use *_800 text against *_50 surface for AA contrast at small sizes. Accent variants use text.primary rather than accent-tinted text (see gap below). Icons use ≥3:1 non-text contrast against their background.** · `TEXT` · 696×60 · “Meaning is never conveyed by color alone — semantic-status tags always pair colo”
+  - **Specs** · `TEXT` · 696×19 · “Specs”
+  - **Size s — height 18px (fixed), padding spacing.xs (8px), gap spacing.2xs (4px), Label/small_medium (10px/12px), icon 16px Size m — height 20px (fixed), padding spacing.s (12px), gap spacing.2xs (4px), Label/default_medium (12px/16px), icon 16px Size l — height 24px (fixed), padding spacing.s (12px), gap spacing.2xs (4px), Body/small_medium (14px/20px), icon 20px Radius: radius.full on all sizes. Border: 1px, inside-aligned, bound to each variant's border token.** · `TEXT` · 696×140 · “Size s — height 18px (fixed), padding spacing.xs (8px), gap spacing.2xs (4px), L”
+  - **Divider** · `RECTANGLE` · 696×1
+  - **Design System Gap** · `FRAME` · 696×196 · vertical stack, gap 8px, padding 16px · 2 children
+    - **⚠ Design System Gap (§3)** · `TEXT` · 664×16 · “⚠ Design System Gap (§3)”
+    - **The accent color families (pistachio_sand, lavender_mist, soft_butter, and the accent grey_neutral group) only have surface tokens up to step 6 (primitive .500) — no text.*/border.*/icon.* pairing tokens exist for them the way brand and semantic groups have (up to .800/.900). Using the darkest available step as text color against the lightest step does not reliably clear WCAG AA at Tag's small text sizes. This component renders accent-variant labels in text.primary instead, and reserves the accent hue for background, border, and icon only. If accent-colored text is a real requirement, new tokens (e.g. text_accent_pistachio at a deeper step) need to be added by the design system owner — not created ad hoc here.** · `TEXT` · 664×140 · “The accent color families (pistachio_sand, lavender_mist, soft_butter, and the a”
+  - **Divider** · `RECTANGLE` · 696×1
+  - **Do's and Don'ts** · `TEXT` · 696×19 · “Do's and Don'ts”
+  - **Do — use one semantic-status color per meaningfully different state; keep labels to 1–2 words. Do — use accent colors interchangeably for arbitrary categorization with no inherent status meaning. Don't — use Tag as a button or make it dismissible; compose a separate Chip component instead (requires designer approval per §10). Don't — override the fixed height or hardcode padding outside the Specs token set, even for unusually long copy; shorten the label instead.** · `TEXT` · 696×120 · “Do — use one semantic-status color per meaningfully different state; keep labels”

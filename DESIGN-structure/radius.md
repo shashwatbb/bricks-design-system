@@ -1,0 +1,121 @@
+# Structure:       ↳ Radius
+
+- **When To Use** · `FRAME` · 491×594 · vertical stack, gap 32px, padding 48/32/48/32px · 2 children
+  - **When to Use Which Radius** · `TEXT` · 258×24 · “When to Use Which Radius”
+  - **Cards Grid** · `FRAME` · 427×442 · vertical stack, gap 16px · 2 children
+    - **Card Row 1** · `FRAME` · 427×223 · horizontal row, gap 16px · 2 children
+      - **Sharp** · `FRAME` · 206×223 · vertical stack, gap 20px, padding 24px · 3 children
+        - **Sharp** · `TEXT` · 158×16 · “Sharp”
+        - **Tokens** · `FRAME` · 158×38 · vertical stack, gap 4px · 2 children
+          - **none** · `TEXT` · 158×17 · “none”
+          - **xs** · `TEXT` · 158×17 · “xs”
+        - **Dividers, image grids, table cells, flat UI elements** · `TEXT` · 158×60 · “Dividers, image grids, table cells, flat UI elements”
+      - **Standard** · `FRAME` · 206×223 · vertical stack, gap 20px, padding 24px · 3 children
+        - **Standard** · `TEXT` · 158×16 · “Standard”
+        - **Tokens** · `FRAME` · 158×59 · vertical stack, gap 4px · 3 children
+          - **s** · `TEXT` · 158×17 · “s”
+          - **m** · `TEXT` · 158×17 · “m”
+          - **l** · `TEXT` · 158×17 · “l”
+        - **Buttons, inputs, tooltips, badges, dropdowns** · `TEXT` · 158×60 · “Buttons, inputs, tooltips, badges, dropdowns”
+    - **Card Row 2** · `FRAME` · 427×203 · horizontal row, gap 16px · 2 children
+      - **Container** · `FRAME` · 206×203 · vertical stack, gap 20px, padding 24px · 3 children
+        - **Container** · `TEXT` · 158×16 · “Container”
+        - **Tokens** · `FRAME` · 158×59 · vertical stack, gap 4px · 3 children
+          - **xl** · `TEXT` · 158×17 · “xl”
+          - **2xl** · `TEXT` · 158×17 · “2xl”
+          - **3xl** · `TEXT` · 158×17 · “3xl”
+        - **Cards, panels, modals, sheets, sidebars** · `TEXT` · 158×40 · “Cards, panels, modals, sheets, sidebars”
+      - **Pill** · `FRAME` · 206×203 · vertical stack, gap 20px, padding 24px · 3 children
+        - **Pill** · `TEXT` · 158×16 · “Pill”
+        - **Tokens** · `FRAME` · 158×17 · vertical stack, gap 4px · 1 children
+          - **full** · `TEXT` · 158×17 · “full”
+        - **Avatars, switches, pill buttons, toggle chips** · `TEXT` · 158×40 · “Avatars, switches, pill buttons, toggle chips”
+- **Radius** · `SECTION` · 1222×2838 · 2 children
+  - **Corner Radius** · `FRAME` · 491×2365 · vertical stack · 8 children
+    - **Header** · `FRAME` · 491×257 · vertical stack, gap 12px, padding 48/32/48/32px · 2 children
+      - **Corner Radius** · `TEXT` · 163×29 · “Corner Radius”
+      - **SubtitleCard** · `FRAME` · 427×120 · vertical stack, padding 24px · 1 children
+        - **A 4px-based scale of 9 semantic tokens — none through full — for consistent rounded corners across every component and container.** · `TEXT` · 379×72 · “A 4px-based scale of 9 semantic tokens — none through full — for consistent roun”
+    - **Divider** · `RECTANGLE` · 491×1
+    - **Scale Section** · `FRAME` · 491×614 · vertical stack, gap 32px, padding 48/32/48/32px · 2 children
+      - **Radius Scale** · `TEXT` · 123×24 · “Radius Scale”
+      - **Scale Card** · `FRAME` · 427×462 · vertical stack, gap 20px, padding 24px · 2 children
+        - **Column Headers** · `FRAME` · 304×15 · horizontal row, gap 8px, padding 0/16/0/16px · 2 children
+          - **TOKEN** · `TEXT` · 184×15 · “TOKEN”
+          - **VALUE** · `TEXT` · 80×15 · “VALUE”
+        - **Scale Rows** · `FRAME` · 379×379 · vertical stack, gap 8px · 9 children
+          - **Row none** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **none** · `TEXT` · 184×15 · “none”
+            - **0px** · `TEXT` · 80×15 · “0px”
+          - **Row xs** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **xs** · `TEXT` · 184×15 · “xs”
+            - **4px** · `TEXT` · 80×15 · “4px”
+          - **Row s** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **s** · `TEXT` · 184×15 · “s”
+            - **8px** · `TEXT` · 80×15 · “8px”
+          - **Row m** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **m** · `TEXT` · 184×15 · “m”
+            - **12px** · `TEXT` · 80×15 · “12px”
+          - **Row l** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **l** · `TEXT` · 184×15 · “l”
+            - **16px** · `TEXT` · 80×15 · “16px”
+          - **Row xl** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **xl** · `TEXT` · 184×15 · “xl”
+            - **20px** · `TEXT` · 80×15 · “20px”
+          - **Row full** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **2xl** · `TEXT` · 184×15 · “2xl”
+            - **24px** · `TEXT` · 80×15 · “24px”
+          - **Row full** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **3xl** · `TEXT` · 184×15 · “3xl”
+            - **32px** · `TEXT` · 80×15 · “32px”
+          - **Row full** · `FRAME` · 379×35 · horizontal row, padding 10/16/10/16px · 2 children
+            - **full** · `TEXT` · 184×15 · “full”
+            - **999px** · `TEXT` · 80×15 · “999px”
+    - **Divider** · `RECTANGLE` · 491×1
+    - **How It Works** · `FRAME` · 491×606 · vertical stack, gap 32px, padding 48/32/48/32px · 2 children
+      - **Title Group** · `FRAME` · 427×116 · vertical stack, gap 12px · 2 children
+        - **How the Radius Scale Works** · `TEXT` · 273×24 · “How the Radius Scale Works”
+        - **Every radius value (except full) is a multiple of 4px. This keeps corners proportional and visually harmonious across components. Consistent rounding builds a strong brand identity and reduces one-off design decisions.** · `TEXT` · 427×80 · “Every radius value (except full) is a multiple of 4px. This keeps corners propor”
+      - **Cards Grid** · `FRAME` · 427×362 · vertical stack, gap 16px · 2 children
+        - **Card Row 1** · `FRAME` · 427×173 · horizontal row, gap 16px · 2 children
+          - **Base Unit** · `FRAME` · 206×173 · vertical stack, gap 20px, padding 24px · 3 children
+            - **BASE UNIT** · `TEXT` · 158×16 · “BASE UNIT”
+            - **4px** · `TEXT` · 158×29 · “4px”
+            - **Every standard value is a multiple of 4** · `TEXT` · 158×40 · “Every standard value is a multiple of 4”
+          - **Exception** · `FRAME` · 206×173 · vertical stack, gap 20px, padding 24px · 3 children
+            - **EXCEPTION** · `TEXT` · 158×16 · “EXCEPTION”
+            - **full** · `TEXT` · 158×29 · “full”
+            - **Pill shape — 999px for perfect circles** · `TEXT` · 158×40 · “Pill shape — 999px for perfect circles”
+        - **Card Row 2** · `FRAME` · 427×173 · horizontal row, gap 16px · 2 children
+          - **Max Rounded** · `FRAME` · 206×173 · vertical stack, gap 20px, padding 24px · 3 children
+            - **MAX ROUNDED** · `TEXT` · 158×16 · “MAX ROUNDED”
+            - **32px** · `TEXT` · 158×29 · “32px”
+            - **Largest standard radius before pill** · `TEXT` · 158×40 · “Largest standard radius before pill”
+          - **Total Tokens** · `FRAME` · 206×173 · vertical stack, gap 20px, padding 24px · 3 children
+            - **TOTAL TOKENS** · `TEXT` · 158×16 · “TOTAL TOKENS”
+            - **9** · `TEXT` · 158×29 · “9”
+            - **none, xs, s, m, l, xl, 2xl, 3xl, full** · `TEXT` · 158×40 · “none, xs, s, m, l, xl, 2xl, 3xl, full”
+    - **Divider** · `RECTANGLE` · 491×1 · ×2
+    - **Do Dont** · `FRAME` · 491×884 · vertical stack, gap 32px, padding 48/32/48/32px · 3 children
+      - **Guidelines & Examples** · `TEXT` · 216×24 · “Guidelines & Examples”
+      - **Do Group** · `FRAME` · 427×339 · vertical stack, gap 16px · 2 children
+        - **Badge** · `FRAME` · 38×23 · horizontal row, padding 4/10/4/10px · 1 children
+          - **DO** · `TEXT` · 18×15 · “DO”
+        - **Do Items** · `FRAME` · 427×300 · vertical stack, gap 12px · 3 children
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Use semantic radius tokens (xs, m, xl) instead of raw pixel values — tokens survive future scale changes.** · `TEXT` · 379×44 · “Use semantic radius tokens (xs, m, xl) instead of raw pixel values — tokens surv”
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Keep radius consistent for the same component type across the product to reinforce visual rhythm.** · `TEXT` · 379×44 · “Keep radius consistent for the same component type across the product to reinfor”
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Use full only for pill shapes, circular avatars, and toggle elements — not for general rounded containers.** · `TEXT` · 379×44 · “Use full only for pill shapes, circular avatars, and toggle elements — not for g”
+      - **Dont Group** · `FRAME` · 427×361 · vertical stack, gap 16px · 2 children
+        - **Badge** · `FRAME` · 58×23 · horizontal row, padding 4/10/4/10px · 1 children
+          - **DON'T** · `TEXT` · 38×15 · “DON'T”
+        - **Dont Items** · `FRAME` · 427×322 · vertical stack, gap 12px · 3 children
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Don't use arbitrary values like 6px, 10px, or 14px — always pick the nearest token from the scale.** · `TEXT` · 379×44 · “Don't use arbitrary values like 6px, 10px, or 14px — always pick the nearest tok”
+          - **Do Item** · `FRAME` · 427×114 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Don't apply different radius values to the same component in different contexts — it creates visual inconsistency.** · `TEXT` · 379×66 · “Don't apply different radius values to the same component in different contexts ”
+          - **Do Item** · `FRAME` · 427×92 · horizontal row, gap 20px, padding 24px · 1 children
+            - **Don't use xl or full on tight, compact elements like form inputs or small tags — it distorts the component.** · `TEXT` · 379×44 · “Don't use xl or full on tight, compact elements like form inputs or small tags —”
+  - **Page kit** · `INSTANCE` · 1022×173 · horizontal row, gap 24px, padding 40/32/40/32px · instance of Page kit

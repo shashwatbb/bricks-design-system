@@ -1,0 +1,32 @@
+# Structure:       ↳ Modal
+
+- **.modal_non-dismissible** · `COMPONENT_SET` · 1782×1288 · 8 children
+  - **device=desktop, intent=destructive** · `COMPONENT` · 480×204 · vertical stack · 2 children
+    - **Header** · `FRAME` · 480×116 · vertical stack, gap 16px, padding 24/24/0/24px · 2 children
+      - **Trash** · `INSTANCE` · 24×24 · instance of Trash
+      - **Text Container** · `FRAME` · 432×52 · vertical stack, gap 8px · 2 children
+        - **Title** · `TEXT` · 432×28 · “Destructive non-dismissible modal”
+        - **Subtitle** · `TEXT` · 432×16 · “Optional subtitle text”
+    - **Body** · `FRAME` · 480×88 · horizontal row, gap 16px, padding 24px · 2 children
+      - **buttons** · `INSTANCE` · 80×40 · horizontal row, gap 8px, padding 12/16/12/16px · instance of buttons
+      - **buttons** · `INSTANCE` · 80×40 · horizontal row, gap 8px, padding 12/16/12/16px · instance of buttons
+- **.modal_dismissible** · `COMPONENT_SET` · 3788×2605 · 12 children
+  - **device=desktop, size=small, state=default** · `COMPONENT` · 480×516 · vertical stack · 6 children
+    - **X** · `FRAME` · 480×48 · horizontal row, gap 392px, padding 8/12/8/12px · 1 children
+      - **Close** · `FRAME` · 32×32 · horizontal row, gap 10px, padding 10px · 1 children
+        - **X** · `INSTANCE` · 20×20 · instance of X
+    - **Vector 407** · `VECTOR` · 480×0
+    - **Header** · `FRAME` · 480×108 · vertical stack, gap 16px, padding 0/24/16/24px · 2 children
+      - **Icon** · `INSTANCE` · 24×24 · instance of Icon
+      - **Text Container** · `FRAME` · 432×52 · vertical stack, gap 8px · 2 children
+        - **Title** · `TEXT` · 432×28 · “Small sized dismissible modal”
+        - **Subtitle** · `TEXT` · 432×16 · “Optional subtitle text”
+    - **Slot** · `SLOT` · 480×272 · vertical stack, gap 10px, padding 0/24/0/24px
+    - **Vector 406** · `VECTOR` · 480×0
+    - **Body** · `FRAME` · 480×88 · horizontal row, gap 16px, padding 24px · 2 children
+      - **buttons** · `INSTANCE` · 80×40 · horizontal row, gap 8px, padding 12/16/12/16px · instance of buttons
+      - **buttons** · `INSTANCE` · 81×40 · horizontal row, gap 8px, padding 12/16/12/16px · instance of buttons
+- **Documentation / Header** · `FRAME` · 594×107 · horizontal row, gap 20px, padding 16/24/16/24px · 1 children
+  - **Frame** · `FRAME` · 546×22 · vertical stack, gap 4px · 1 children
+    - **DON’T USE: YET TO BE WORKED UPON BEFORE PUBLISHING** · `TEXT` · 546×22 · “DON’T USE: YET TO BE WORKED UPON BEFORE PUBLISHING”
+- **Page kit** · `INSTANCE` · 1022×173 · horizontal row, gap 24px, padding 40/32/40/32px · instance of Page kit

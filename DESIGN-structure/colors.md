@@ -1,0 +1,1166 @@
+# Structure:       ↳ Colors
+
+- **Colors** · `SECTION` · 6951×3867 · 6 children
+  - **Premium Accent Color System** · `FRAME` · 1387×1694 · vertical stack · 1 children
+    - **Body** · `FRAME` · 1387×1694 · vertical stack · 1 children
+      - **App** · `FRAME` · 1387×1694 · vertical stack, padding 32px · 1 children
+        - **Container** · `FRAME` · 1323×1630 · vertical stack, gap 32px · 5 children
+          - **Container** · `FRAME` · 1323×68 · vertical stack, gap 12px · 2 children
+            - **Heading 1** · `FRAME` · 1323×36 · horizontal row · 1 children
+              - **Accent Color System** · `TEXT` · 1323×36 · “Accent Color System”
+            - **Container** · `FRAME` · 1323×20 · horizontal row, gap 24px · 3 children
+              - **Container** · `FRAME` · 144×20 · horizontal row, gap 8px · 2 children
+                - **Text** · `FRAME` · 77×20
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 59×20
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 117×20 · horizontal row, gap 8px · 2 children
+                - **Text** · `FRAME` · 50×20
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 59×20
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 117×20 · horizontal row, gap 8px · 2 children
+                - **Text** · `FRAME` · 101×20
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 9×20
+                  - _…and 1 more_
+          - **AccentFamily** · `FRAME` · 1323×380 · vertical stack, gap 24px, padding 32px · 3 children
+            - **Container** · `FRAME` · 1257×28 · horizontal row, gap 887.0703125px · 2 children
+              - **Pistachio Sand** · `TEXT` · 124×28 · “Pistachio Sand”
+              - **Paragraph** · `FRAME` · 294×20
+            - **Container** · `FRAME` · 1257×167 · vertical stack, gap 12px · 1 children
+              - **Container** · `FRAME` · 1257×139 · 6 children
+                - **Container** · `FRAME` · 200×139 · vertical stack, gap 6px · ×6
+                  - _…and 3 more_
+            - **Container** · `FRAME` · 1257×72 · horizontal row, gap 12px, padding 16/0/0/0px · 2 children
+              - **Container** · `FRAME` · 122×55 · vertical stack, gap 6px · 2 children
+                - **Text** · `FRAME` · 122×17
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 122×32 · horizontal row, padding 6/12/6/12px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 122×55 · vertical stack, gap 6px · 2 children
+                - **Text** · `FRAME` · 122×17
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 122×32 · horizontal row, padding 6/12/6/12px
+                  - _…and 1 more_
+          - **AccentFamily** · `FRAME` · 1323×380 · vertical stack, gap 24px, padding 32px · 3 children
+            - **Container** · `FRAME` · 1257×28 · horizontal row, gap 862.015625px · 2 children
+              - **Lavender Mist** · `TEXT` · 118×28 · “Lavender Mist”
+              - **Paragraph** · `FRAME` · 319×20
+            - **Container** · `FRAME` · 1257×167 · vertical stack, gap 12px · 1 children
+              - **Container** · `FRAME` · 1257×139 · 6 children
+                - **Container** · `FRAME` · 200×139 · vertical stack, gap 6px · ×6
+                  - _…and 3 more_
+            - **Container** · `FRAME` · 1257×72 · horizontal row, gap 12px, padding 16/0/0/0px · 2 children
+              - **Container** · `FRAME` · 117×55 · vertical stack, gap 6px · 2 children
+                - **Text** · `FRAME` · 117×17
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 117×32 · horizontal row, padding 6/12/6/12px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 117×55 · vertical stack, gap 6px · 2 children
+                - **Text** · `FRAME` · 117×17
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 117×32 · horizontal row, padding 6/12/6/12px
+                  - _…and 1 more_
+          - **AccentFamily** · `FRAME` · 1323×352 · vertical stack, gap 24px, padding 32px · 3 children
+            - **Container** · `FRAME` · 1257×28 · horizontal row, gap 797.40625px · 2 children
+              - **Soft Butter** · `TEXT` · 91×28 · “Soft Butter”
+              - **Paragraph** · `FRAME` · 383×20
+            - **Container** · `FRAME` · 1257×139 · 6 children
+              - **Container** · `FRAME` · 200×139 · vertical stack, gap 6px · 3 children
+                - **Container** · `FRAME` · 200×80
+                - **Container** · `FRAME` · 200×15
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 200×14
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 200×139 · vertical stack, gap 6px · 3 children
+                - **Container** · `FRAME` · 200×80
+                - **Container** · `FRAME` · 200×15
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 200×14
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 200×139 · vertical stack, gap 6px · 3 children
+                - **Container** · `FRAME` · 200×80
+                - **Container** · `FRAME` · 200×15
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 200×14
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 200×139 · vertical stack, gap 6px · 3 children
+                - **Container** · `FRAME` · 200×80
+                - **Container** · `FRAME` · 200×15
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 200×14
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 200×139 · vertical stack, gap 6px · 3 children
+                - **Container** · `FRAME` · 200×80 · vertical stack, padding 9/9/1/178.078125px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 200×15
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 200×14
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 200×139 · vertical stack, gap 6px · 3 children
+                - **Container** · `FRAME` · 200×80
+                - **Container** · `FRAME` · 200×15
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 200×14
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 1257×72 · horizontal row, gap 12px, padding 16/0/0/0px · 2 children
+              - **Container** · `FRAME` · 96×55 · vertical stack, gap 6px · 2 children
+                - **Text** · `FRAME` · 96×17
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 96×32 · horizontal row, padding 6/12/6/12px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 96×55 · vertical stack, gap 6px · 2 children
+                - **Text** · `FRAME` · 96×17
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 96×32 · horizontal row, padding 6/12/6/12px
+                  - _…and 1 more_
+          - **AccentFamily** · `FRAME` · 1323×322 · vertical stack, gap 24px, padding 32px · 3 children
+            - **Container** · `FRAME` · 1257×28 · horizontal row, gap 797.40625px · 2 children
+              - **Grey Neutral** · `TEXT` · 105×28 · “Grey Neutral ”
+              - **Paragraph** · `FRAME` · 383×20
+            - **Container** · `FRAME` · 1257×108 · horizontal row, gap 16px · 6 children
+              - **ColorSwatch** · `FRAME` · 196×108 · vertical stack, gap 6px · 2 children
+                - **Container** · `FRAME` · 196×64
+                - **Container** · `FRAME` · 239×38 · vertical stack, gap 2px
+                  - _…and 1 more_
+              - **ColorSwatch** · `FRAME` · 196×108 · vertical stack, gap 6px · 2 children
+                - **Container** · `FRAME` · 196×64
+                - **Container** · `FRAME` · 239×38 · vertical stack, gap 2px
+                  - _…and 1 more_
+              - **ColorSwatch** · `FRAME` · 196×108 · vertical stack, gap 6px · 2 children
+                - **Container** · `FRAME` · 196×64
+                - **Container** · `FRAME` · 239×38 · vertical stack, gap 2px
+                  - _…and 1 more_
+              - **ColorSwatch** · `FRAME` · 196×108 · vertical stack, gap 6px · 2 children
+                - **Container** · `FRAME` · 196×64
+                - **Container** · `FRAME` · 239×38 · vertical stack, gap 2px
+                  - _…and 1 more_
+              - **ColorSwatch** · `FRAME` · 196×108 · vertical stack, gap 6px · 2 children
+                - **Container** · `FRAME` · 196×64
+                - **Container** · `FRAME` · 239×38 · vertical stack, gap 2px
+                  - _…and 1 more_
+              - **ColorSwatch** · `FRAME` · 196×108 · vertical stack, gap 6px · 2 children
+                - **Container** · `FRAME` · 196×64
+                - **Container** · `FRAME` · 239×38 · vertical stack, gap 2px
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 1257×72 · horizontal row, gap 12px, padding 16/0/0/0px · 2 children
+              - **Container** · `FRAME` · 96×55 · vertical stack, gap 6px · 2 children
+                - **Text** · `FRAME` · 96×17
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 107×32 · horizontal row, padding 6/12/6/12px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 96×55 · vertical stack, gap 6px · 2 children
+                - **Text** · `FRAME` · 96×17
+                  - _…and 1 more_
+                - **Text** · `FRAME` · 107×32 · horizontal row, padding 6/12/6/12px
+                  - _…and 1 more_
+  - **Premium Accent Color System** · `FRAME` · 1387×3394 · vertical stack, padding 32px · 1 children
+    - **Container** · `FRAME` · 1323×3330 · vertical stack, gap 32px · 6 children
+      - **Container** · `FRAME` · 1323×68 · vertical stack, gap 12px · 2 children
+        - **Heading 1** · `FRAME` · 1323×36 · horizontal row · 1 children
+          - **Semantic Colors** · `TEXT` · 1323×36 · “Semantic Colors”
+        - **Container** · `FRAME` · 1323×20 · horizontal row, gap 24px · 1 children
+          - **Container** · `FRAME` · 144×20 · horizontal row, gap 8px · 1 children
+            - **Text** · `FRAME` · 144×20 · 1 children
+              - **Production-ready semantic system for informational banners, feedback states, and system messaging. All colors meet WCAG AA accessibility standards.** · `TEXT` · 987×20 · “Production-ready semantic system for informational banners, feedback states, and”
+      - **SemanticColorFamily** · `FRAME` · 1323×472 · vertical stack, gap 24px, padding 32px · 3 children
+        - **Container** · `FRAME` · 1257×52 · vertical stack, gap 4px · 2 children
+          - **Heading 3** · `FRAME` · 1257×28 · 1 children
+            - **Info** · `TEXT` · 32×28 · “Info”
+          - **Paragraph** · `FRAME` · 1257×20 · 1 children
+            - **Informational banners, neutral communication, guid** · `TEXT` · 364×20 · “Informational banners, neutral communication, guidance”
+        - **Container** · `FRAME` · 1257×108 · 4 children
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **bg** · `TEXT` · 17×17 · “bg”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#EEF4FF** · `TEXT` · 55×20 · “#EEF4FF”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **border** · `TEXT` · 48×17 · “border”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#B7D0FF** · `TEXT` · 55×20 · “#B7D0FF”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64 · horizontal row, padding 0/139.125/0/139.125px · 1 children
+              - **Icon** · `FRAME` · 24×24 · 2 children
+                - **Vector** · `VECTOR` · 18×18
+                - **Vector** · `VECTOR` · 0×8
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **icon** · `TEXT` · 30×17 · “icon”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#2F6FEA** · `TEXT` · 55×20 · “#2F6FEA”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64 · horizontal row, padding 0/137.21875/0/137.2109375px · 1 children
+              - **Text** · `FRAME` · 28×20 · 1 children
+                - **Text** · `TEXT` · 29×20 · “Text”
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **text** · `TEXT` · 31×17 · “text”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#214EAD** · `TEXT` · 55×20 · “#214EAD”
+        - **Container** · `FRAME` · 1257×198 · vertical stack, gap 16px, padding 16/0/0/0px · 2 children
+          - **Container** · `FRAME` · 1257×103 · vertical stack, gap 8px · 2 children
+            - **Text** · `FRAME` · 1257×17 · 1 children
+              - **Banner Example** · `TEXT` · 108×17 · “Banner Example”
+            - **Container** · `FRAME` · 1257×78 · 2 children
+              - **Icon** · `FRAME` · 20×20 · 2 children
+                - **Vector** · `VECTOR` · 15×15
+                - **Vector** · `VECTOR` · 0×7
+              - **Container** · `FRAME` · 517×44 · vertical stack, gap 4px · 2 children
+                - **Text** · `FRAME` · 517×20 · ×2
+                  - _…and 1 more_
+          - **Container** · `FRAME` · 1257×63 · 2 children
+            - **Container** · `FRAME` · 621×63 · vertical stack, gap 8px · 2 children
+              - **Text** · `FRAME` · 621×17 · 1 children
+                - **Inline Message** · `TEXT` · 99×17 · “Inline Message”
+              - **Container** · `FRAME` · 621×38 · horizontal row, gap 8px, padding 8/12/8/12px · 2 children
+                - **Icon** · `FRAME` · 16×16
+                  - _…and 2 more_
+                - **Text** · `FRAME` · 96×20
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 621×63 · vertical stack, gap 8px · 2 children
+              - **Text** · `FRAME` · 621×17 · 1 children
+                - **Tag Example** · `TEXT` · 83×17 · “Tag Example”
+              - **Container** · `FRAME` · 621×26 · horizontal row · 1 children
+                - **Text** · `FRAME` · 44×26 · horizontal row, padding 4/10/4/10px
+                  - _…and 1 more_
+      - **SemanticColorFamily** · `FRAME` · 1323×472 · vertical stack, gap 24px, padding 32px · 3 children
+        - **Container** · `FRAME` · 1257×52 · vertical stack, gap 4px · 2 children
+          - **Heading 3** · `FRAME` · 1257×28 · 1 children
+            - **Success** · `TEXT` · 72×28 · “Success”
+          - **Paragraph** · `FRAME` · 1257×20 · 1 children
+            - **Confirmations, completed states, positive feedback** · `TEXT` · 334×20 · “Confirmations, completed states, positive feedback”
+        - **Container** · `FRAME` · 1257×108 · 4 children
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **bg** · `TEXT` · 17×17 · “bg”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#EDF8EE** · `TEXT` · 55×20 · “#EDF8EE”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **border** · `TEXT` · 48×17 · “border”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#BFE3C6** · `TEXT` · 55×20 · “#BFE3C6”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64 · horizontal row, padding 0/139.125/0/139.125px · 1 children
+              - **Icon** · `FRAME` · 24×24 · 2 children
+                - **Vector** · `VECTOR` · 18×18
+                - **Vector** · `VECTOR` · 0×8
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **icon** · `TEXT` · 30×17 · “icon”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#2F7F49** · `TEXT` · 55×20 · “#2F7F49”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64 · horizontal row, padding 0/137.21875/0/137.2109375px · 1 children
+              - **Text** · `FRAME` · 28×20 · 1 children
+                - **Text** · `TEXT` · 29×20 · “Text”
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **text** · `TEXT` · 31×17 · “text”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#245F36** · `TEXT` · 55×20 · “#245F36”
+        - **Container** · `FRAME` · 1257×198 · vertical stack, gap 16px, padding 16/0/0/0px · 2 children
+          - **Container** · `FRAME` · 1257×103 · vertical stack, gap 8px · 2 children
+            - **Text** · `FRAME` · 1257×17 · 1 children
+              - **Banner Example** · `TEXT` · 108×17 · “Banner Example”
+            - **Container** · `FRAME` · 1257×78 · 2 children
+              - **Icon** · `FRAME` · 20×20 · 2 children
+                - **Vector** · `VECTOR` · 15×15
+                - **Vector** · `VECTOR` · 0×7
+              - **Container** · `FRAME` · 517×44 · vertical stack, gap 4px · 2 children
+                - **Text** · `FRAME` · 517×20 · ×2
+                  - _…and 1 more_
+          - **Container** · `FRAME` · 1257×63 · 2 children
+            - **Container** · `FRAME` · 621×63 · vertical stack, gap 8px · 2 children
+              - **Text** · `FRAME` · 621×17 · 1 children
+                - **Inline Message** · `TEXT` · 99×17 · “Inline Message”
+              - **Container** · `FRAME` · 621×38 · horizontal row, gap 8px, padding 8/12/8/12px · 2 children
+                - **Icon** · `FRAME` · 16×16
+                  - _…and 2 more_
+                - **Text** · `FRAME` · 96×20
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 621×63 · vertical stack, gap 8px · 2 children
+              - **Text** · `FRAME` · 621×17 · 1 children
+                - **Tag Example** · `TEXT` · 83×17 · “Tag Example”
+              - **Container** · `FRAME` · 621×26 · horizontal row · 1 children
+                - **Text** · `FRAME` · 70×26 · horizontal row, padding 4/10/4/10px
+                  - _…and 1 more_
+      - **SemanticColorFamily** · `FRAME` · 1323×472 · vertical stack, gap 24px, padding 32px · 3 children
+        - **Container** · `FRAME` · 1257×52 · vertical stack, gap 4px · 2 children
+          - **Heading 3** · `FRAME` · 1257×28 · 1 children
+            - **Warning** · `TEXT` · 70×28 · “Warning”
+          - **Paragraph** · `FRAME` · 1257×20 · 1 children
+            - **Caution, attention needed, incomplete states** · `TEXT` · 292×20 · “Caution, attention needed, incomplete states”
+        - **Container** · `FRAME` · 1257×108 · 4 children
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **bg** · `TEXT` · 17×17 · “bg”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#FFF8E8** · `TEXT` · 55×20 · “#FFF8E8”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **border** · `TEXT` · 48×17 · “border”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#F0D79A** · `TEXT` · 55×20 · “#F0D79A”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64 · horizontal row, padding 0/139.125/0/139.125px · 1 children
+              - **Icon** · `FRAME` · 24×24 · 2 children
+                - **Vector** · `VECTOR` · 18×18
+                - **Vector** · `VECTOR` · 0×8
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **icon** · `TEXT` · 30×17 · “icon”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#B07F25** · `TEXT` · 55×20 · “#B07F25”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64 · horizontal row, padding 0/137.21875/0/137.2109375px · 1 children
+              - **Text** · `FRAME` · 28×20 · 1 children
+                - **Text** · `TEXT` · 29×20 · “Text”
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **text** · `TEXT` · 31×17 · “text”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#7A5514** · `TEXT` · 55×20 · “#7A5514”
+        - **Container** · `FRAME` · 1257×198 · vertical stack, gap 16px, padding 16/0/0/0px · 2 children
+          - **Container** · `FRAME` · 1257×103 · vertical stack, gap 8px · 2 children
+            - **Text** · `FRAME` · 1257×17 · 1 children
+              - **Banner Example** · `TEXT` · 108×17 · “Banner Example”
+            - **Container** · `FRAME` · 1257×78 · 2 children
+              - **Icon** · `FRAME` · 20×20 · 2 children
+                - **Vector** · `VECTOR` · 15×15
+                - **Vector** · `VECTOR` · 0×7
+              - **Container** · `FRAME` · 517×44 · vertical stack, gap 4px · 2 children
+                - **Text** · `FRAME` · 517×20 · ×2
+                  - _…and 1 more_
+          - **Container** · `FRAME` · 1257×63 · 2 children
+            - **Container** · `FRAME` · 621×63 · vertical stack, gap 8px · 2 children
+              - **Text** · `FRAME` · 621×17 · 1 children
+                - **Inline Message** · `TEXT` · 99×17 · “Inline Message”
+              - **Container** · `FRAME` · 621×38 · horizontal row, gap 8px, padding 8/12/8/12px · 2 children
+                - **Icon** · `FRAME` · 16×16
+                  - _…and 2 more_
+                - **Text** · `FRAME` · 96×20
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 621×63 · vertical stack, gap 8px · 2 children
+              - **Text** · `FRAME` · 621×17 · 1 children
+                - **Tag Example** · `TEXT` · 83×17 · “Tag Example”
+              - **Container** · `FRAME` · 621×26 · horizontal row · 1 children
+                - **Text** · `FRAME` · 70×26 · horizontal row, padding 4/10/4/10px
+                  - _…and 1 more_
+      - **SemanticColorFamily** · `FRAME` · 1323×472 · vertical stack, gap 24px, padding 32px · 3 children
+        - **Container** · `FRAME` · 1257×52 · vertical stack, gap 4px · 2 children
+          - **Heading 3** · `FRAME` · 1257×28 · 1 children
+            - **Error** · `TEXT` · 42×28 · “Error”
+          - **Paragraph** · `FRAME` · 1257×20 · 1 children
+            - **Destructive states, failures, validation errors** · `TEXT` · 285×20 · “Destructive states, failures, validation errors”
+        - **Container** · `FRAME` · 1257×108 · 4 children
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **bg** · `TEXT` · 17×17 · “bg”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#FFF0EE** · `TEXT` · 55×20 · “#FFF0EE”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **border** · `TEXT` · 48×17 · “border”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#F1B7AE** · `TEXT` · 55×20 · “#F1B7AE”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64 · horizontal row, padding 0/139.125/0/139.125px · 1 children
+              - **Icon** · `FRAME` · 24×24 · 2 children
+                - **Vector** · `VECTOR` · 18×18
+                - **Vector** · `VECTOR` · 0×8
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **icon** · `TEXT` · 30×17 · “icon”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#BE3F31** · `TEXT` · 55×20 · “#BE3F31”
+          - **Container** · `FRAME` · 302×108 · vertical stack, gap 6px · 2 children
+            - **Container** · `FRAME` · 302×64 · horizontal row, padding 0/137.21875/0/137.2109375px · 1 children
+              - **Text** · `FRAME` · 28×20 · 1 children
+                - **Text** · `TEXT` · 29×20 · “Text”
+            - **Container** · `FRAME` · 302×38 · vertical stack, gap 2px · 2 children
+              - **Text** · `FRAME` · 302×17 · 1 children
+                - **text** · `TEXT` · 31×17 · “text”
+              - **Text** · `FRAME` · 302×20 · 1 children
+                - **#8A2B20** · `TEXT` · 55×20 · “#8A2B20”
+        - **Container** · `FRAME` · 1257×198 · vertical stack, gap 16px, padding 16/0/0/0px · 2 children
+          - **Container** · `FRAME` · 1257×103 · vertical stack, gap 8px · 2 children
+            - **Text** · `FRAME` · 1257×17 · 1 children
+              - **Banner Example** · `TEXT` · 108×17 · “Banner Example”
+            - **Container** · `FRAME` · 1257×78 · 2 children
+              - **Icon** · `FRAME` · 20×20 · 2 children
+                - **Vector** · `VECTOR` · 15×15
+                - **Vector** · `VECTOR` · 0×7
+              - **Container** · `FRAME` · 517×44 · vertical stack, gap 4px · 2 children
+                - **Text** · `FRAME` · 517×20 · ×2
+                  - _…and 1 more_
+          - **Container** · `FRAME` · 1257×63 · 2 children
+            - **Container** · `FRAME` · 621×63 · vertical stack, gap 8px · 2 children
+              - **Text** · `FRAME` · 621×17 · 1 children
+                - **Inline Message** · `TEXT` · 99×17 · “Inline Message”
+              - **Container** · `FRAME` · 621×38 · horizontal row, gap 8px, padding 8/12/8/12px · 2 children
+                - **Icon** · `FRAME` · 16×16
+                  - _…and 2 more_
+                - **Text** · `FRAME` · 96×20
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 621×63 · vertical stack, gap 8px · 2 children
+              - **Text** · `FRAME` · 621×17 · 1 children
+                - **Tag Example** · `TEXT` · 83×17 · “Tag Example”
+              - **Container** · `FRAME` · 621×26 · horizontal row · 1 children
+                - **Text** · `FRAME` · 51×26 · horizontal row, padding 4/10/4/10px
+                  - _…and 1 more_
+      - **App** · `FRAME` · 1323×1214 · vertical stack, padding 32/53.5/32/53.5px · 1 children
+        - **Container** · `FRAME` · 1216×1150 · vertical stack, gap 32px · 6 children
+          - **Container** · `FRAME` · 1216×68 · vertical stack, gap 8px · 2 children
+            - **Heading 1** · `FRAME` · 1216×36 · 1 children
+              - **Color Palettes** · `TEXT` · 163×36 · “Color Palettes”
+            - **Paragraph** · `FRAME` · 1216×24 · 1 children
+              - **Complete color scales from 50 to 900** · `TEXT` · 275×24 · “Complete color scales from 50 to 900”
+          - **ColorPalette** · `FRAME` · 1216×184 · vertical stack, gap 12px · 2 children
+            - **Heading 2** · `FRAME` · 1216×30 · 1 children
+              - **Red** · `TEXT` · 37×30 · “Red”
+            - **Container** · `FRAME` · 1216×142 · horizontal row · 10 children
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+          - **ColorPalette** · `FRAME` · 1216×184 · vertical stack, gap 12px · 2 children
+            - **Heading 2** · `FRAME` · 1216×30 · 1 children
+              - **Blue** · `TEXT` · 41×30 · “Blue”
+            - **Container** · `FRAME` · 1216×142 · horizontal row · 10 children
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+          - **ColorPalette** · `FRAME` · 1216×184 · vertical stack, gap 12px · 2 children
+            - **Heading 2** · `FRAME` · 1216×30 · 1 children
+              - **Green** · `TEXT` · 56×30 · “Green”
+            - **Container** · `FRAME` · 1216×142 · horizontal row · 10 children
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+          - **ColorPalette** · `FRAME` · 1216×184 · vertical stack, gap 12px · 2 children
+            - **Heading 2** · `FRAME` · 1216×30 · 1 children
+              - **Yellow** · `TEXT` · 60×30 · “Yellow”
+            - **Container** · `FRAME` · 1216×142 · horizontal row · 10 children
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+          - **ColorPalette** · `FRAME` · 1216×184 · vertical stack, gap 12px · 2 children
+            - **Heading 2** · `FRAME` · 1216×30 · 1 children
+              - **Pink** · `TEXT` · 40×30 · “Pink”
+            - **Container** · `FRAME` · 1216×142 · horizontal row · 10 children
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+              - **Container** · `FRAME` · 122×142 · vertical stack · 2 children
+                - **Container** · `FRAME` · 122×96
+                - **Container** · `FRAME` · 122×46 · vertical stack, padding 8/1/1/1px
+                  - _…and 2 more_
+  - **Premium Accent Color System** · `FRAME` · 1387×1210 · vertical stack · 1 children
+    - **Body** · `FRAME` · 1387×1210 · vertical stack · 1 children
+      - **App** · `FRAME` · 1387×1210 · vertical stack, padding 32px · 1 children
+        - **Container** · `FRAME` · 1323×1146 · vertical stack, gap 32px · 6 children
+          - **Heading 1** · `FRAME` · 1323×36 · horizontal row · 1 children
+            - **Design System — Color Palettes** · `TEXT` · 1323×36 · “Design System — Color Palettes”
+          - **PrimaryPaletteGrid** · `FRAME` · 1323×259 · vertical stack, padding 33px · 1 children
+            - **Container** · `FRAME` · 1257×193 · vertical stack, gap 24px · 2 children
+              - **Container** · `FRAME` · 1257×52 · vertical stack, gap 4px · 2 children
+                - **Heading 3** · `FRAME` · 1257×28
+                  - _…and 1 more_
+                - **Paragraph** · `FRAME` · 1257×20
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 1257×117 · horizontal row, gap 12px · 20 children
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×80 · vertical stack, padding 9/9/1/93.59375px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×80
+                - **Container** · `FRAME` · 115×31 · vertical stack, gap 2px · ×10
+                  - _…and 2 more_
+          - **Container** · `FRAME` · 1323×96 · vertical stack, gap 12px, padding 32/0/0/0px · 2 children
+            - **Heading 2** · `FRAME` · 1323×32 · 1 children
+              - **Warm Neutral System** · `TEXT` · 254×32 · “Warm Neutral System”
+            - **Paragraph** · `FRAME` · 1323×20 · 1 children
+              - **Warm neutral palette for surfaces and borders — pa** · `TEXT` · 528×20 · “Warm neutral palette for surfaces and borders — pairs with #F6F4ED background”
+          - **WarmNeutralDocumentation** · `FRAME` · 1323×257 · vertical stack, gap 24px · 1 children
+            - **Container** · `FRAME` · 1323×257 · vertical stack, padding 33/33/1/33px · 1 children
+              - **Container** · `FRAME` · 1257×177 · vertical stack, gap 24px · 2 children
+                - **Container** · `FRAME` · 1257×52 · vertical stack, gap 4px, padding 0/741.5390625/0/0px
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 1257×101 · horizontal row, gap 8px
+                  - _…and 22 more_
+          - **Container** · `FRAME` · 1323×96 · vertical stack, gap 12px, padding 32/0/0/0px · 2 children
+            - **Heading 2** · `FRAME` · 1323×32 · 1 children
+              - **Grey Neutral System** · `TEXT` · 241×32 · “Grey Neutral System”
+            - **Paragraph** · `FRAME` · 1323×20 · 1 children
+              - **Pure neutral gray palette for text tokens and neut** · `TEXT` · 414×20 · “Pure neutral gray palette for text tokens and neutral accent tags”
+          - **GreyNeutralDocumentation** · `FRAME` · 1323×243 · vertical stack, gap 24px · 1 children
+            - **Container** · `FRAME` · 1323×243 · vertical stack, padding 33/33/1/33px · 1 children
+              - **Container** · `FRAME` · 1257×177 · vertical stack, gap 24px · 2 children
+                - **Container** · `FRAME` · 1257×52 · vertical stack, gap 4px, padding 0/794.6171875/0/0px
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 1257×101
+                  - _…and 22 more_
+  - **Premium Accent Color System** · `FRAME` · 1387×955 · vertical stack · 1 children
+    - **Body** · `FRAME` · 1387×955 · vertical stack · 1 children
+      - **App** · `FRAME` · 1387×955 · vertical stack, padding 32px · 1 children
+        - **Container** · `FRAME` · 1323×891 · vertical stack, gap 32px · 4 children
+          - **Container** · `FRAME` · 1323×96 · vertical stack, gap 12px, padding 32/0/0/0px · 2 children
+            - **Heading 2** · `FRAME` · 1323×32 · 1 children
+              - **Surfaces & Borders** · `TEXT` · 286×36 · “Surfaces & Borders”
+            - **Paragraph** · `FRAME` · 1323×20 · 1 children
+              - **Warm neutral palette for surfaces and borders — pa** · `TEXT` · 299×20 · “Warm neutral palette for surfaces and borders ”
+          - **WarmNeutralDocumentation** · `FRAME` · 1323×428 · horizontal row, gap 24px · 2 children
+            - **Container** · `FRAME` · 650×428 · vertical stack, gap 16px, padding 25/25/1/25px · 2 children
+              - **Heading 4** · `FRAME` · 600×20 · 1 children
+                - **Surfaces** · `TEXT` · 60×20 · “Surfaces”
+              - **Container** · `FRAME` · 600×342 · vertical stack, gap 12px · 3 children
+                - **Container** · `FRAME` · 600×106 · vertical stack, gap 8px · ×3
+                  - _…and 2 more_
+            - **Container** · `FRAME` · 650×428 · vertical stack, gap 16px, padding 25/25/1/25px · 2 children
+              - **Heading 4** · `FRAME` · 600×20 · 1 children
+                - **Borders** · `TEXT` · 53×20 · “Borders”
+              - **Container** · `FRAME` · 600×190 · vertical stack, gap 12px · 2 children
+                - **Container** · `FRAME` · 600×89 · vertical stack, gap 8px · ×2
+                  - _…and 2 more_
+          - **Container** · `FRAME` · 1323×96 · vertical stack, gap 12px, padding 32/0/0/0px · 2 children
+            - **Text Tokens** · `TEXT` · 180×36 · “Text Tokens”
+            - **Paragraph** · `FRAME` · 1323×20 · 1 children
+              - **Pure neutral gray palette for text tokens and neut** · `TEXT` · 258×20 · “Pure neutral gray palette for text tokens”
+          - **GreyNeutralDocumentation** · `FRAME` · 1323×175 · vertical stack, gap 24px · 1 children
+            - **Container** · `FRAME` · 1323×175 · vertical stack, gap 16px, padding 25px · 2 children
+              - **Heading 4** · `FRAME` · 1273×20 · 1 children
+                - **Text Tokens** · `TEXT` · 81×20 · “Text Tokens”
+              - **Container** · `FRAME` · 1273×89 · horizontal row, gap 12px · 3 children
+                - **Container** · `FRAME` · 416×89 · vertical stack, gap 8px · ×3
+                  - _…and 2 more_
+  - **Color System — Documentation** · `FRAME` · 803×3394 · vertical stack, gap 40px, padding 44px · 12 children
+    - **Frame** · `FRAME` · 715×102 · vertical stack, gap 10px, padding 24px · 2 children
+      - **Color System — Reference** · `TEXT` · 261×24 · “Color System — Reference”
+      - **Token mapping, usage guidance, mixing rules, and accessibility reference for the New Bricks Design System color system.** · `TEXT` · 644×20 · “Token mapping, usage guidance, mixing rules, and accessibility reference for the”
+    - **Frame** · `FRAME` · 715×356 · vertical stack, gap 14px · 2 children
+      - **Frame** · `FRAME` · 692×41 · vertical stack, gap 4px · 2 children
+        - **Purple Palette — Token Coverage** · `TEXT` · 228×17 · “Purple Palette — Token Coverage”
+        - **Which primitive steps are used as tokens and what they drive.** · `TEXT` · 692×20 · “Which primitive steps are used as tokens and what they drive.”
+      - **Frame** · `FRAME` · 715×301 · vertical stack · 11 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Step** · `TEXT` · 50×13 · “Step”
+          - **Hex** · `TEXT` · 90×13 · “Hex”
+          - **Token** · `TEXT` · 230×13 · “Token”
+          - **Drives** · `TEXT` · 292×13 · “Drives”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-50** · `TEXT` · 50×13 · “P-50”
+          - **#F5F1FE** · `TEXT` · 90×13 · “#F5F1FE”
+          - **—** · `TEXT` · 230×13 · “—”
+          - **Hover bg on light surfaces** · `TEXT` · 292×13 · “Hover bg on light surfaces”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-100** · `TEXT` · 50×13 · “P-100”
+          - **#E8DFFD** · `TEXT` · 90×13 · “#E8DFFD”
+          - **—** · `TEXT` · 230×13 · “—”
+          - **Pressed bg (Secondary/Tertiary)** · `TEXT` · 292×13 · “Pressed bg (Secondary/Tertiary)”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-200** · `TEXT` · 50×13 · “P-200”
+          - **#D4C3FB** · `TEXT` · 90×13 · “#D4C3FB”
+          - **—** · `TEXT` · 230×13 · “—”
+          - **Reserved** · `TEXT` · 292×13 · “Reserved”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-300** · `TEXT` · 50×13 · “P-300”
+          - **#B89DF5** · `TEXT` · 90×13 · “#B89DF5”
+          - **Focus ring** · `TEXT` · 230×13 · “Focus ring”
+          - **Focus shadow ring on brand buttons** · `TEXT` · 292×13 · “Focus shadow ring on brand buttons”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-400** · `TEXT` · 50×13 · “P-400”
+          - **#9471EC** · `TEXT` · 90×13 · “#9471EC”
+          - **—** · `TEXT` · 230×13 · “—”
+          - **Reserved** · `TEXT` · 292×13 · “Reserved”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-500** · `TEXT` · 50×13 · “P-500”
+          - **#7445E3** · `TEXT` · 90×13 · “#7445E3”
+          - **—** · `TEXT` · 230×13 · “—”
+          - **Reserved** · `TEXT` · 292×13 · “Reserved”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-600** · `TEXT` · 50×13 · “P-600”
+          - **#5B2CD6** · `TEXT` · 90×13 · “#5B2CD6”
+          - **Hover fill** · `TEXT` · 230×13 · “Hover fill”
+          - **Primary button hover state** · `TEXT` · 292×13 · “Primary button hover state”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-700** · `TEXT` · 50×13 · “P-700”
+          - **#4A16D9** · `TEXT` · 90×13 · “#4A16D9”
+          - **surface/brand · border/brand · text/brand** · `TEXT` · 230×13 · “surface/brand · border/brand · text/brand”
+          - **All primary buttons, links, brand fills** · `TEXT` · 292×13 · “All primary buttons, links, brand fills”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-800** · `TEXT` · 50×13 · “P-800”
+          - **#3A11AD** · `TEXT` · 90×13 · “#3A11AD”
+          - **Pressed fill** · `TEXT` · 230×13 · “Pressed fill”
+          - **Primary button pressed state** · `TEXT` · 292×13 · “Primary button pressed state”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **P-900** · `TEXT` · 50×13 · “P-900”
+          - **#2A0C7F** · `TEXT` · 90×13 · “#2A0C7F”
+          - **—** · `TEXT` · 230×13 · “—”
+          - **Reserved — use for high-contrast needs only** · `TEXT` · 292×13 · “Reserved — use for high-contrast needs only”
+    - **Rectangle** · `RECTANGLE` · 715×1
+    - **Frame** · `FRAME` · 715×793 · vertical stack, gap 14px · 9 children
+      - **Frame** · `FRAME` · 692×41 · vertical stack, gap 4px · 2 children
+        - **Semantic Tokens ↔ Primitive Steps** · `TEXT` · 247×17 · “Semantic Tokens ↔ Primitive Steps”
+        - **Grouped by state. Each state provides four tokens — use all four together when building banners, alerts, or status indicators.** · `TEXT` · 692×20 · “Grouped by state. Each state provides four tokens — use all four together when b”
+      - **Frame** · `FRAME` · 37×21 · horizontal row, padding 4/8/4/8px · 1 children
+        - **Info** · `TEXT` · 21×13 · “Info”
+      - **Frame** · `FRAME` · 715×139 · vertical stack · 5 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Token** · `TEXT` · 190×13 · “Token”
+          - **→ Primitive** · `TEXT` · 110×13 · “→ Primitive”
+          - **Hex** · `TEXT` · 88×13 · “Hex”
+          - **Role** · `TEXT` · 278×13 · “Role”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Surface/info** · `TEXT` · 190×13 · “Semantic Surface/info”
+          - **Blue/50** · `TEXT` · 110×13 · “Blue/50”
+          - **#EEF4FF** · `TEXT` · 88×13 · “#EEF4FF”
+          - **Background — banner, tag, alert container** · `TEXT` · 278×13 · “Background — banner, tag, alert container”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Border/info** · `TEXT` · 190×13 · “Semantic Border/info”
+          - **Blue/200** · `TEXT` · 110×13 · “Blue/200”
+          - **#B7D0FF** · `TEXT` · 88×13 · “#B7D0FF”
+          - **Outline — banner border, card border** · `TEXT` · 278×13 · “Outline — banner border, card border”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Icons/info** · `TEXT` · 190×13 · “Semantic Icons/info”
+          - **Blue/600** · `TEXT` · 110×13 · “Blue/600”
+          - **#2F6FEA** · `TEXT` · 88×13 · “#2F6FEA”
+          - **Icon fill — info icon inside the banner** · `TEXT` · 278×13 · “Icon fill — info icon inside the banner”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Text/info** · `TEXT` · 190×13 · “Semantic Text/info”
+          - **Blue/800** · `TEXT` · 110×13 · “Blue/800”
+          - **#214EAD** · `TEXT` · 88×13 · “#214EAD”
+          - **Text — body copy inside info context** · `TEXT` · 278×13 · “Text — body copy inside info context”
+      - **Frame** · `FRAME` · 62×21 · horizontal row, padding 4/8/4/8px · 1 children
+        - **Success** · `TEXT` · 46×13 · “Success”
+      - **Frame** · `FRAME` · 715×139 · vertical stack · 5 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Token** · `TEXT` · 190×13 · “Token”
+          - **→ Primitive** · `TEXT` · 110×13 · “→ Primitive”
+          - **Hex** · `TEXT` · 88×13 · “Hex”
+          - **Role** · `TEXT` · 278×13 · “Role”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Surface/success** · `TEXT` · 190×13 · “Semantic Surface/success”
+          - **Green/50** · `TEXT` · 110×13 · “Green/50”
+          - **#EDF8EE** · `TEXT` · 88×13 · “#EDF8EE”
+          - **Background — banner, tag, alert container** · `TEXT` · 278×13 · “Background — banner, tag, alert container”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Border/success** · `TEXT` · 190×13 · “Semantic Border/success”
+          - **Green/200** · `TEXT` · 110×13 · “Green/200”
+          - **#BFE3C6** · `TEXT` · 88×13 · “#BFE3C6”
+          - **Outline — banner border, card border** · `TEXT` · 278×13 · “Outline — banner border, card border”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Icons/success** · `TEXT` · 190×13 · “Semantic Icons/success”
+          - **Green/600** · `TEXT` · 110×13 · “Green/600”
+          - **#2F7F49** · `TEXT` · 88×13 · “#2F7F49”
+          - **Icon fill — success icon inside the banner** · `TEXT` · 278×13 · “Icon fill — success icon inside the banner”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Text/success** · `TEXT` · 190×13 · “Semantic Text/success”
+          - **Green/800** · `TEXT` · 110×13 · “Green/800”
+          - **#245F36** · `TEXT` · 88×13 · “#245F36”
+          - **Text — body copy inside success context** · `TEXT` · 278×13 · “Text — body copy inside success context”
+      - **Frame** · `FRAME` · 61×21 · horizontal row, padding 4/8/4/8px · 1 children
+        - **Warning** · `TEXT` · 45×13 · “Warning”
+      - **Frame** · `FRAME` · 715×139 · vertical stack · 5 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Token** · `TEXT` · 190×13 · “Token”
+          - **→ Primitive** · `TEXT` · 110×13 · “→ Primitive”
+          - **Hex** · `TEXT` · 88×13 · “Hex”
+          - **Role** · `TEXT` · 278×13 · “Role”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Surface/warning** · `TEXT` · 190×13 · “Semantic Surface/warning”
+          - **Yellow/50** · `TEXT` · 110×13 · “Yellow/50”
+          - **#FFF8E8** · `TEXT` · 88×13 · “#FFF8E8”
+          - **Background — banner, tag, alert container** · `TEXT` · 278×13 · “Background — banner, tag, alert container”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Border/warning** · `TEXT` · 190×13 · “Semantic Border/warning”
+          - **Yellow/200** · `TEXT` · 110×13 · “Yellow/200”
+          - **#F0D79A** · `TEXT` · 88×13 · “#F0D79A”
+          - **Outline — banner border, card border** · `TEXT` · 278×13 · “Outline — banner border, card border”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Icons/warning** · `TEXT` · 190×13 · “Semantic Icons/warning”
+          - **Yellow/600** · `TEXT` · 110×13 · “Yellow/600”
+          - **#B07F25** · `TEXT` · 88×13 · “#B07F25”
+          - **Icon fill — warning icon inside the banner** · `TEXT` · 278×13 · “Icon fill — warning icon inside the banner”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Text/warning** · `TEXT` · 190×13 · “Semantic Text/warning”
+          - **Yellow/800** · `TEXT` · 110×13 · “Yellow/800”
+          - **#7A5514** · `TEXT` · 88×13 · “#7A5514”
+          - **Text — body copy inside warning context** · `TEXT` · 278×13 · “Text — body copy inside warning context”
+      - **Frame** · `FRAME` · 55×21 · horizontal row, padding 4/8/4/8px · 1 children
+        - **Danger** · `TEXT` · 39×13 · “Danger”
+      - **Frame** · `FRAME` · 715×139 · vertical stack · 5 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Token** · `TEXT` · 190×13 · “Token”
+          - **→ Primitive** · `TEXT` · 110×13 · “→ Primitive”
+          - **Hex** · `TEXT` · 88×13 · “Hex”
+          - **Role** · `TEXT` · 278×13 · “Role”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Surface/danger** · `TEXT` · 190×13 · “Semantic Surface/danger”
+          - **Red/50** · `TEXT` · 110×13 · “Red/50”
+          - **#FFF0EE** · `TEXT` · 88×13 · “#FFF0EE”
+          - **Background — banner, tag, alert container** · `TEXT` · 278×13 · “Background — banner, tag, alert container”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Border/danger** · `TEXT` · 190×13 · “Semantic Border/danger”
+          - **Red/200** · `TEXT` · 110×13 · “Red/200”
+          - **#F1B7AE** · `TEXT` · 88×13 · “#F1B7AE”
+          - **Outline — banner border, card border** · `TEXT` · 278×13 · “Outline — banner border, card border”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Icons/danger** · `TEXT` · 190×13 · “Semantic Icons/danger”
+          - **Red/600** · `TEXT` · 110×13 · “Red/600”
+          - **#BE3F31** · `TEXT` · 88×13 · “#BE3F31”
+          - **Icon fill — danger icon inside the banner** · `TEXT` · 278×13 · “Icon fill — danger icon inside the banner”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Text/danger** · `TEXT` · 190×13 · “Semantic Text/danger”
+          - **Red/800** · `TEXT` · 110×13 · “Red/800”
+          - **#8A2B20** · `TEXT` · 88×13 · “#8A2B20”
+          - **Text — body copy inside danger context** · `TEXT` · 278×13 · “Text — body copy inside danger context”
+    - **Rectangle** · `RECTANGLE` · 715×1
+    - **Frame** · `FRAME` · 715×662 · vertical stack, gap 14px · 7 children
+      - **Frame** · `FRAME` · 692×41 · vertical stack, gap 4px · 2 children
+        - **Surface, Border & Text Tokens — Primitive Map** · `TEXT` · 321×17 · “Surface, Border & Text Tokens — Primitive Map”
+        - **Complete token list with primitive source, hex value, and when to use each.** · `TEXT` · 692×20 · “Complete token list with primitive source, hex value, and when to use each.”
+      - **Surfaces** · `TEXT` · 48×13 · “Surfaces”
+      - **Frame** · `FRAME` · 715×193 · vertical stack · 7 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Token** · `TEXT` · 160×13 · “Token”
+          - **→ Primitive** · `TEXT` · 150×13 · “→ Primitive”
+          - **Hex** · `TEXT` · 88×13 · “Hex”
+          - **When to use** · `TEXT` · 266×13 · “When to use”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **surface/white** · `TEXT` · 160×13 · “surface/white”
+          - **Warm Neutral/0** · `TEXT` · 150×13 · “Warm Neutral/0”
+          - **#FFFFFF** · `TEXT` · 88×13 · “#FFFFFF”
+          - **Cards, modals, inputs — highest elevation surface** · `TEXT` · 266×13 · “Cards, modals, inputs — highest elevation surface”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **surface/subtle** · `TEXT` · 160×13 · “surface/subtle”
+          - **Warm Neutral/50** · `TEXT` · 150×13 · “Warm Neutral/50”
+          - **#FAF9F5** · `TEXT` · 88×13 · “#FAF9F5”
+          - **Hover backgrounds, zebra rows, secondary panels** · `TEXT` · 266×13 · “Hover backgrounds, zebra rows, secondary panels”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **surface/default** · `TEXT` · 160×13 · “surface/default”
+          - **Warm Neutral/100** · `TEXT` · 150×13 · “Warm Neutral/100”
+          - **#F6F4ED** · `TEXT` · 88×13 · “#F6F4ED”
+          - **Page canvas — the base background** · `TEXT` · 266×13 · “Page canvas — the base background”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **surface/disabled** · `TEXT` · 160×13 · “surface/disabled”
+          - **Grey Neutral/100** · `TEXT` · 150×13 · “Grey Neutral/100”
+          - **#EEEEEE** · `TEXT` · 88×13 · “#EEEEEE”
+          - **Disabled input fills, disabled card backgrounds** · `TEXT` · 266×13 · “Disabled input fills, disabled card backgrounds”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **surface/brand** · `TEXT` · 160×13 · “surface/brand”
+          - **Purple/700** · `TEXT` · 150×13 · “Purple/700”
+          - **#4A16D9** · `TEXT` · 88×13 · “#4A16D9”
+          - **Primary button fill, active nav bg, brand CTAs** · `TEXT` · 266×13 · “Primary button fill, active nav bg, brand CTAs”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **surface/brand subtle** · `TEXT` · 160×13 · “surface/brand subtle”
+          - **Purple/50** · `TEXT` · 150×13 · “Purple/50”
+          - **#F5F1FE** · `TEXT` · 88×13 · “#F5F1FE”
+          - **Hover bg on brand elements, selected state bg** · `TEXT` · 266×13 · “Hover bg on brand elements, selected state bg”
+      - **Borders** · `TEXT` · 42×13 · “Borders”
+      - **Frame** · `FRAME` · 715×139 · vertical stack · 5 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Token** · `TEXT` · 160×13 · “Token”
+          - **→ Primitive** · `TEXT` · 150×13 · “→ Primitive”
+          - **Hex** · `TEXT` · 88×13 · “Hex”
+          - **When to use** · `TEXT` · 266×13 · “When to use”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **border/subtle** · `TEXT` · 160×13 · “border/subtle”
+          - **Warm Neutral/200** · `TEXT` · 150×13 · “Warm Neutral/200”
+          - **#EDEBDF** · `TEXT` · 88×13 · “#EDEBDF”
+          - **Dividers, table rules, very light separators** · `TEXT` · 266×13 · “Dividers, table rules, very light separators”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **border/default** · `TEXT` · 160×13 · “border/default”
+          - **Warm Neutral/300** · `TEXT` · 150×13 · “Warm Neutral/300”
+          - **#DDD9CE** · `TEXT` · 88×13 · “#DDD9CE”
+          - **Input borders, card outlines, section dividers** · `TEXT` · 266×13 · “Input borders, card outlines, section dividers”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **border/disabled** · `TEXT` · 160×13 · “border/disabled”
+          - **Grey Neutral/400** · `TEXT` · 150×13 · “Grey Neutral/400”
+          - **#9E9E9E** · `TEXT` · 88×13 · “#9E9E9E”
+          - **Disabled input borders, disabled card borders** · `TEXT` · 266×13 · “Disabled input borders, disabled card borders”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **border/brand** · `TEXT` · 160×13 · “border/brand”
+          - **Purple/700** · `TEXT` · 150×13 · “Purple/700”
+          - **#4A16D9** · `TEXT` · 88×13 · “#4A16D9”
+          - **Focused input ring, selected state outline** · `TEXT` · 266×13 · “Focused input ring, selected state outline”
+      - **Text** · `TEXT` · 24×13 · “Text”
+      - **Frame** · `FRAME` · 715×166 · vertical stack · 6 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Token** · `TEXT` · 140×13 · “Token”
+          - **→ Primitive** · `TEXT` · 150×13 · “→ Primitive”
+          - **Hex** · `TEXT` · 88×13 · “Hex”
+          - **When to use** · `TEXT` · 286×13 · “When to use”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/primary** · `TEXT` · 140×13 · “text/primary”
+          - **Grey Neutral/900** · `TEXT` · 150×13 · “Grey Neutral/900”
+          - **#0F0E0D** · `TEXT` · 88×13 · “#0F0E0D”
+          - **Headings, body copy, labels — main readable text** · `TEXT` · 286×13 · “Headings, body copy, labels — main readable text”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/secondary** · `TEXT` · 140×13 · “text/secondary”
+          - **Grey Neutral/800** · `TEXT` · 150×13 · “Grey Neutral/800”
+          - **#444444** · `TEXT` · 88×13 · “#444444”
+          - **Supporting text, metadata, form labels** · `TEXT` · 286×13 · “Supporting text, metadata, form labels”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/muted** · `TEXT` · 140×13 · “text/muted”
+          - **Grey Neutral/700** · `TEXT` · 150×13 · “Grey Neutral/700”
+          - **#666666** · `TEXT` · 88×13 · “#666666”
+          - **Placeholders, helper text, disabled labels** · `TEXT` · 286×13 · “Placeholders, helper text, disabled labels”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/inverse** · `TEXT` · 140×13 · “text/inverse”
+          - **Warm Neutral/0** · `TEXT` · 150×13 · “Warm Neutral/0”
+          - **#FFFFFF** · `TEXT` · 88×13 · “#FFFFFF”
+          - **Text on brand fills, dark backgrounds** · `TEXT` · 286×13 · “Text on brand fills, dark backgrounds”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/brand** · `TEXT` · 140×13 · “text/brand”
+          - **Purple/700** · `TEXT` · 150×13 · “Purple/700”
+          - **#4A16D9** · `TEXT` · 88×13 · “#4A16D9”
+          - **Links, active nav labels, interactive text** · `TEXT` · 286×13 · “Links, active nav labels, interactive text”
+    - **Rectangle** · `RECTANGLE` · 715×1
+    - **Frame** · `FRAME` · 715×300 · vertical stack, gap 14px · 2 children
+      - **Frame** · `FRAME` · 692×41 · vertical stack, gap 4px · 2 children
+        - **Accent Token Scale — 1 to 6** · `TEXT` · 192×17 · “Accent Token Scale — 1 to 6”
+        - **Each accent family has 6 steps. Use the lowest numbers for backgrounds, highest for text.** · `TEXT` · 692×20 · “Each accent family has 6 steps. Use the lowest numbers for backgrounds, highest ”
+      - **Frame** · `FRAME` · 715×245 · vertical stack · 7 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Token** · `TEXT` · 70×13 · “Token”
+          - **Scope** · `TEXT` · 220×13 · “Scope”
+          - **Typical use** · `TEXT` · 215×13 · “Typical use”
+          - **Notes** · `TEXT` · 182×13 · “Notes”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - ***/1** · `TEXT` · 70×13 · “*/1”
+          - **FRAME_FILL, SHAPE_FILL** · `TEXT` · 220×13 · “FRAME_FILL, SHAPE_FILL”
+          - **Subtle tag background, hover bg** · `TEXT` · 215×13 · “Subtle tag background, hover bg”
+          - **Lightest — almost white tint** · `TEXT` · 182×13 · “Lightest — almost white tint”
+        - **Frame** · `FRAME` · 715×40 · horizontal row, padding 7/14/7/14px · 4 children
+          - ***/2** · `TEXT` · 70×13 · “*/2”
+          - **FRAME_FILL, SHAPE_FILL, STROKE_COLOR** · `TEXT` · 220×26 · “FRAME_FILL, SHAPE_FILL, STROKE_COLOR”
+          - **Attention tag bg, active bg, borders** · `TEXT` · 215×13 · “Attention tag bg, active bg, borders”
+          - **Medium light — distinguishable fill** · `TEXT` · 182×13 · “Medium light — distinguishable fill”
+        - **Frame** · `FRAME` · 715×40 · horizontal row, padding 7/14/7/14px · 4 children
+          - ***/3** · `TEXT` · 70×13 · “*/3”
+          - **FRAME_FILL, SHAPE_FILL, STROKE_COLOR** · `TEXT` · 220×26 · “FRAME_FILL, SHAPE_FILL, STROKE_COLOR”
+          - **Filled badge bg, icon bg** · `TEXT` · 215×13 · “Filled badge bg, icon bg”
+          - **Mid tone** · `TEXT` · 182×13 · “Mid tone”
+        - **Frame** · `FRAME` · 715×40 · horizontal row, padding 7/14/7/14px · 4 children
+          - ***/4** · `TEXT` · 70×13 · “*/4”
+          - **FRAME_FILL, SHAPE_FILL, STROKE_COLOR** · `TEXT` · 220×26 · “FRAME_FILL, SHAPE_FILL, STROKE_COLOR”
+          - **Strong badge, icon containers, dividers** · `TEXT` · 215×13 · “Strong badge, icon containers, dividers”
+          - **Saturated — use sparingly for bg** · `TEXT` · 182×13 · “Saturated — use sparingly for bg”
+        - **Frame** · `FRAME` · 715×27 · horizontal row, padding 7/14/7/14px · 4 children
+          - ***/5** · `TEXT` · 70×13 · “*/5”
+          - **ALL + TEXT_FILL** · `TEXT` · 220×13 · “ALL + TEXT_FILL”
+          - **Icon colour on light bg, text on light bg** · `TEXT` · 215×13 · “Icon colour on light bg, text on light bg”
+          - **Readable at body size on white** · `TEXT` · 182×13 · “Readable at body size on white”
+        - **Frame** · `FRAME` · 715×40 · horizontal row, padding 7/14/7/14px · 4 children
+          - ***/6** · `TEXT` · 70×13 · “*/6”
+          - **ALL + TEXT_FILL** · `TEXT` · 220×13 · “ALL + TEXT_FILL”
+          - **Dark icon, dark text, deep emphasis** · `TEXT` · 215×13 · “Dark icon, dark text, deep emphasis”
+          - **Darkest — use for text / high emphasis** · `TEXT` · 182×26 · “Darkest — use for text / high emphasis”
+    - **Rectangle** · `RECTANGLE` · 715×1
+    - **Frame** · `FRAME` · 715×210 · vertical stack, gap 14px · 4 children
+      - **Frame** · `FRAME` · 255×17 · vertical stack, gap 4px · 1 children
+        - **Mixing Rules — What Not to Combine** · `TEXT` · 255×17 · “Mixing Rules — What Not to Combine”
+      - **Frame** · `FRAME` · 715×59 · horizontal row, gap 8px, padding 10/12/10/12px · 2 children
+        - **⚠** · `TEXT` · 12×13 · “⚠”
+        - **Never mix Warm Neutral and Grey Neutral on the same surface. Warm Neutral has a yellow-beige undertone; Grey Neutral is a true cool grey. Together they clash visually and break the surface hierarchy. Gey Neutral can be used for text, disabled states and tags.** · `TEXT` · 644×39 · “Never mix Warm Neutral and Grey Neutral on the same surface. Warm Neutral has a ”
+      - **Frame** · `FRAME` · 715×46 · horizontal row, gap 8px, padding 10/12/10/12px · 2 children
+        - **⚠** · `TEXT` · 12×13 · “⚠”
+        - **Never use accent families (Pistachio Sand, Lavender Mist, Soft Butter) as interactive colours for buttons, links, or focus rings. They are categorical / decorative only.** · `TEXT` · 644×26 · “Never use accent families (Pistachio Sand, Lavender Mist, Soft Butter) as intera”
+      - **Frame** · `FRAME` · 715×46 · horizontal row, gap 8px, padding 10/12/10/12px · 2 children
+        - **ℹ** · `TEXT` · 11×11 · “ℹ”
+        - **The Warm Neutral background is the only intended page canvas. Do not place Grey Neutral surfaces directly on it — use Warm Neutral surface tokens for cards and containers.** · `TEXT` · 644×26 · “The Warm Neutral background is the only intended page canvas. Do not place Grey ”
+    - **Rectangle** · `RECTANGLE` · 715×1
+    - **Frame** · `FRAME` · 715×438 · vertical stack, gap 14px · 2 children
+      - **Frame** · `FRAME` · 692×41 · vertical stack, gap 4px · 2 children
+        - **WCAG Contrast Reference** · `TEXT` · 182×17 · “WCAG Contrast Reference”
+        - **Verified contrast ratios for the most common colour pairings. AA = 4.5:1 minimum for normal text.** · `TEXT` · 692×20 · “Verified contrast ratios for the most common colour pairings. AA = 4.5:1 minimum”
+      - **Frame** · `FRAME` · 715×383 · vertical stack · 12 children
+        - **Frame** · `FRAME` · 715×31 · horizontal row, padding 9/14/9/14px · 4 children
+          - **Foreground** · `TEXT` · 220×13 · “Foreground”
+          - **Background** · `TEXT` · 220×13 · “Background”
+          - **Ratio** · `TEXT` · 70×13 · “Ratio”
+          - **Level** · `TEXT` · 152×13 · “Level”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/inverse (#FFF)** · `TEXT` · 220×13 · “text/inverse (#FFF)”
+          - **surface/brand (#4A16D9)** · `TEXT` · 220×13 · “surface/brand (#4A16D9)”
+          - **8.7:1** · `TEXT` · 70×13 · “8.7:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 36×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AAA** · `TEXT` · 22×12 · “AAA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/brand (#4A16D9)** · `TEXT` · 220×13 · “text/brand (#4A16D9)”
+          - **surface/white (#FFF)** · `TEXT` · 220×13 · “surface/white (#FFF)”
+          - **8.7:1** · `TEXT` · 70×13 · “8.7:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 36×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AAA** · `TEXT` · 22×12 · “AAA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/brand (#4A16D9)** · `TEXT` · 220×13 · “text/brand (#4A16D9)”
+          - **surface/default (#F6F4ED)** · `TEXT` · 220×13 · “surface/default (#F6F4ED)”
+          - **7.9:1** · `TEXT` · 70×13 · “7.9:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 36×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AAA** · `TEXT` · 22×12 · “AAA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/primary (#0F0E0D)** · `TEXT` · 220×13 · “text/primary (#0F0E0D)”
+          - **surface/default (#F6F4ED)** · `TEXT` · 220×13 · “surface/default (#F6F4ED)”
+          - **17.5:1** · `TEXT` · 70×13 · “17.5:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 36×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AAA** · `TEXT` · 22×12 · “AAA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/secondary (#444)** · `TEXT` · 220×13 · “text/secondary (#444)”
+          - **surface/white (#FFF)** · `TEXT` · 220×13 · “surface/white (#FFF)”
+          - **9.7:1** · `TEXT` · 70×13 · “9.7:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 36×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AAA** · `TEXT` · 22×12 · “AAA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/muted (#666)** · `TEXT` · 220×13 · “text/muted (#666)”
+          - **surface/white (#FFF)** · `TEXT` · 220×13 · “surface/white (#FFF)”
+          - **5.7:1** · `TEXT` · 70×13 · “5.7:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 29×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AA** · `TEXT` · 15×12 · “AA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **text/inverse (#FFF)** · `TEXT` · 220×13 · “text/inverse (#FFF)”
+          - **Red/600 (#BE3F31)** · `TEXT` · 220×13 · “Red/600 (#BE3F31)”
+          - **5.3:1** · `TEXT` · 70×13 · “5.3:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 29×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AA** · `TEXT` · 15×12 · “AA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Text/info (#214EAD)** · `TEXT` · 220×13 · “Semantic Text/info (#214EAD)”
+          - **Semantic Surface/info (#EEF4FF)** · `TEXT` · 220×13 · “Semantic Surface/info (#EEF4FF)”
+          - **6.9:1** · `TEXT` · 70×13 · “6.9:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 29×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AA** · `TEXT` · 15×12 · “AA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Text/success (#245F36)** · `TEXT` · 220×13 · “Semantic Text/success (#245F36)”
+          - **Semantic Surface/success (#EDF8EE)** · `TEXT` · 220×13 · “Semantic Surface/success (#EDF8EE)”
+          - **7.0:1** · `TEXT` · 70×13 · “7.0:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 36×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AAA** · `TEXT` · 22×12 · “AAA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Text/warning (#7A5514)** · `TEXT` · 220×13 · “Semantic Text/warning (#7A5514)”
+          - **Semantic Surface/warning (#FFF8E8)** · `TEXT` · 220×13 · “Semantic Surface/warning (#FFF8E8)”
+          - **6.3:1** · `TEXT` · 70×13 · “6.3:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 29×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AA** · `TEXT` · 15×12 · “AA”
+        - **Frame** · `FRAME` · 715×32 · horizontal row, padding 7/14/7/14px · 4 children
+          - **Semantic Text/danger (#8A2B20)** · `TEXT` · 220×13 · “Semantic Text/danger (#8A2B20)”
+          - **Semantic Surface/danger (#FFF0EE)** · `TEXT` · 220×13 · “Semantic Surface/danger (#FFF0EE)”
+          - **7.7:1** · `TEXT` · 70×13 · “7.7:1”
+          - **Frame** · `FRAME` · 152×18 · horizontal row · 1 children
+            - **Frame** · `FRAME` · 36×18 · horizontal row, padding 3/7/3/7px · 1 children
+              - **AAA** · `TEXT` · 22×12 · “AAA”
+  - **Page kit** · `INSTANCE` · 6751×173 · horizontal row, gap 24px, padding 40/32/40/32px · instance of Page kit

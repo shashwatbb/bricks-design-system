@@ -1,0 +1,29 @@
+# Structure:       ↳ Bottom bar
+
+- **Frame 2147261845** · `FRAME` · 360×64 · horizontal row · 5 children
+  - **Frame 2087324845** · `FRAME` · 72×64 · vertical stack, gap 4px · 2 children
+    - **SquaresFour** · `INSTANCE` · 24×24 · instance of SquaresFour
+    - **content** · `TEXT` · 72×12 · “Item 1”
+  - **Frame 2087324846** · `FRAME` · 72×64 · vertical stack, gap 4px · 2 children
+    - **Users** · `INSTANCE` · 24×24 · instance of Users
+    - **content** · `TEXT` · 72×12 · “Enquiries”
+  - **Frame 2087324849** · `FRAME` · 72×64 · vertical stack, gap 4px · 2 children
+    - **ListDashes** · `INSTANCE` · 24×24 · instance of ListDashes
+    - **content** · `TEXT` · 72×12 · “Listings”
+  - **Frame 2087324847** · `FRAME` · 72×64 · vertical stack, gap 4px · 2 children
+    - **ChartLine** · `INSTANCE` · 24×24 · instance of ChartLine
+    - **content** · `TEXT` · 72×12 · “Insights”
+  - **Frame 2087324848** · `FRAME` · 72×64 · vertical stack, gap 4px · 3 children
+    - **CrownSimple** · `INSTANCE` · 24×24 · instance of CrownSimple
+    - **content** · `TEXT` · 72×12 · “Plans”
+    - **badge** · `INSTANCE` · 8×8 · instance of badge
+- **ListDashes** · `INSTANCE` · 24×24 · instance of ListDashes
+- **Users** · `INSTANCE` · 24×24 · instance of Users
+- **SquaresFour** · `INSTANCE` · 24×24 · instance of SquaresFour
+- **Home indicator** · `FRAME` · 360×16 · vertical stack, gap 10px · 2 children
+  - **Frame 2087324855** · `FRAME` · 120×4
+  - **Android keyboard** · `INSTANCE` · 360×244 · instance of Android keyboard
+- **Documentation / Header** · `FRAME` · 594×107 · horizontal row, gap 20px, padding 16/24/16/24px · 1 children
+  - **Frame** · `FRAME` · 546×22 · vertical stack, gap 4px · 1 children
+    - **DON’T USE: YET TO BE WORKED UPON BEFORE PUBLISHING** · `TEXT` · 546×22 · “DON’T USE: YET TO BE WORKED UPON BEFORE PUBLISHING”
+- **Page kit** · `INSTANCE` · 1022×173 · horizontal row, gap 24px, padding 40/32/40/32px · instance of Page kit
