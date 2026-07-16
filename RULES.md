@@ -36,6 +36,7 @@ Rules accumulate here over time. Read before every task in this project.
 - A new Figma page Must Not be created except for an actual component build, matching RULEBOOK.md §14: page name **must exactly match** the component name (e.g. `RadioButton`, `InputField`).
 - Never create scratch/test/throwaway pages. If verification or experimentation is needed, do it without a dedicated page (or ask first).
 - One page per component, created only when real work on that component begins — not speculatively, not in advance of a brief.
+- Every new page gets a beige canvas background: `#f6f4ed` (`surface/default` → `warm_neutral/100` from the token set). Set it immediately on page creation via `page.backgrounds`. Never a different or invented beige.
 
 ## 8. This folder is now the master kit — read CLAUDE.md first
 - `CLAUDE.md` auto-loads every session and sets read order, token truth scoping, brief intake, docs style, and Figma mechanics. Read it before this file.

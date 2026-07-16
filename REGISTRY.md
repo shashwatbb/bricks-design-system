@@ -13,7 +13,7 @@ Status values: `production` (built, documented, safe to reuse or extend), `do-no
 | Overlay | do-not-use | Overlay | Device | 2 | DESIGN-structure/overlay.md |
 | Bottom bar | do-not-use | Bottom bar | none (raw frames, no component set) | 0 | DESIGN-structure/bottom-bar.md |
 | Checkbox | planned | none | none | 0 | none |
-| RadioButton | planned | none | none | 0 | none |
+| RadioButton | planned | RadioButton | none | 0 | none |
 | InputField | planned | none | none | 0 | none |
 | Toggle | planned | none | none | 0 | none |
 | Dropdown | planned | none | none | 0 | none |
