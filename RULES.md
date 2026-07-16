@@ -62,7 +62,16 @@ Rules accumulate here over time. Read before every task in this project.
 - Serving locally: static file server in `site/`, open `/Bricks Docs.html`. No build step, no npm.
 - Not fully self-contained despite the README's claim: the HTML fetches `data/typography_tokens.json` at runtime (silent catch on failure, so the Typography page just renders empty). `site/data/typography_tokens.json` must ship alongside the HTML — restored 2026-07-16 with Shashwat's permission after the export omitted it. If a future export replaces `site/`, check this file survives.
 
-## 11. STRICT: Canvas presentation and naming of components and variants
+## 11. SERIOUS: Every value must be BOUND to the file's variables — nothing raw, nothing detached
+Dictated by Shashwat 2026-07-16. Non-negotiable.
+
+- Every color fill, stroke, font family, font size, line height, letter spacing, padding, gap, and corner radius in anything we build MUST be variable-BOUND in Figma to the token defined in the file — not just numerically equal to it. A raw `16` that happens to match `spacing/m` is a violation; the node must carry the actual variable binding.
+- The bindings map to the 5 collections in the file: `color_tokens` / `color_primitives` (fills, strokes), `spacing` (padding, gaps), `radius` (corners), `typography` (font family, size, line height, letter spacing, weight).
+- Enforcement after every build: walk the created nodes and bind each bindable field (`setBoundVariable` for paddings, itemSpacing, radii, fontSize, etc. — `figma-cli bind-batch` or eval). Then verify no unbound raw values remain before calling the work done.
+- If a needed value has no token (stroke width, fixed control widths like 280), that is a GAPS.md gap: flag it, never silently leave a random number.
+- This applies to fonts especially: text nodes bind `font_family/primary`, the `font_size/*` step, and the paired `font_height/*` — never a hand-set size.
+
+## 12. STRICT: Canvas presentation and naming of components and variants
 Dictated by Shashwat 2026-07-16. This overrides RULEBOOK §11's "property values lowercase" line for this project — property values are written properly, Title Case, human readable.
 
 **Naming**
