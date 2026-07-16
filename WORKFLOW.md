@@ -2,11 +2,21 @@
 
 ## Ownership
 
-Shashwat owns `main`. `main` is protected: no direct pushes, no force pushes. All work happens on branches and merges in through review.
+Shashwat owns the repo and `main`. Nothing merges into `main` without his approval.
+
+## Access model — fork based, decided 2026-07-16
+
+Nobody except Shashwat is ever added as a collaborator on `github.com/shashwatbb/bricks-design-system`. This is the merge protection: with no write access, no one can push or merge anything.
+
+- Teammates (Nishant and others) FORK the repo to their own account.
+- All work happens on a branch in their fork.
+- They open a pull request from their fork into `main`.
+- Only Shashwat reviews and merges. His approval is the gate, enforced by access, not by convention.
+- Never add a collaborator with write access to satisfy convenience. If that ever seems needed, ask Shashwat first (RULES §2).
 
 ## Branch model
 
-One branch per component, named `component/ComponentName`, matching the Figma page name exactly (RULEBOOK §14, RULES §7).
+One branch per component, named `component/ComponentName` (on the teammate's fork). The matching Figma page uses the human-readable name per RULES §7 (e.g. page "Input fields" for component `InputField`).
 
 ## Build flow
 
