@@ -69,7 +69,8 @@ Dictated by Shashwat 2026-07-16. Non-negotiable.
 - The bindings map to the 5 collections in the file: `color_tokens` / `color_primitives` (fills, strokes), `spacing` (padding, gaps), `radius` (corners), `typography` (font family, size, line height, letter spacing, weight).
 - Enforcement after every build: walk the created nodes and bind each bindable field (`setBoundVariable` for paddings, itemSpacing, radii, fontSize, etc. — `figma-cli bind-batch` or eval). Then verify no unbound raw values remain before calling the work done.
 - If a needed value has no token (stroke width, fixed control widths like 280), that is a GAPS.md gap: flag it, never silently leave a random number.
-- This applies to fonts especially: text nodes bind `font_family/primary`, the `font_size/*` step, and the paired `font_height/*` — never a hand-set size.
+- This applies to fonts especially. Text is mapped by applying the file's SHARED TEXT STYLES (`textStyleId`), which the Bricks file defines for every ramp: `Web/Label/default_medium`, `Web/Body/small_regular`, `Web/Caption/default_regular`, etc. (65 styles: Web + Mobile + CTA). Applying the text style is the primary mapping — it carries family, size, weight, line height, and tracking together. Raw font properties, or variable-only binding without the style, is NOT enough.
+- Watch-out: figma-cli names rendered text layers by their CONTENT, not the JSX `name` attr — rename text layers to their role (`Placeholder`, `Helper Text`) and verify `textStyleId` is set on every text node before calling a build done.
 
 ## 12. STRICT: Canvas presentation and naming of components and variants
 Dictated by Shashwat 2026-07-16. This overrides RULEBOOK §11's "property values lowercase" line for this project — property values are written properly, Title Case, human readable.
