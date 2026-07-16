@@ -17,7 +17,7 @@ One branch per component, named `component/ComponentName`, matching the Figma pa
 5. Build in Figma following RULEBOOK.md in full: anatomy, property typing, variants, states, naming, accessibility.
 6. Write documentation using `templates/documentation-template.md`.
 7. Update `REGISTRY.md` with the new status, node reference, and variant count.
-8. Add the component's documentation page to the docs site: `site/src/pages/components/<Name>.jsx` in RULEBOOK §13 structure, written per `site/CONTENT.md`, plus its entry in `site/src/components/Documentation.jsx` (RULES §9 — a component cannot be production without its site page).
+8. Add the component's documentation page to the docs site: `site/src/pages/components/<Name>.jsx` in RULEBOOK §13 structure, written per `site/CONTENT.md`, plus its entry in `site/src/components/Documentation.jsx` (RULES §10 — a component cannot be production without its site page).
 9. If a new styling decision was made during the build, add it to `COMPONENT-RULES.md`.
 10. Open a pull request into `main`.
 

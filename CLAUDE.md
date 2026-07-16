@@ -54,7 +54,7 @@ If a component needs something the design system does not define (motion, elevat
 
 ## Docs site
 
-`site/` is the public documentation interface. It renders from the kit's own files: tokens via `site/src/data/loadTokens.js` (imports `tokens/v1.2.0/`), component nav via `site/src/data/loadRegistry.js` (parses `REGISTRY.md`, production rows only). Every component that reaches production gets a site page in the same PR (RULES §9). All site copy follows `site/CONTENT.md`.
+`site/` is the public documentation interface. It renders from the kit's own files: tokens via `site/src/data/loadTokens.js` (imports `tokens/v1.2.0/`), component nav via `site/src/data/loadRegistry.js` (parses `REGISTRY.md`, production rows only). Every component that reaches production gets a site page in the same PR (RULES §10). All site copy follows `site/CONTENT.md`.
 
 ## Existing component protection
 
