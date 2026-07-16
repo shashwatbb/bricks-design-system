@@ -28,3 +28,21 @@ DESIGN.md §8 States lists hover, focus, disabled, and error as recommended trea
 
 ## Accent color families lack full token sets
 `pistachio_sand`, `lavender_mist`, `soft_butter` have primitive scales and a `color_tokens` numbered alias set, but no dedicated text, border, or icon semantic tokens (already flagged inside `Tag`'s own documentation).
+
+---
+
+# Proposed conventions (unconfirmed)
+
+Values found in the `_ds` bundle readme from the Brick Design System zip. They were derived by reading the Figma file's components, not from the token export, so they are NOT canon. Each needs Shashwat's explicit confirmation before any build may use it. The Button documentation in Figma independently mentions the focus ring and hover/pressed shade behavior, which supports (but does not confirm) those two.
+
+| Convention | Proposed value | Meaning | Status |
+|---|---|---|---|
+| Motion duration | 120 to 320ms | How long transitions and animations run | awaiting confirmation |
+| Motion easing | cubic-bezier(0.2, 0, 0, 1) | The acceleration curve for those transitions | awaiting confirmation |
+| Focus ring | 4px solid ring, purple/300 tint (semantic tint for danger) | The visible ring around a keyboard-focused control | awaiting confirmation |
+| Modal scrim | rgba(0, 0, 0, 0.3) | The dark layer behind modals and sheets | awaiting confirmation |
+| Elevation model | 1px hairline inset ring (warm_neutral/200 or 300) by default, drop shadows only for floating surfaces | How depth is expressed | awaiting confirmation |
+| Hover state | fill one primitive step darker (e.g. purple/700 to purple/600 direction per ramp) | Solid button hover treatment | awaiting confirmation |
+| Pressed state | fill two primitive steps darker | Solid button pressed treatment | awaiting confirmation |
+
+When Shashwat confirms one, move it out of this file into `COMPONENT-RULES.md` (if component specific) or ask for it to be tokenized in Figma and re-exported (if system wide).

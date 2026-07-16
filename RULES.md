@@ -44,3 +44,10 @@ Rules accumulate here over time. Read before every task in this project.
 - `GAPS.md` lists known design system holes. Never invent a value to fill one — surface the gap instead (RULEBOOK §3).
 - `templates/` holds the documentation and component-brief templates. Use them, don't freehand new structures.
 - `tokens/vX.Y.Z/` holds versioned, byte-verified token exports. `WORKFLOW.md` covers the git branch/PR/token-refresh process for distributing this kit to the team.
+
+## 9. Docs site sync — Figma and the public site never drift
+- `site/` is the public documentation interface (Vite + React, deploys to github.com/shashwatbb/bricks-design-system via gh-pages).
+- A component cannot be marked `production` in REGISTRY.md without a site page. Same PR must contain: the REGISTRY.md status change, `site/src/pages/components/<Name>.jsx` following RULEBOOK §13 structure and `site/CONTENT.md` style, and the `PAGES` entry in `site/src/components/Documentation.jsx`.
+- The sidebar's Components section renders from REGISTRY.md (production rows only) — never hardcode component nav entries, and never show `planned` or `do-not-use` components on the site.
+- The site reads tokens ONLY via `site/src/data/loadTokens.js`, which imports `tokens/v1.2.0/*.json` directly. Never create hand-made parallel token data files inside `site/`.
+- All site copy follows `site/CONTENT.md`: sentence case, no em dashes, no emoji, minimal plain voice.

@@ -52,6 +52,10 @@ Documentation must be minimal and plain. No em dashes. No emojis or decorative f
 
 If a component needs something the design system does not define (motion, elevation as tokens, breakpoints, icon sizes, opacity, z-index, stroke width, states as tokens), do not invent a value. Check `GAPS.md`, then surface the gap to the designer per RULEBOOK §3 and stop.
 
+## Docs site
+
+`site/` is the public documentation interface. It renders from the kit's own files: tokens via `site/src/data/loadTokens.js` (imports `tokens/v1.2.0/`), component nav via `site/src/data/loadRegistry.js` (parses `REGISTRY.md`, production rows only). Every component that reaches production gets a site page in the same PR (RULES §9). All site copy follows `site/CONTENT.md`.
+
 ## Existing component protection
 
 Never modify an existing production component (`REGISTRY.md` status `production`) without explicit approval. See RULEBOOK §10.
