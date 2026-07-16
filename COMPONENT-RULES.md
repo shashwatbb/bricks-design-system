@@ -24,5 +24,7 @@ Status: unconfirmed (stated once, not yet applied to a built component)
 
 - Stroke uses the primary stroke color token (`border/default`).
 - Checked and active fill uses `lavender_mist/2`.
+- Selected dot: `icon/brand_1`. Disabled: `surface/disabled` + `border/disabled`, dot `icon/grey_3`. Hover: stroke `border/brand`. Focus: 4px ring `purple/300`, matching the production Button's focus treatment.
+- Control size 20px, dot 8px, full radius.
 
-Status: unconfirmed (stated once, not yet applied to a built component)
+Status: confirmed for stroke + active fill (dictated by Shashwat in session, applied in test build node 1459:2077); dot/disabled/hover/focus/size choices pending his review of the test build
