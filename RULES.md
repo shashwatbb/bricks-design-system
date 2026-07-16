@@ -58,4 +58,5 @@ Rules accumulate here over time. Read before every task in this project.
 - It fully replaced the earlier Vite/React app, which Shashwat discarded ("we don't want anything from the old interface"). Nothing from that app comes back.
 - Never change, restructure, "improve," restyle, rewrite copy in, or add/remove anything inside `site/` unless Shashwat explicitly asks for that specific change in the session. Rule 9's lock applies to `site/` in full.
 - History lesson (2026-07-16): a session rebuilt the first interface as registry/token-driven with rewritten pages. Shashwat rejected it entirely. Do not repeat with this one.
-- Serving locally: static file server in `site/`, open `/Bricks Docs.html`. No build step, no npm, works offline.
+- Serving locally: static file server in `site/`, open `/Bricks Docs.html`. No build step, no npm.
+- Not fully self-contained despite the README's claim: the HTML fetches `data/typography_tokens.json` at runtime (silent catch on failure, so the Typography page just renders empty). `site/data/typography_tokens.json` must ship alongside the HTML — restored 2026-07-16 with Shashwat's permission after the export omitted it. If a future export replaces `site/`, check this file survives.
