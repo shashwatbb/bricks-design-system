@@ -22,6 +22,8 @@ The rest of `DESIGN.md` is sampled or auto-generated noise and must not be used 
 
 If a value is needed that is not in §3 Variables, it does not exist yet. Check `GAPS.md` first, then stop and ask rather than inventing or approximating.
 
+RULEBOOK.md's Working Context asks for a fresh designer-supplied JSON export with every brief. That is deliberately overridden here: `DESIGN.md` already is that export, byte-verified once against a real one. Do not ask the designer for a new export unless they say tokens have changed.
+
 ## Component brief intake
 
 Before creating a component, confirm you have (RULEBOOK §2):
@@ -53,3 +55,5 @@ If a component needs something the design system does not define (motion, elevat
 ## Existing component protection
 
 Never modify an existing production component (`REGISTRY.md` status `production`) without explicit approval. See RULEBOOK §10.
+
+This applies only to changing a component that already exists in `production`. Building a brand-new component that happens to resemble, reference, or be recommended by another component's documentation (for example, `Tag`'s docs pointing to a future `Chip`) is not a modification and does not require this approval gate. It follows the normal brief-intake and build flow like any other new component.

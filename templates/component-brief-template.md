@@ -18,6 +18,4 @@ Icon, avatar, dismiss control, or similar. List which are optional and their def
 
 ## Product-specific constraints or business rules
 
-## Token export in use
-
-Version and location, e.g. `tokens/v1.2.0/`.
+Do not ask the designer for a token export. `DESIGN.md` is the canonical token source (RULES §6, CLAUDE.md). Only re-verify against `tokens/` if the designer says tokens have changed.
