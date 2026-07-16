@@ -17,7 +17,7 @@ One branch per component, named `component/ComponentName`, matching the Figma pa
 5. Build in Figma following RULEBOOK.md in full: anatomy, property typing, variants, states, naming, accessibility.
 6. Write documentation using `templates/documentation-template.md`.
 7. Update `REGISTRY.md` with the new status, node reference, and variant count.
-8. Add the component's documentation page to the docs site: `site/src/pages/components/<Name>.jsx` in RULEBOOK §13 structure, written per `site/CONTENT.md`, plus its entry in `site/src/components/Documentation.jsx` (RULES §10 — a component cannot be production without its site page).
+8. Documentation on the site: `site/` is Shashwat's exact design and is locked (RULES §10). Site content for a new component is added only when and how Shashwat directs it.
 9. If a new styling decision was made during the build, add it to `COMPONENT-RULES.md`.
 10. Open a pull request into `main`.
 
@@ -29,7 +29,7 @@ Shashwat reviews every pull request against the RULEBOOK §15 checklist before m
 
 After a merge to `main`: `cd site && npm run deploy` builds and publishes to GitHub Pages (`gh-pages` branch of github.com/shashwatbb/bricks-design-system). Vercel can replace this later without changing the repo layout.
 
-Note: the site's npm scripts invoke binaries via `node node_modules/...` instead of bare names. The parent folder name `Cursor:Claude` contains a colon, which breaks the PATH npm builds for scripts. Do not change the scripts back to bare `vite` or `gh-pages` while the repo lives under this path.
+Note for this machine: the parent folder name `Cursor:Claude` contains a colon, which breaks the PATH npm builds for scripts, so `npm run <script>` fails locally. Run binaries directly instead (`node node_modules/vite/bin/vite.js build`, `node node_modules/gh-pages/bin/gh-pages.js -d dist`). Do not edit `site/package.json` to work around this; the site is locked (RULES §10).
 
 Repo visibility note: `RULEBOOK.md` is marked confidential and internal. If the GitHub repo is public, everything in it is public. Decide visibility before the first push (private repo + Vercel serves the site publicly while keeping the kit private).
 

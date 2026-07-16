@@ -54,7 +54,7 @@ If a component needs something the design system does not define (motion, elevat
 
 ## Docs site
 
-`site/` is the public documentation interface. It renders from the kit's own files: tokens via `site/src/data/loadTokens.js` (imports `tokens/v1.2.0/`), component nav via `site/src/data/loadRegistry.js` (parses `REGISTRY.md`, production rows only). Every component that reaches production gets a site page in the same PR (RULES §10). All site copy follows `site/CONTENT.md`.
+`site/` is Shashwat's documentation app, verbatim from his own build. It is LOCKED (RULES §10): never change, restructure, or add anything inside it unless Shashwat explicitly asks for that specific change. Locally it serves at `/bricks-design-system/` under the port, by design.
 
 ## Existing component protection
 

@@ -10,7 +10,7 @@ function App() {
     <div className="app-container">
       <div className="background-glow"></div>
       <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <Documentation activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Documentation activeTab={activeTab} />
     </div>
   );
 }

@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
-import { Layout, Palette, Box, ChevronDown, ChevronRight, Download, PanelLeft } from 'lucide-react';
-import { productionComponents } from '../data/loadRegistry';
-import logo from '../assets/logo.png';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Layout, Type, Palette, Box, Layers, Zap, Settings, ChevronDown, ChevronRight, Download, PanelLeft, PanelRight } from 'lucide-react';
 import './Sidebar.css';
 
-// Foundations are the token collections in tokens/v1.2.0.
-// Components come from REGISTRY.md: production status only.
 const navItems = [
   {
     icon: Layout,
@@ -20,21 +17,34 @@ const navItems = [
     children: [
       { label: 'Colors', id: 'colors' },
       { label: 'Typography', id: 'typography' },
-      { label: 'Spacing', id: 'spacing' },
-      { label: 'Radius', id: 'radius' },
-      { label: 'Iconography', id: 'iconography' },
+      { label: 'Icons', id: 'icons' },
+      { label: 'Shadows', id: 'shadows' },
     ]
   },
   {
     icon: Box,
     label: 'Components',
     id: 'components',
-    children: productionComponents.map((c) => ({
-      label: c.name,
-      id: `component-${c.name.toLowerCase()}`,
-    }))
+    children: [
+      { label: 'Buttons', id: 'buttons' },
+      { label: 'Inputs', id: 'inputs' },
+      { label: 'Cards', id: 'cards' },
+      { label: 'Modals', id: 'modals' },
+    ]
   },
+  {
+    icon: Layers,
+    label: 'Patterns',
+    id: 'patterns',
+    children: [
+      { label: 'Forms', id: 'forms' },
+      { label: 'Navigation', id: 'navigation' },
+    ]
+  },
+  { icon: Settings, label: 'Settings', id: 'settings' },
 ];
+
+import logo from '../assets/logo.png';
 
 const Sidebar = ({ activeTab, setActiveTab }) => {
   const [expandedSections, setExpandedSections] = useState(['foundations', 'components']);
@@ -62,7 +72,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
           className="collapse-btn"
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
-          <PanelLeft size={20} />
+          {isCollapsed ? <PanelLeft size={20} /> : <PanelLeft size={20} />}
         </button>
       </div>
 
@@ -89,6 +99,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
               )}
             </button>
 
+            {/* Removed AnimatePresence and motion.div for instant rendering */}
             {!isCollapsed && item.children && item.children.length > 0 && expandedSections.includes(item.id) && (
               <div className="sub-menu">
                 {item.children.map((child) => (
@@ -107,16 +118,10 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
       </nav>
 
       <div className="cta-container">
-        <a
-          className="cta-button"
-          href="https://github.com/shashwatbb/bricks-design-system"
-          target="_blank"
-          rel="noreferrer"
-          title={isCollapsed ? 'Download kit' : ''}
-        >
+        <button className="cta-button" title={isCollapsed ? "Download Kit" : ""}>
           <Download size={18} />
-          {!isCollapsed && <span>Download kit</span>}
-        </a>
+          {!isCollapsed && <span>Download Kit</span>}
+        </button>
       </div>
 
       <div className="sidebar-footer">
