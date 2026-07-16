@@ -54,9 +54,8 @@ Rules accumulate here over time. Read before every task in this project.
 - If a task appears to require touching any of the above, stop, state exactly what would need to change and why, and wait.
 
 ## 10. Docs site — Shashwat's exact design, LOCKED like the foundations
-- `site/` is Shashwat's documentation app, restored verbatim from his own build ("Brick Design System.zip"). It IS the documentation design.
-- Never change, restructure, "improve," data-drive, restyle, rewrite copy in, or add/remove anything inside `site/` unless Shashwat explicitly asks for that specific change in the session. Rule 9's lock applies to `site/` in full.
-- History lesson (2026-07-16): a session rebuilt the site as registry/token-driven with rewritten pages. Shashwat rejected it entirely and had the exact original restored. Do not repeat this.
-- New documentation content goes in only when and how Shashwat directs it.
-- Dev URL note: the app sets `base: '/bricks-design-system/'`, so locally it serves at `http://localhost:<port>/bricks-design-system/` — the root path alone looks broken. That is expected, not a bug; do not "fix" the base.
-- This machine note: `npm run dev/build` fail because the parent folder name `Cursor:Claude` contains a colon that breaks npm's PATH. Run vite directly (`node node_modules/vite/bin/vite.js`) instead — do NOT edit `site/package.json` scripts to work around it.
+- `site/` is Shashwat's FINAL documentation interface (2026-07-16, second zip): a single fully self-contained `Bricks Docs.html` (fonts, images, styles, scripts all embedded; dark-mode toggle; working "Design System v1.2.0" download button), plus its README, the tokens zip the download button serves, and `figma-left-nav.js` (a Figma Scripter script that rebuilds the left nav as native auto-layout frames).
+- It fully replaced the earlier Vite/React app, which Shashwat discarded ("we don't want anything from the old interface"). Nothing from that app comes back.
+- Never change, restructure, "improve," restyle, rewrite copy in, or add/remove anything inside `site/` unless Shashwat explicitly asks for that specific change in the session. Rule 9's lock applies to `site/` in full.
+- History lesson (2026-07-16): a session rebuilt the first interface as registry/token-driven with rewritten pages. Shashwat rejected it entirely. Do not repeat with this one.
+- Serving locally: static file server in `site/`, open `/Bricks Docs.html`. No build step, no npm, works offline.

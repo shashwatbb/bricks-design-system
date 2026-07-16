@@ -54,7 +54,7 @@ If a component needs something the design system does not define (motion, elevat
 
 ## Docs site
 
-`site/` is Shashwat's documentation app, verbatim from his own build. It is LOCKED (RULES §10): never change, restructure, or add anything inside it unless Shashwat explicitly asks for that specific change. Locally it serves at `/bricks-design-system/` under the port, by design.
+`site/` is Shashwat's final documentation interface: one self-contained `Bricks Docs.html` plus the tokens zip its download button serves and a Figma nav script. It is LOCKED (RULES §10): never change, restructure, or add anything inside it unless Shashwat explicitly asks for that specific change. Serve statically, open `/Bricks Docs.html`.
 
 ## Existing component protection
 
