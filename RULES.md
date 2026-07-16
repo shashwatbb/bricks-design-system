@@ -11,6 +11,7 @@ Rules accumulate here over time. Read before every task in this project.
 ## 2. Always listen to the user
 - Do exactly what's asked. No unrequested scope, no unrequested "improvements," no silent extra additions.
 - If instructions are ambiguous, ask — don't assume.
+- Interruption policy (Shashwat, 2026-07-16): basic, safe, reversible steps proceed without asking (rendering, binding, verifying, registry updates, commits on already-authorized work). Only stop and ask when something MASSIVE is changing or breaking: touching locked foundations or `site/`, deleting anything, replacing whole structures, force-pushing over unknown remote work, or anything RULES §9/§10 gates. Exception that always asks: the platform question in RULES §11 step 0.
 
 ## 3. Verify the Figma source before extracting
 - `figma-cli` reads whichever Figma desktop tab is frontmost/focused — always confirm the correct file is active before running `extract`, `render`, or any write.
@@ -62,15 +63,23 @@ Rules accumulate here over time. Read before every task in this project.
 - Serving locally: static file server in `site/`, open `/Bricks Docs.html`. No build step, no npm.
 - Not fully self-contained despite the README's claim: the HTML fetches `data/typography_tokens.json` at runtime (silent catch on failure, so the Typography page just renders empty). `site/data/typography_tokens.json` must ship alongside the HTML — restored 2026-07-16 with Shashwat's permission after the export omitted it. If a future export replaces `site/`, check this file survives.
 
-## 11. SERIOUS: Every value must be BOUND to the file's variables — nothing raw, nothing detached
-Dictated by Shashwat 2026-07-16. Non-negotiable.
+## 11. ULTRA STRICT: The mandatory build pipeline — every value bound, every text on a shared style
+Dictated by Shashwat 2026-07-16, upgraded to ultra strict same day. Non-negotiable. A build that skips ANY step below is not done and must not be presented as done.
 
-- Every color fill, stroke, font family, font size, line height, letter spacing, padding, gap, and corner radius in anything we build MUST be variable-BOUND in Figma to the token defined in the file — not just numerically equal to it. A raw `16` that happens to match `spacing/m` is a violation; the node must carry the actual variable binding.
-- The bindings map to the 5 collections in the file: `color_tokens` / `color_primitives` (fills, strokes), `spacing` (padding, gaps), `radius` (corners), `typography` (font family, size, line height, letter spacing, weight).
-- Enforcement after every build: walk the created nodes and bind each bindable field (`setBoundVariable` for paddings, itemSpacing, radii, fontSize, etc. — `figma-cli bind-batch` or eval). Then verify no unbound raw values remain before calling the work done.
+**Step 0 — Ask the platform FIRST.** Before building any component, ask Shashwat (or the requesting designer): "What platform is this for — Web or Mobile?" The file ships separate text-style ramps (`Web/*`, `Mobile/*`, plus shared `CTA/*`), and every text mapping depends on the answer. Never assume, never default silently. If the brief already states the platform, don't re-ask.
+
+**Step 1 — Build with token references** (`var:` bindings for every fill and stroke; token values for spacing, radius, sizes).
+
+**Step 2 — Apply shared text styles.** Every text node gets the file's text style via `textStyleId`, from the PLATFORM'S ramp chosen in step 0 (e.g. Web: `Web/Label/default_medium`, `Web/Body/small_regular`, `Web/Caption/default_regular`; Mobile: the `Mobile/*` equivalents; CTA labels: `CTA/*`). The text style is THE font mapping — it carries family, size, weight, line height, and tracking together. Raw font properties, or variable-only binding without the style, is a violation.
+
+**Step 3 — Bind every remaining value.** Walk every created node and bind each bindable field to its variable: paddings + gaps → `spacing/*`, all four corners → `radius/*`, any text-level overrides → `typography/*`. A raw `16` that merely equals `spacing/m` is a violation; the node must carry the binding.
+
+**Step 4 — Rename text layers by role.** figma-cli names rendered text layers by their CONTENT, not the JSX `name` attr. Rename to role (`Label`, `Placeholder`, `Value`, `Helper Text`) before auditing.
+
+**Step 5 — Audit before declaring done.** Run a verification walk over the final node tree and confirm: every text node has a non-empty `textStyleId` from the correct platform ramp, every fill/stroke is variable-bound, every padding/gap/radius is variable-bound. Screenshot the result. Only then report done.
+
 - If a needed value has no token (stroke width, fixed control widths like 280), that is a GAPS.md gap: flag it, never silently leave a random number.
-- This applies to fonts especially. Text is mapped by applying the file's SHARED TEXT STYLES (`textStyleId`), which the Bricks file defines for every ramp: `Web/Label/default_medium`, `Web/Body/small_regular`, `Web/Caption/default_regular`, etc. (65 styles: Web + Mobile + CTA). Applying the text style is the primary mapping — it carries family, size, weight, line height, and tracking together. Raw font properties, or variable-only binding without the style, is NOT enough.
-- Watch-out: figma-cli names rendered text layers by their CONTENT, not the JSX `name` attr — rename text layers to their role (`Placeholder`, `Helper Text`) and verify `textStyleId` is set on every text node before calling a build done.
+- The 5 variable collections: `color_tokens` / `color_primitives` (fills, strokes), `spacing` (padding, gaps), `radius` (corners), `typography` (font variables). Text styles: 65 shared styles across Web / Mobile / CTA.
 
 ## 12. STRICT: Canvas presentation and naming of components and variants
 Dictated by Shashwat 2026-07-16. This overrides RULEBOOK §11's "property values lowercase" line for this project — property values are written properly, Title Case, human readable.
