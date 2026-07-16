@@ -60,3 +60,19 @@ Rules accumulate here over time. Read before every task in this project.
 - History lesson (2026-07-16): a session rebuilt the first interface as registry/token-driven with rewritten pages. Shashwat rejected it entirely. Do not repeat with this one.
 - Serving locally: static file server in `site/`, open `/Bricks Docs.html`. No build step, no npm.
 - Not fully self-contained despite the README's claim: the HTML fetches `data/typography_tokens.json` at runtime (silent catch on failure, so the Typography page just renders empty). `site/data/typography_tokens.json` must ship alongside the HTML — restored 2026-07-16 with Shashwat's permission after the export omitted it. If a future export replaces `site/`, check this file survives.
+
+## 11. STRICT: Canvas presentation and naming of components and variants
+Dictated by Shashwat 2026-07-16. This overrides RULEBOOK §11's "property values lowercase" line for this project — property values are written properly, Title Case, human readable.
+
+**Naming**
+- Component: PascalCase singular, named for function (`RadioButton`, `Checkbox`, `InputField`).
+- Property names: Title Case (`State`, `Selection`, `Size`).
+- Property values: Title Case, written properly and fully — `Selected`, `Un-selected`, `Default`, `Hover`, `Focus`, `Disabled`. Never smashed-together strings (`unselected-default`), never all-lowercase, never cryptic abbreviations.
+- Two distinct aspects = two distinct properties. Selection (`Selected` / `Un-selected`) and interaction State (`Default` / `Hover` / `Focus` / `Disabled`) are separate axes, not one merged value.
+- Layer names inside variants: Title Case by role (`Container`, `Dot`, `Control`, `Label`), per RULEBOOK §11.
+
+**Canvas layout**
+- Variants inside a component set MUST be aligned vertically: one column, consistent spacing (spacing token `xl` = 24 between variants), consistent padding (`xl` = 24) inside the set frame.
+- If a set has two axes, lay it out as a clean grid: one axis runs vertically, the other horizontally, rows and columns aligned exactly — no ragged offsets.
+- Everything on a page sits aligned to a tidy grid: component sets, labels, documentation frames. Nothing dropped at arbitrary coordinates, nothing overlapping.
+- The set must look clean, neat, and presentable at a glance — a designer opening the page should never need to rearrange anything.
