@@ -14,7 +14,7 @@ Status values: `production` (built, documented, safe to reuse or extend), `do-no
 | Bottom bar | do-not-use | Bottom bar | none (raw frames, no component set) | 0 | DESIGN-structure/bottom-bar.md |
 | Checkbox | planned | none | none | 0 | none |
 | RadioButton | planned | none | none | 0 | none (test build was deleted from Figma by Shashwat 2026-07-16) |
-| InputField | do-not-use | Input fields | none (single component, Default only) | 1 | none (rebuilt 2026-07-16 as single component, node 1459:2184; prior 6-state sets deleted by Shashwat; text on shared text styles, all values variable-bound; awaiting review) |
+| InputField | do-not-use | Input fields | none (single component, Default only) | 1 | none (Mobile build 2026-07-16, node 1461:2191, 328w for 360px frames, Mobile/* text styles, fully bound, pipeline-audited; prior builds deleted by Shashwat; awaiting review) |
 | Toggle | planned | none | none | 0 | none |
 | Dropdown | planned | none | none | 0 | none |
 | Toast | planned | none | none | 0 | none |
