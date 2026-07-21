@@ -1,0 +1,68 @@
+{
+  "Elevations": {
+    "01": {
+      "$type": "shadow",
+      "$description": "Cards, tiles, resting state. Subtle separation from background.",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "1px", "blur": "2px",  "spread": "0px",  "color": "#0000000d" },
+        { "offsetX": "0px", "offsetY": "1px", "blur": "3px",  "spread": "0px",  "color": "#00000014" }
+      ]
+    },
+    "02": {
+      "$type": "shadow",
+      "$description": "Card hover, raised buttons, low-priority overlays.",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "2px", "blur": "4px",  "spread": "-1px", "color": "#00000012" },
+        { "offsetX": "0px", "offsetY": "2px", "blur": "8px",  "spread": "0px",  "color": "#0000001a" }
+      ]
+    },
+    "03": {
+      "$type": "shadow",
+      "$description": "Dropdowns, tooltips, floating action buttons.",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "4px", "blur": "6px",  "spread": "-2px", "color": "#00000014" },
+        { "offsetX": "0px", "offsetY": "4px", "blur": "12px", "spread": "0px",  "color": "#0000001f" }
+      ]
+    },
+    "04": {
+      "$type": "shadow",
+      "$description": "Popovers, date pickers, context menus.",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "6px", "blur": "8px",  "spread": "-3px", "color": "#00000017" },
+        { "offsetX": "0px", "offsetY": "6px", "blur": "16px", "spread": "0px",  "color": "#00000024" }
+      ]
+    },
+    "05": {
+      "$type": "shadow",
+      "$description": "Navigation drawers, side panels, expanded cards.",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "8px",  "blur": "10px", "spread": "-4px", "color": "#0000001a" },
+        { "offsetX": "0px", "offsetY": "8px",  "blur": "24px", "spread": "0px",  "color": "#00000029" }
+      ]
+    },
+    "06": {
+      "$type": "shadow",
+      "$description": "Modal dialogs, alert boxes, bottom sheets.",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "12px", "blur": "16px", "spread": "-6px", "color": "#0000001c" },
+        { "offsetX": "0px", "offsetY": "12px", "blur": "32px", "spread": "0px",  "color": "#0000002e" }
+      ]
+    },
+    "07": {
+      "$type": "shadow",
+      "$description": "High-priority full-screen overlays, lightboxes, system alerts.",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "16px", "blur": "24px", "spread": "-8px",  "color": "#0000001f" },
+        { "offsetX": "0px", "offsetY": "16px", "blur": "48px", "spread": "0px",   "color": "#00000033" }
+      ]
+    },
+    "08": {
+      "$type": "shadow",
+      "$description": "Extreme special cases — immersive overlays, critical system notifications.",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "24px", "blur": "32px", "spread": "-12px", "color": "#00000024" },
+        { "offsetX": "0px", "offsetY": "24px", "blur": "64px", "spread": "0px",   "color": "#00000038" }
+      ]
+    }
+  }
+}

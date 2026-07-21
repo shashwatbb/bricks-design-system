@@ -14,6 +14,19 @@ Nobody except Shashwat is ever added as a collaborator on `github.com/shashwatbb
 - Only Shashwat reviews and merges. His approval is the gate, enforced by access, not by convention.
 - Never add a collaborator with write access to satisfy convenience. If that ever seems needed, ask Shashwat first (RULES §2).
 
+## Tooling setup — figma-cli
+
+`tools/figma-cli/` bundles the CLI everyone uses to talk to Figma from a terminal. It's included in this repo (not a separate one) so a single clone gets the whole kit: rules, tokens, docs, and the tool. `node_modules` is not committed — install it yourself.
+
+Setup:
+1. `cd tools/figma-cli && npm install`
+2. Link it globally so the `figma-cli` command works from anywhere: `npm link` (or run it unlinked via `node src/index.js connect` from inside `tools/figma-cli/`).
+3. Connect: `figma-cli connect`. This is Yolo Mode — it patches your local Figma desktop app once and needs no plugin.
+4. If step 3 fails (common on a Mac App Store install of Figma, an IT-locked machine, or Figma in a browser tab instead of the desktop app), fall back to Safe Mode: `figma-cli connect --safe`, then open Figma → Plugins → Development → FigCli and run it. This is the plugin bridge — same functionality, one extra manual step per session.
+5. Either way, verify with `figma-cli files` — it should list the open Figma tabs including "Bricks Design System – Figma".
+
+Whether someone needs the plugin depends entirely on their own machine and Figma install, not on anything in this repo. There's no way to force Yolo Mode to work everywhere.
+
 ## Branch model
 
 One branch per component, named `component/ComponentName` (on the teammate's fork). The matching Figma page uses the human-readable name per RULES §7 (e.g. page "Input fields" for component `InputField`).
