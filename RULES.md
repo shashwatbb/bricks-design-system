@@ -104,3 +104,16 @@ Dictated by Shashwat 2026-07-16. This overrides RULEBOOK §11's "property values
 - If a set has two axes, lay it out as a clean grid: one axis runs vertically, the other horizontally, rows and columns aligned exactly — no ragged offsets.
 - Everything on a page sits aligned to a tidy grid: component sets, labels, documentation frames. Nothing dropped at arbitrary coordinates, nothing overlapping.
 - The set must look clean, neat, and presentable at a glance — a designer opening the page should never need to rearrange anything.
+
+## 13. STRICT: First-session tooling setup is automatic, not manual
+Dictated by Shashwat 2026-07-17. Every AI session working in this repo for the first time must set up `figma-cli` itself, without waiting to be asked. This is a safe, reversible setup step (installs and connects a tool; the Figma patch has a built-in `figma-cli unpatch` to undo it), so it proceeds automatically per the RULES §2 interruption policy — it does not need permission first.
+
+**On the first prompt in a fresh session in this repo, before or alongside the actual task:**
+1. Check whether `tools/figma-cli` is already installed (`node_modules` present) and whether `figma-cli` is already connected (`figma-cli files` succeeds and lists a Bricks Design System tab). If both are already true, skip straight to the task — don't redo setup every session.
+2. If not installed: run `npm install` inside `tools/figma-cli`, then `npm link` so the `figma-cli` command works globally.
+3. Attempt to connect: `figma-cli connect` (Yolo Mode). This patches the local Figma desktop app automatically, no plugin.
+4. If Yolo Mode fails, do not just give up silently and do not force it further. Walk through the three requirements documented in `WORKFLOW.md` (standalone desktop install not App Store, using the desktop app not a browser tab, App Management permission on macOS 13+) and report which one is likely blocking it. Offer Safe Mode (`figma-cli connect --safe` + the FigCli plugin) as the fallback.
+5. Either way, end this setup step with a short, plain-English message to the person: what was installed, whether Yolo Mode connected or Safe Mode is needed, and exactly what manual action (if any) is left for them — e.g. "grant App Management permission and I'll retry" or "open Figma → Plugins → Development → FigCli and run it."
+6. Confirm the connected file is actually Bricks Design System (RULES §3) before doing anything else.
+
+This setup step happens automatically for every new person/session, every fresh clone — it is not optional, and it is not something to wait on the designer to request.

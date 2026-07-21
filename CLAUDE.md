@@ -1,6 +1,12 @@
 # Shared Canvas — Session Instructions
 
-This folder is the master kit for building Bricks Design System components with AI. Read this file first in every session, then read in this order before any component work:
+This folder is the master kit for building Bricks Design System components with AI.
+
+## First session in this repo — set up tooling automatically, don't wait to be asked
+
+STRICT (RULES §13). Before or alongside the first actual task in a fresh session here: check if `tools/figma-cli` is installed and connected (`figma-cli files` lists a Bricks Design System tab). If not, install it (`cd tools/figma-cli && npm install && npm link`) and run `figma-cli connect` (Yolo Mode) automatically — this is safe and reversible, no permission needed first. If Yolo Mode fails, diagnose against the three requirements in `WORKFLOW.md` and offer Safe Mode as the fallback. Either way, tell the person plainly what happened and what, if anything, they still need to do. Skip this if setup is already done and connected.
+
+Read this file first in every session, then read in this order before any component work:
 
 1. `RULEBOOK.md` — the non-negotiable rulebook (RFC 2119). Governs how every component is built.
 2. `RULES.md` — working rules accumulated for this project (file scope, source of truth, page policy).

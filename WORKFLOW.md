@@ -16,7 +16,9 @@ Nobody except Shashwat is ever added as a collaborator on `github.com/shashwatbb
 
 ## Tooling setup — figma-cli
 
-`tools/figma-cli/` bundles the CLI everyone uses to talk to Figma from a terminal. It's included in this repo (not a separate one) so a single clone gets the whole kit: rules, tokens, docs, and the tool. `node_modules` is not committed — install it yourself.
+`tools/figma-cli/` bundles the CLI everyone uses to talk to Figma from a terminal. It's included in this repo (not a separate one) so a single clone gets the whole kit: rules, tokens, docs, and the tool. `node_modules` is not committed.
+
+This setup happens automatically the first time an AI session works in a fresh clone of this repo (RULES §13, CLAUDE.md) — nobody should need to run these steps by hand. They're documented below for reference, for manual setup, or in case automatic setup needs to be redone.
 
 Setup:
 1. `cd tools/figma-cli && npm install`
