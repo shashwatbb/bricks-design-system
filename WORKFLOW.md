@@ -22,10 +22,24 @@ Setup:
 1. `cd tools/figma-cli && npm install`
 2. Link it globally so the `figma-cli` command works from anywhere: `npm link` (or run it unlinked via `node src/index.js connect` from inside `tools/figma-cli/`).
 3. Connect: `figma-cli connect`. This is Yolo Mode — it patches your local Figma desktop app once and needs no plugin.
-4. If step 3 fails (common on a Mac App Store install of Figma, an IT-locked machine, or Figma in a browser tab instead of the desktop app), fall back to Safe Mode: `figma-cli connect --safe`, then open Figma → Plugins → Development → FigCli and run it. This is the plugin bridge — same functionality, one extra manual step per session.
+4. If step 3 fails, try the fix steps below first. Only fall back to Safe Mode (`figma-cli connect --safe`, then open Figma → Plugins → Development → FigCli and run it) if none of them apply or none work.
 5. Either way, verify with `figma-cli files` — it should list the open Figma tabs including "Bricks Design System – Figma".
 
-Whether someone needs the plugin depends entirely on their own machine and Figma install, not on anything in this repo. There's no way to force Yolo Mode to work everywhere.
+### If Yolo Mode fails: what it actually needs, and how to fix it
+
+Yolo Mode works by patching one string inside Figma's own app file to unblock a debugging port Figma disables by default. That patch needs three things to be true. Check them in order:
+
+1. **Figma Desktop, standalone install, not the Mac App Store version.** The tool expects `/Applications/Figma.app`. If Figma was installed from the App Store, it's sandboxed and can't be patched — no permission fixes this. Fix: uninstall the App Store version, install Figma Desktop directly from figma.com instead.
+2. **Using the desktop app, not Figma in a browser tab.** There's no local app file to patch if Figma is only open in a browser. Fix: install and use Figma Desktop.
+3. **Write permission to Figma's app file.** On macOS 13 and newer, this specifically means granting **App Management** permission, not Full Disk Access (the tool checks for this exact permission and will error naming it if missing):
+   - System Settings → Privacy & Security → App Management
+   - Find the terminal app you're running `figma-cli` from (Terminal, iTerm, or the Claude Code app) and enable it
+   - If it's not in the list, run `figma-cli connect` once first, then check the list again
+   - Retry `figma-cli connect` after granting it
+   - On an IT-managed machine, this permission may be locked by policy — if so, that machine can't run Yolo Mode at all, use Safe Mode instead
+   - On Windows: try running the terminal as Administrator, then `figma-cli connect` again
+
+If all three check out and it still fails, use Safe Mode — it needs none of the above.
 
 ## Branch model
 
