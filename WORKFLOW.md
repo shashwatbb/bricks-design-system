@@ -4,15 +4,17 @@
 
 Shashwat owns the repo and `main`. Nothing merges into `main` without his approval.
 
-## Access model — fork based, decided 2026-07-16
+## Access model — Write collaborators + protected main, decided 2026-07-21
 
-Nobody except Shashwat is ever added as a collaborator on `github.com/shashwatbb/bricks-design-system`. This is the merge protection: with no write access, no one can push or merge anything.
+Superseded the original fork-only model (2026-07-16) once the repo became public, which unlocked free branch protection. The fork model broke in practice: teammates working directly on their pre-made named branch on origin (e.g. `Nimit`) got `must be a collaborator` errors trying to open a same-repo pull request, since they had no collaborator role at all.
 
-- Teammates (Nishant and others) FORK the repo to their own account.
-- All work happens on a branch in their fork.
-- They open a pull request from their fork into `main`.
-- Only Shashwat reviews and merges. His approval is the gate, enforced by access, not by convention.
-- Never add a collaborator with write access to satisfy convenience. If that ever seems needed, ask Shashwat first (RULES §2).
+Current model:
+- Teammates are added as **Write** collaborators (not Read, not Admin) — `aakritijain-housing` is Write as of 2026-07-21.
+- `main` is protected by a ruleset ("Protect main"): requires a pull request with at least 1 approval before merging, blocks branch deletion, blocks force-push (non-fast-forward). Nobody can push directly to `main`, Write access or not.
+- Shashwat (repository Admin role) has a bypass on that ruleset — he can push or merge into `main` directly, without needing his own approval. This is what gives him "the right to merge."
+- Each teammate works directly on their own already-created named branch (`Sreejita`, `Kaif`, `Nimit`, `Aakriti`, `Nishant`) on origin — no forking needed. They can push there freely; `main` is the only branch that's locked down.
+- To update a stale branch from `main`: `git fetch origin && git merge origin/main` (or `git pull origin main`) on their branch, then push. Requires Write, which they now have.
+- Never grant Admin or bypass rights to anyone but Shashwat. If a teammate needs more access than Write, ask Shashwat first (RULES §2).
 
 ## Tooling setup — figma-cli
 
@@ -45,7 +47,7 @@ If all three check out and it still fails, use Safe Mode — it needs none of th
 
 ## Branch model
 
-One branch per component, named `component/ComponentName` (on the teammate's fork). The matching Figma page uses the human-readable name per RULES §7 (e.g. page "Input fields" for component `InputField`).
+Each teammate has one standing named branch on origin (`Sreejita`, `Kaif`, `Nimit`, `Aakriti`, `Nishant`) — that's where their work happens, across however many components they build. The matching Figma page for each component uses the human-readable name per RULES §7 (e.g. page "Input fields" for component `InputField`).
 
 ## Build flow
 
