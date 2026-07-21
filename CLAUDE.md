@@ -43,8 +43,9 @@ Documentation must be minimal and plain. No em dashes. No emojis or decorative f
 
 ## Figma mechanics
 
-- `figma-cli` reads whichever Figma desktop tab is frontmost. Confirm the right file is active before any `extract`, `render`, or write (run `figma-cli files` and `figma-cli var list` to check).
+- `figma-cli` reads whichever Figma desktop tab is frontmost. STRICT: we never work on any Figma file other than Bricks Design System, no exceptions. Confirm before any `extract`, `render`, or write (run `figma-cli files` and `figma-cli var list` to check). If another file is frontmost, stop and ask Shashwat to switch — do not act on it.
 - Bricks Design System (`ZGl9LhEtqlE9JiMKBuYrdT`) holds tokens, variables, styles, and every component page.
+- STRICT: always ask "Web, Mobile, or Both?" before building any component (RULES §11 step 0) — three options, never a binary, never skipped.
 - Iconography (Bricks) library (`Rq1j8iqvbJBYRb52tdpgFg`) is the only source for icons. Icons must be instance-swapped from there, never raw vector icons.
 - A new page is created only for a real component build, named to match the component exactly (RULES §7). No test or scratch pages.
 

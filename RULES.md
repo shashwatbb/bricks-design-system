@@ -15,6 +15,7 @@ Rules accumulate here over time. Read before every task in this project.
 
 ## 3. Verify the Figma source before extracting
 - `figma-cli` reads whichever Figma desktop tab is frontmost/focused — always confirm the correct file is active before running `extract`, `render`, or any write.
+- STRICT (Shashwat, 2026-07-17): we never work on any Figma file other than **Bricks Design System**. No exceptions, no other file, ever — not for a quick check, not for a reference, not for anything. Before any `render`, `render-batch`, `eval` write, page creation, or `extract`, confirm the active file is Bricks Design System (`figma-cli files` + a quick `figma-cli var list` check that real tokens list). If the frontmost tab is any other file, stop and ask Shashwat to switch — do not act on it, do not "just peek."
 
 ## 4. Never write outside Shared Canvas
 - All file writes/edits/creates for this work MUST stay inside `/Users/shashwat/Documents/Work/Cursor:Claude/Shared Canvas/` — no exceptions.
@@ -67,7 +68,7 @@ Rules accumulate here over time. Read before every task in this project.
 ## 11. ULTRA STRICT: The mandatory build pipeline — every value bound, every text on a shared style
 Dictated by Shashwat 2026-07-16, upgraded to ultra strict same day. Non-negotiable. A build that skips ANY step below is not done and must not be presented as done.
 
-**Step 0 — Ask the platform FIRST.** Before building any component, ask Shashwat (or the requesting designer): "What platform is this for — Web or Mobile?" The file ships separate text-style ramps (`Web/*`, `Mobile/*`, plus shared `CTA/*`), and every text mapping depends on the answer. Never assume, never default silently. If the brief already states the platform, don't re-ask.
+**Step 0 — Ask the platform FIRST, always, no exceptions.** Before building any component, ask: "Is this for Web, Mobile, or Both?" Three options every time, never a binary. The file ships separate text-style ramps (`Web/*`, `Mobile/*`, plus shared `CTA/*`), and every text mapping and padding convention depends on the answer. "Both" means build both platform variants (e.g. a `Device` axis), not a guess at one. Never assume, never default silently, never skip this even if a prior component in the same session already answered it. If the brief already states the platform in the same message as the request, don't re-ask.
 
 **Step 1 — Build with token references** (`var:` bindings for every fill and stroke; token values for spacing, radius, sizes).
 
