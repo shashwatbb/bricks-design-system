@@ -37,6 +37,7 @@ Rules accumulate here over time. Read before every task in this project.
 - A new Figma page Must Not be created except for an actual component build.
 - STRICT page naming (dictated by Shashwat 2026-07-16, overrides RULEBOOK §14's exact-match line): page names are human readable, sentence case, with spaces — `Input fields`, `Radio button`, `Bottom sheet`. NEVER PascalCase (`InputField`), never camelCase, never smashed words. The COMPONENT inside the page keeps its PascalCase name (`InputField`) per RULEBOOK §11; only the page name is written for humans. REGISTRY.md maps page name to component name.
 - Never create scratch/test/throwaway pages. If verification or experimentation is needed, do it without a dedicated page (or ask first).
+- Documented exception (2026-07-17): Shashwat explicitly asked for a page literally named "Test" to try CTA component/variant combinations, overriding this line for that one instance. Not a standing permission — ask again next time.
 - One page per component, created only when real work on that component begins — not speculatively, not in advance of a brief.
 - Every new page gets a beige canvas background: `#f6f4ed` (`surface/default` → `warm_neutral/100` from the token set). Set it immediately on page creation via `page.backgrounds`. Never a different or invented beige.
 

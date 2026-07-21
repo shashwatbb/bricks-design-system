@@ -13,6 +13,7 @@ Status values: `production` (built, documented, safe to reuse or extend), `do-no
 | Overlay | do-not-use | Overlay | Device | 2 | DESIGN-structure/overlay.md |
 | Bottom bar | do-not-use | Bottom bar | none (raw frames, no component set) | 0 | DESIGN-structure/bottom-bar.md |
 | CTA | do-not-use | CTA | Size x State | 15 | CTA — Documentation frame on the CTA page (test build 2026-07-17, node 1466:2241, Web platform, fully bound + CTA text styles; overlaps production Button, flagged; awaiting Shashwat's review) |
+| CTA (test) | do-not-use | Test | Device x State | 10 | Test page (2026-07-17, node 1488:35), exception to no-test-pages rule per Shashwat; Web + Mobile side by side, CTA text style, fully bound; throwaway, delete when done reviewing |
 | Checkbox | planned | none | none | 0 | none |
 | RadioButton | planned | none | none | 0 | none (test build was deleted from Figma by Shashwat 2026-07-16) |
 | InputField | do-not-use | Input fields | none (single component, Default only) | 1 | none (Mobile build 2026-07-16, node 1461:2191, 328w for 360px frames, Mobile/* text styles, fully bound, pipeline-audited; prior builds deleted by Shashwat; awaiting review) |
